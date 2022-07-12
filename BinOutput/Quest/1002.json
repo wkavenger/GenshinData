@@ -1,5 +1,6 @@
 {
     "id": 1002,
+    "ICLLDPJFIMA": 1004,
     "series": 1101,
     "titleTextMapHash": 633119625,
     "descTextMapHash": 2559755679,
@@ -25,6 +26,8 @@
                     "param": [
                         100014,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -76,6 +79,8 @@
                     "param": [
                         100201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -135,6 +140,8 @@
                     "param": [
                         100201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -174,6 +181,8 @@
                     "param": [
                         100202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -257,6 +266,8 @@
                     "param": [
                         100204,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -287,8 +298,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "100202",
                         "2"
                     ]
@@ -309,8 +320,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "100205",
                         "2"
                     ]

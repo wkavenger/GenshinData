@@ -18,6 +18,8 @@
                     "param": [
                         1110311,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -33,6 +35,7 @@
             ],
             "guide": {},
             "finishParent": true,
+            "isRewind": true,
             "versionBegin": "",
             "versionEnd": ""
         }

@@ -1,5 +1,6 @@
 {
     "id": 358,
+    "ICLLDPJFIMA": 1001,
     "series": 1001,
     "titleTextMapHash": 4251075033,
     "descTextMapHash": 3824461879,
@@ -26,6 +27,8 @@
                     "param": [
                         35724,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -54,6 +57,8 @@
                     "param": [
                         35800,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -90,6 +95,8 @@
                     "param": [
                         35801,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -133,8 +140,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "35801",
                         "2"
                     ]
@@ -155,8 +162,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "35802",
                         "2"
                     ]

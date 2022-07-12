@@ -1,5 +1,6 @@
 {
     "id": 1022,
+    "ICLLDPJFIMA": 1006,
     "series": 1101,
     "titleTextMapHash": 1529124233,
     "descTextMapHash": 1055115663,
@@ -23,6 +24,8 @@
                     "param": [
                         102112,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -77,6 +80,8 @@
                     "param": [
                         102201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -123,6 +128,8 @@
                     "param": [
                         102202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -173,6 +180,8 @@
                     "param": [
                         102203,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -215,6 +224,8 @@
                     "param": [
                         102204,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -305,6 +316,8 @@
                     "param": [
                         102205,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -338,6 +351,8 @@
                     "param": [
                         102206,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -389,6 +404,8 @@
                     "param": [
                         102207,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -428,8 +445,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "102202",
                         "2"
                     ]
@@ -450,8 +467,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "102203",
                         "2"
                     ]
@@ -472,8 +489,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "102204",
                         "2"
                     ]
@@ -494,8 +511,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "102206",
                         "2"
                     ]
@@ -516,8 +533,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "102208",
                         "2"
                     ]

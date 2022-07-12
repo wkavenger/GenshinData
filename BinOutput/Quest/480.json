@@ -1,5 +1,6 @@
 {
     "id": 480,
+    "ICLLDPJFIMA": 2003,
     "series": 2003,
     "type": "LQ",
     "titleTextMapHash": 2580572529,
@@ -24,6 +25,8 @@
                     "param": [
                         48005,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -75,6 +78,8 @@
                     "param": [
                         48001,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -92,7 +97,8 @@
                 {
                     "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
                     "param": [
-                        48002
+                        48002,
+                        0
                     ]
                 }
             ],
@@ -116,6 +122,8 @@
                     "param": [
                         48002,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -174,6 +182,8 @@
                     "param": [
                         48002,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -217,6 +227,8 @@
                     "param": [
                         48101,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -262,8 +274,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "48001",
                         "2"
                     ]
@@ -284,8 +296,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "48004",
                         "2"
                     ]
@@ -306,8 +318,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "48003",
                         "2"
                     ]

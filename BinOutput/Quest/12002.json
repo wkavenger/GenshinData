@@ -1,5 +1,6 @@
 {
     "id": 12002,
+    "ICLLDPJFIMA": 2008,
     "series": 2008,
     "type": "LQ",
     "titleTextMapHash": 774859633,
@@ -25,6 +26,8 @@
                     "param": [
                         1200108,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -67,6 +70,8 @@
                     "param": [
                         1200203,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -95,6 +100,9 @@
                 10045,
                 1627
             ],
+            "exclusivePlaceList": [
+                1034
+            ],
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -110,6 +118,8 @@
                     "param": [
                         1200201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -136,6 +146,9 @@
                 10045,
                 1627
             ],
+            "exclusivePlaceList": [
+                1034
+            ],
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -152,6 +165,8 @@
                     "param": [
                         1200221,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -208,6 +223,8 @@
                     "param": [
                         1200221,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -257,6 +274,8 @@
                     "param": [
                         1200221,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -304,6 +323,8 @@
                     "param": [
                         1200222,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -344,6 +365,8 @@
                     "param": [
                         1200207,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -409,6 +432,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -462,6 +487,8 @@
                     "param": [
                         1200223,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -502,6 +529,8 @@
                     "param": [
                         1200210,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -562,6 +591,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -617,6 +648,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -672,6 +705,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -720,6 +755,8 @@
                     "param": [
                         1200221,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -760,6 +797,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -799,6 +838,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -838,6 +879,8 @@
                     "param": [
                         1200202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -873,6 +916,9 @@
                 10045,
                 1627
             ],
+            "exclusivePlaceList": [
+                1034
+            ],
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -889,6 +935,8 @@
                     "param": [
                         1200221,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -920,6 +968,8 @@
                     "param": [
                         1200208,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -946,8 +996,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200201",
                         "2"
                     ]
@@ -969,8 +1019,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200203",
                         "2"
                     ]
@@ -992,8 +1042,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200204",
                         "2"
                     ]
@@ -1015,8 +1065,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200205",
                         "2"
                     ]
@@ -1038,8 +1088,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200206",
                         "2"
                     ]
@@ -1061,8 +1111,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200207",
                         "2"
                     ]
@@ -1084,8 +1134,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200208",
                         "2"
                     ]
@@ -1107,8 +1157,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200209",
                         "2"
                     ]
@@ -1130,8 +1180,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200210",
                         "2"
                     ]
@@ -1153,8 +1203,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200212",
                         "2"
                     ]
@@ -1176,8 +1226,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200213",
                         "2"
                     ]
@@ -1199,8 +1249,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200214",
                         "2"
                     ]
@@ -1222,8 +1272,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200215",
                         "2"
                     ]
@@ -1245,8 +1295,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200216",
                         "2"
                     ]
@@ -1268,8 +1318,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200217",
                         "2"
                     ]
@@ -1291,8 +1341,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200218",
                         "2"
                     ]
@@ -1314,8 +1364,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200219",
                         "2"
                     ]
@@ -1337,8 +1387,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200220",
                         "2"
                     ]
@@ -1360,8 +1410,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200214",
                         "2"
                     ]
@@ -1383,8 +1433,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200202",
                         "2"
                     ]
@@ -1406,8 +1456,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200203",
                         "2"
                     ]
@@ -1429,8 +1479,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200204",
                         "2"
                     ]
@@ -1453,8 +1503,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200205",
                         "2"
                     ]
@@ -1477,8 +1527,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200206",
                         "2"
                     ]
@@ -1501,8 +1551,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200208",
                         "2"
                     ]
@@ -1523,8 +1573,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200209",
                         "2"
                     ]
@@ -1545,8 +1595,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200210",
                         "2"
                     ]
@@ -1567,8 +1617,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200211",
                         "2"
                     ]
@@ -1589,8 +1639,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200212",
                         "2"
                     ]
@@ -1611,8 +1661,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200213",
                         "2"
                     ]
@@ -1633,8 +1683,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200219",
                         "2"
                     ]
@@ -1655,8 +1705,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200220",
                         "2"
                     ]
@@ -1677,8 +1727,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200221",
                         "2"
                     ]
@@ -1700,8 +1750,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200206",
                         "2"
                     ]
@@ -1722,15 +1772,18 @@
             "questId": 12002,
             "assetIndex": 1066830143304,
             "dontBlockDaily": true,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 1200231,
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200205",
                         "2"
                     ]
@@ -1753,15 +1806,18 @@
             "questId": 12002,
             "assetIndex": 317004800406,
             "dontBlockDaily": true,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 1200232,
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1200204",
                         "2"
                     ]
@@ -1783,7 +1839,10 @@
             "questId": 12002,
             "assetIndex": 1052721346644,
             "dontBlockDaily": true,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         }
     ],
     "preloadLuaList": [
@@ -1794,5 +1853,31 @@
     ],
     "forcePreloadLuaList": [
         416918918521
-    ]
+    ],
+    "freeStyleDic": {
+        "10045": [
+            1330
+        ],
+        "1005": [
+            1330
+        ],
+        "1263": [
+            1330
+        ],
+        "1264": [
+            1330
+        ],
+        "1265": [
+            1330
+        ],
+        "1266": [
+            1330
+        ],
+        "1267": [
+            1330
+        ],
+        "162701": [
+            1330
+        ]
+    }
 }

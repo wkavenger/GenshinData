@@ -19,6 +19,8 @@
                     "param": [
                         26100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -44,11 +46,8 @@
             "isRewind": true,
             "exclusiveNpcList": [
                 2074,
-                207401,
                 2030,
-                203001,
-                2031,
-                203101
+                2031
             ],
             "versionBegin": "",
             "versionEnd": ""
@@ -65,6 +64,8 @@
                     "param": [
                         26100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -73,6 +74,8 @@
                     "param": [
                         2200001,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -98,11 +101,8 @@
             "isRewind": true,
             "exclusiveNpcList": [
                 2074,
-                207401,
                 2030,
-                203001,
-                2031,
-                203101
+                2031
             ],
             "versionBegin": "",
             "versionEnd": ""
@@ -120,6 +120,8 @@
                     "param": [
                         26100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -128,6 +130,8 @@
                     "param": [
                         2200002,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -179,11 +183,8 @@
             ],
             "exclusiveNpcList": [
                 2074,
-                207401,
                 2030,
-                203001,
-                2031,
-                203101
+                2031
             ],
             "versionBegin": "",
             "versionEnd": ""
@@ -200,6 +201,8 @@
                     "param": [
                         26100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -208,6 +211,8 @@
                     "param": [
                         2200003,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -242,11 +247,8 @@
             ],
             "exclusiveNpcList": [
                 2074,
-                207401,
                 2030,
-                203001,
-                2031,
-                203101
+                2031
             ],
             "versionBegin": "",
             "versionEnd": ""
@@ -264,6 +266,8 @@
                     "param": [
                         26100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -272,6 +276,8 @@
                     "param": [
                         2200002,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -299,8 +305,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200001",
                         "2"
                     ]
@@ -322,8 +328,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200002",
                         "2"
                     ]
@@ -346,8 +352,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200004",
                         "2"
                     ]
@@ -370,8 +376,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200002",
                         "2"
                     ]
@@ -398,8 +404,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200003",
                         "2"
                     ]
@@ -421,8 +427,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200002",
                         "2"
                     ]

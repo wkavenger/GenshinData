@@ -1,13 +1,13 @@
 [
     {
-        "BuffId": 1,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UltimateSkillHitDamage",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UltimateSkillHitDamage",
-        "OAJMBKJALAN": 2042514297,
-        "KKGBMGDHBKO": 1920676010,
-        "AKDJKMBLKEA": 2011647947,
-        "CKIDKHOIEOP": 67,
-        "CCFGDDHBAPA": [
+        "buffId": 1,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UltimateSkillHitDamage",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UltimateSkillHitDamage",
+        "PILPEMAMLHB": 2042514297,
+        "NJHKBEFGEHH": 1920676010,
+        "JLACHIDHNKO": 2011647947,
+        "MHJKEABHAAP": 67,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -15,14 +15,14 @@
         ]
     },
     {
-        "BuffId": 2,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill",
-        "OAJMBKJALAN": 3158571825,
-        "KKGBMGDHBKO": 647315034,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 2,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill",
+        "PILPEMAMLHB": 3158571825,
+        "NJHKBEFGEHH": 647315034,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -30,14 +30,14 @@
         ]
     },
     {
-        "BuffId": 3,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_OnAvatarIn",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_OnAvatarIn",
-        "OAJMBKJALAN": 1047621889,
-        "KKGBMGDHBKO": 598041858,
-        "AKDJKMBLKEA": 2011647947,
-        "CKIDKHOIEOP": 67,
-        "CCFGDDHBAPA": [
+        "buffId": 3,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_OnAvatarIn",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_OnAvatarIn",
+        "PILPEMAMLHB": 1047621889,
+        "NJHKBEFGEHH": 598041858,
+        "JLACHIDHNKO": 2011647947,
+        "MHJKEABHAAP": 67,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -45,14 +45,14 @@
         ]
     },
     {
-        "BuffId": 4,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level2",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level2",
-        "OAJMBKJALAN": 3064450217,
-        "KKGBMGDHBKO": 145478114,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 4,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level2",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level2",
+        "PILPEMAMLHB": 3064450217,
+        "NJHKBEFGEHH": 145478114,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -60,14 +60,14 @@
         ]
     },
     {
-        "BuffId": 5,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_NormalAttackLanded_Counter",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_NormalAttackLanded_Counter",
-        "OAJMBKJALAN": 3523264089,
-        "KKGBMGDHBKO": 2491838650,
-        "AKDJKMBLKEA": 2011647947,
-        "CKIDKHOIEOP": 67,
-        "CCFGDDHBAPA": [
+        "buffId": 5,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_NormalAttackLanded_Counter",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_NormalAttackLanded_Counter",
+        "PILPEMAMLHB": 3523264089,
+        "NJHKBEFGEHH": 2491838650,
+        "JLACHIDHNKO": 2011647947,
+        "MHJKEABHAAP": 67,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -75,14 +75,14 @@
         ]
     },
     {
-        "BuffId": 6,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_NormalAttackElementalDamage",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_NormalAttackElementalDamage",
-        "OAJMBKJALAN": 1588725409,
-        "KKGBMGDHBKO": 737095874,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 6,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_NormalAttackElementalDamage",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_NormalAttackElementalDamage",
+        "PILPEMAMLHB": 1588725409,
+        "NJHKBEFGEHH": 737095874,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -90,14 +90,14 @@
         ]
     },
     {
-        "BuffId": 7,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_ElectricReaction",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_ElectricReaction",
-        "OAJMBKJALAN": 1405274481,
-        "KKGBMGDHBKO": 3853282274,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 7,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_ElectricReaction",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_ElectricReaction",
+        "PILPEMAMLHB": 1405274481,
+        "NJHKBEFGEHH": 3853282274,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -105,14 +105,14 @@
         ]
     },
     {
-        "BuffId": 8,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level3",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level3",
-        "OAJMBKJALAN": 3043056713,
-        "KKGBMGDHBKO": 3430456730,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 8,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level3",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level3",
+        "PILPEMAMLHB": 3043056713,
+        "NJHKBEFGEHH": 3430456730,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -120,14 +120,14 @@
         ]
     },
     {
-        "BuffId": 9,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_ElectricDamage",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_ElectricDamage",
-        "OAJMBKJALAN": 1974042833,
-        "KKGBMGDHBKO": 162482514,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 9,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_ElectricDamage",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_ElectricDamage",
+        "PILPEMAMLHB": 1974042833,
+        "NJHKBEFGEHH": 162482514,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -135,14 +135,14 @@
         ]
     },
     {
-        "BuffId": 10,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_BeingHealed",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_BeingHealed",
-        "OAJMBKJALAN": 2279289113,
-        "KKGBMGDHBKO": 1629263538,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 10,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_BeingHealed",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_BeingHealed",
+        "PILPEMAMLHB": 2279289113,
+        "NJHKBEFGEHH": 1629263538,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -150,14 +150,14 @@
         ]
     },
     {
-        "BuffId": 11,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_HPDown",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_HPDown",
-        "OAJMBKJALAN": 3398909969,
-        "KKGBMGDHBKO": 1148419922,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 11,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_HPDown",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_HPDown",
+        "PILPEMAMLHB": 3398909969,
+        "NJHKBEFGEHH": 1148419922,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -165,14 +165,14 @@
         ]
     },
     {
-        "BuffId": 12,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level5",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level5",
-        "OAJMBKJALAN": 2071244297,
-        "KKGBMGDHBKO": 1083821274,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 12,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level5",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level5",
+        "PILPEMAMLHB": 2071244297,
+        "NJHKBEFGEHH": 1083821274,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -180,14 +180,14 @@
         ]
     },
     {
-        "BuffId": 13,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_RockDamage",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_RockDamage",
-        "OAJMBKJALAN": 190982057,
-        "KKGBMGDHBKO": 2347758482,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 13,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_RockDamage",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_RockDamage",
+        "PILPEMAMLHB": 190982057,
+        "NJHKBEFGEHH": 2347758482,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -195,14 +195,14 @@
         ]
     },
     {
-        "BuffId": 14,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_Crystallize",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_Crystallize",
-        "OAJMBKJALAN": 619285865,
-        "KKGBMGDHBKO": 3725303642,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 14,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_Crystallize",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_Crystallize",
+        "PILPEMAMLHB": 619285865,
+        "NJHKBEFGEHH": 3725303642,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -210,14 +210,14 @@
         ]
     },
     {
-        "BuffId": 15,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level4",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level4",
-        "OAJMBKJALAN": 3598816497,
-        "KKGBMGDHBKO": 3864142218,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 15,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level4",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level4",
+        "PILPEMAMLHB": 3598816497,
+        "NJHKBEFGEHH": 3864142218,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -225,14 +225,14 @@
         ]
     },
     {
-        "BuffId": 16,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_HitFrozenTarget",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_HitFrozenTarget",
-        "OAJMBKJALAN": 2866294001,
-        "KKGBMGDHBKO": 4171928970,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 16,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_HitFrozenTarget",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_HitFrozenTarget",
+        "PILPEMAMLHB": 2866294001,
+        "NJHKBEFGEHH": 4171928970,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -240,14 +240,14 @@
         ]
     },
     {
-        "BuffId": 17,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level6",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level6",
-        "OAJMBKJALAN": 3894814705,
-        "KKGBMGDHBKO": 888149746,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 17,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level6",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_UseSkill_Level6",
+        "PILPEMAMLHB": 3894814705,
+        "NJHKBEFGEHH": 888149746,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",
@@ -255,14 +255,14 @@
         ]
     },
     {
-        "BuffId": 18,
-        "FGJONOJPIBD": "ActivityAbility_CrystalLink_Trigger_Frozen",
-        "AbilityName": "ActivityAbility_CrystalLink_Trigger_Frozen",
-        "OAJMBKJALAN": 2430784833,
-        "KKGBMGDHBKO": 1802330170,
-        "AKDJKMBLKEA": 2381365672,
-        "CKIDKHOIEOP": 4,
-        "CCFGDDHBAPA": [
+        "buffId": 18,
+        "CPJGPDLFMOH": "ActivityAbility_CrystalLink_Trigger_Frozen",
+        "abilityName": "ActivityAbility_CrystalLink_Trigger_Frozen",
+        "PILPEMAMLHB": 2430784833,
+        "NJHKBEFGEHH": 1802330170,
+        "JLACHIDHNKO": 2381365672,
+        "MHJKEABHAAP": 4,
+        "OGMHPFLEKFD": [
             "",
             "",
             "",

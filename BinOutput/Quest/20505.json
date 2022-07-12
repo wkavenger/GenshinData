@@ -18,6 +18,8 @@
                     "param": [
                         14,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -55,6 +57,8 @@
                     "param": [
                         2050501,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -72,6 +76,55 @@
             "finishParent": true,
             "versionBegin": "",
             "versionEnd": ""
+        }
+    ],
+    "talks": [
+        {
+            "id": 2050501,
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "beginCond": [
+                {
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2050501",
+                        "2"
+                    ]
+                }
+            ],
+            "priority": 8,
+            "initDialog": 205050101,
+            "npcId": [
+                1512
+            ],
+            "performCfg": "",
+            "questId": 20505,
+            "assetIndex": 404070154860,
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
+        },
+        {
+            "id": 2050502,
+            "beginWay": "TALK_BEGIN_MANUAL",
+            "beginCond": [
+                {
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2050502",
+                        "2"
+                    ]
+                }
+            ],
+            "priority": 8,
+            "initDialog": 205050201,
+            "npcId": [
+                1512
+            ],
+            "performCfg": "",
+            "questId": 20505,
+            "assetIndex": 419917724445,
+            "prePerformCfg": ""
         }
     ]
 }

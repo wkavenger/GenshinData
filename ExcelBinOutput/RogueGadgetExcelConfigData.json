@@ -1,91 +1,91 @@
 [
     {
-        "Id": 1,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_DOOR",
-        "GadgetId": 70310125,
-        "OJEEGENALAE": [
+        "id": 1,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_DOOR",
+        "gadgetId": 70310125,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_DOOR_OPEN",
-                "OEFPHILAACD": 201
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_DOOR_OPEN",
+                "PIDDCIPMBDN": 201
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_DOOR_CLOSE"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_DOOR_CLOSE"
             },
             {},
             {}
         ]
     },
     {
-        "Id": 2,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_NORMAL_OPERATOR",
-        "GadgetId": 70310118,
-        "OJEEGENALAE": [
+        "id": 2,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_NORMAL_OPERATOR",
+        "gadgetId": 70310118,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
-                "OEFPHILAACD": 201
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
+                "PIDDCIPMBDN": 201
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
-                "OEFPHILAACD": 203
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
+                "PIDDCIPMBDN": 203
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
-                "OEFPHILAACD": 204
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
+                "PIDDCIPMBDN": 204
             }
         ]
     },
     {
-        "Id": 3,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_ELITE_OPERATOR",
-        "GadgetId": 70310119,
-        "OJEEGENALAE": [
+        "id": 3,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_ELITE_OPERATOR",
+        "gadgetId": 70310119,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
-                "OEFPHILAACD": 201
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
+                "PIDDCIPMBDN": 201
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
-                "OEFPHILAACD": 203
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
+                "PIDDCIPMBDN": 203
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
-                "OEFPHILAACD": 204
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
+                "PIDDCIPMBDN": 204
             }
         ]
     },
     {
-        "Id": 4,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_SPRING_OPERATOR_REVEAL",
-        "GadgetId": 70310120,
-        "OJEEGENALAE": [
+        "id": 4,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_SPRING_OPERATOR_REVEAL",
+        "gadgetId": 70310120,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
-                "OEFPHILAACD": 203
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
+                "PIDDCIPMBDN": 203
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
-                "OEFPHILAACD": 204
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
+                "PIDDCIPMBDN": 204
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FORBID",
-                "OEFPHILAACD": 202
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FORBID",
+                "PIDDCIPMBDN": 202
             }
         ]
     },
     {
-        "Id": 5,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_SPRING_OPERATOR_SWITCH",
-        "GadgetId": 70310124,
-        "OJEEGENALAE": [
+        "id": 5,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_SPRING_OPERATOR_SWITCH",
+        "gadgetId": 70310124,
+        "IAMCKOBBILJ": [
             {},
             {},
             {},
@@ -93,40 +93,29 @@
         ]
     },
     {
-        "Id": 6,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_SPRING_STORE",
-        "GadgetId": 70310121,
-        "OJEEGENALAE": [
+        "id": 6,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_SPRING_STORE",
+        "gadgetId": 70310121,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
-                "OEFPHILAACD": 203
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE",
+                "PIDDCIPMBDN": 203
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
-                "OEFPHILAACD": 204
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_AFTER_USE",
+                "PIDDCIPMBDN": 204
             },
             {}
         ]
     },
     {
-        "Id": 7,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_BLAST",
-        "GadgetId": 70310100,
-        "OJEEGENALAE": [
-            {},
-            {},
-            {},
-            {}
-        ]
-    },
-    {
-        "Id": 8,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_TRAP",
-        "GadgetId": 70310101,
-        "OJEEGENALAE": [
+        "id": 7,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_BLAST",
+        "gadgetId": 70310100,
+        "IAMCKOBBILJ": [
             {},
             {},
             {},
@@ -134,10 +123,10 @@
         ]
     },
     {
-        "Id": 9,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_BREAKAGES",
-        "GadgetId": 70310099,
-        "OJEEGENALAE": [
+        "id": 8,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_TRAP",
+        "gadgetId": 70310101,
+        "IAMCKOBBILJ": [
             {},
             {},
             {},
@@ -145,23 +134,34 @@
         ]
     },
     {
-        "Id": 10,
-        "JJABKGNJMBG": "ROGUE_GADGET_TYPE_GUARD",
-        "GadgetId": 70310123,
-        "OJEEGENALAE": [
+        "id": 9,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_BREAKAGES",
+        "gadgetId": 70310099,
+        "IAMCKOBBILJ": [
+            {},
+            {},
+            {},
+            {}
+        ]
+    },
+    {
+        "id": 10,
+        "AMFACNCBLDC": "ROGUE_GADGET_TYPE_GUARD",
+        "gadgetId": 70310123,
+        "IAMCKOBBILJ": [
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_DEFAULT"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
-                "OEFPHILAACD": 201
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_IN_CHALLENGE",
+                "PIDDCIPMBDN": 201
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE"
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FINISH_CHALLENGE"
             },
             {
-                "DJCONOGMKPH": "ROGUE_GADGET_STATE_OPERATOR_FORBID",
-                "OEFPHILAACD": 204
+                "FCFNBJIFHBM": "ROGUE_GADGET_STATE_OPERATOR_FORBID",
+                "PIDDCIPMBDN": 204
             }
         ]
     }

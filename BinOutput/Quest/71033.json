@@ -717,8 +717,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103301",
                         "2"
                     ]
@@ -733,7 +733,16 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 71033,
             "assetIndex": 1036444534816,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1200,
+                1130,
+                1171,
+                1172,
+                1173,
+                1190,
+                1090
+            ]
         },
         {
             "id": 7103303,
@@ -741,8 +750,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103303",
                         "2"
                     ]
@@ -765,8 +774,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103304",
                         "2"
                     ]
@@ -789,8 +798,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103305",
                         "2"
                     ]
@@ -813,8 +822,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103309",
                         "2"
                     ]
@@ -837,8 +846,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103310",
                         "2"
                     ]
@@ -863,8 +872,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103311",
                         "2"
                     ]
@@ -887,8 +896,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103312",
                         "2"
                     ]
@@ -911,8 +920,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103314",
                         "2"
                     ]
@@ -936,22 +945,22 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103314",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103311",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103312",
                         "2"
                     ]
@@ -973,15 +982,15 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103305",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103306",
                         "2"
                     ]
@@ -1004,8 +1013,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103311",
                         "2"
                     ]
@@ -1028,8 +1037,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103311",
                         "2"
                     ]
@@ -1052,8 +1061,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103311",
                         "2"
                     ]
@@ -1077,5 +1086,16 @@
     ],
     "forcePreloadLuaList": [
         928377643482
-    ]
+    ],
+    "freeStyleDic": {
+        "240901": [
+            1190
+        ],
+        "230501": [
+            1060
+        ],
+        "230901": [
+            5010
+        ]
+    }
 }

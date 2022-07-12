@@ -56,6 +56,9 @@
                 2084,
                 10348
             ],
+            "exclusivePlaceList": [
+                40014
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -118,6 +121,9 @@
                 10345,
                 2084,
                 10365
+            ],
+            "exclusivePlaceList": [
+                40014
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",

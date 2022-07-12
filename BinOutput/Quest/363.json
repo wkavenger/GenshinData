@@ -1,5 +1,6 @@
 {
     "id": 363,
+    "ICLLDPJFIMA": 1001,
     "series": 1001,
     "titleTextMapHash": 411236993,
     "luaPath": "",
@@ -17,6 +18,8 @@
                     "param": [
                         35202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }

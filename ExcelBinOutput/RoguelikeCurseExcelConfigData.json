@@ -1,129 +1,129 @@
 [
     {
-        "Level": 1,
-        "GroupId": 1,
-        "KOIMOIOBOJB": 1035603933,
-        "DescTextMapHash": 260384740,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_DISABLE_SPRING_CELL",
-            "OJHBKPBFPDI": "",
-            "FLLFPFBBEOL": ""
+        "level": 1,
+        "groupId": 1,
+        "BIECOKCINHD": 1035603933,
+        "descTextMapHash": 260384740,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_DISABLE_SPRING_CELL",
+            "LBKOMDANGJK": "",
+            "BJLJCJGJGFE": ""
         },
-        "OJBDKDOGJAK": true,
-        "DescParamList": [
+        "NOGIFOHNHJD": true,
+        "descParamList": [
             0.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             false,
             false,
             false
         ]
     },
     {
-        "Level": 1,
-        "GroupId": 2,
-        "KOIMOIOBOJB": 54219069,
-        "DescTextMapHash": 3121034548,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_ADD_LEVEL_TRAP",
-            "OJHBKPBFPDI": "",
-            "FLLFPFBBEOL": ""
+        "level": 1,
+        "groupId": 2,
+        "BIECOKCINHD": 54219069,
+        "descTextMapHash": 3121034548,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_ADD_LEVEL_TRAP",
+            "LBKOMDANGJK": "",
+            "BJLJCJGJGFE": ""
         },
-        "OJBDKDOGJAK": true,
-        "DescParamList": [
+        "NOGIFOHNHJD": true,
+        "descParamList": [
             0.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             false,
             false,
             false
         ]
     },
     {
-        "Level": 5,
-        "GroupId": 3,
-        "KOIMOIOBOJB": 2034801749,
-        "DescTextMapHash": 3736884652,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
-            "OJHBKPBFPDI": "SGV_ROGUECURSE_MONSTERBUFF",
-            "FLLFPFBBEOL": "1"
+        "level": 5,
+        "groupId": 3,
+        "BIECOKCINHD": 2034801749,
+        "descTextMapHash": 3736884652,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
+            "LBKOMDANGJK": "SGV_ROGUECURSE_MONSTERBUFF",
+            "BJLJCJGJGFE": "1"
         },
-        "OJBDKDOGJAK": true,
-        "DescParamList": [
+        "NOGIFOHNHJD": true,
+        "descParamList": [
             20.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             true,
             false,
             false
         ]
     },
     {
-        "Level": 4,
-        "GroupId": 4,
-        "KOIMOIOBOJB": 2241608685,
-        "DescTextMapHash": 2210724516,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_RANDOM_AVATAR_NOHEAL",
-            "OJHBKPBFPDI": "SGV_ROGUE_CURSE_NOHEAL",
-            "FLLFPFBBEOL": "1"
+        "level": 4,
+        "groupId": 4,
+        "BIECOKCINHD": 2241608685,
+        "descTextMapHash": 2210724516,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_RANDOM_AVATAR_NOHEAL",
+            "LBKOMDANGJK": "SGV_ROGUE_CURSE_NOHEAL",
+            "BJLJCJGJGFE": "1"
         },
-        "OJBDKDOGJAK": true,
-        "DescParamList": [
+        "NOGIFOHNHJD": true,
+        "descParamList": [
             0.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             false,
             false,
             false
         ]
     },
     {
-        "Level": 1,
-        "GroupId": 5,
-        "KOIMOIOBOJB": 3838913645,
-        "DescTextMapHash": 3885911452,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
-            "OJHBKPBFPDI": "SGV_ROGUECURSE_BOMBDAMAGE",
-            "FLLFPFBBEOL": "1"
+        "level": 1,
+        "groupId": 5,
+        "BIECOKCINHD": 3838913645,
+        "descTextMapHash": 3885911452,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
+            "LBKOMDANGJK": "SGV_ROGUECURSE_BOMBDAMAGE",
+            "BJLJCJGJGFE": "1"
         },
-        "DescParamList": [
+        "descParamList": [
             0.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             false,
             false,
             false
         ]
     },
     {
-        "Level": 5,
-        "GroupId": 6,
-        "KOIMOIOBOJB": 3068832069,
-        "DescTextMapHash": 2612695412,
-        "FAELCGMBLMO": {
-            "EffectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
-            "OJHBKPBFPDI": "SGV_ROGUECURSE_EXTRAHURT",
-            "FLLFPFBBEOL": "1"
+        "level": 5,
+        "groupId": 6,
+        "BIECOKCINHD": 3068832069,
+        "descTextMapHash": 2612695412,
+        "DGJAPLOLICD": {
+            "effectType": "ROGUELIKE_EFFECT_STATIC_COMBAT",
+            "LBKOMDANGJK": "SGV_ROGUECURSE_EXTRAHURT",
+            "BJLJCJGJGFE": "1"
         },
-        "DescParamList": [
+        "descParamList": [
             20.0,
             0.0,
             0.0
         ],
-        "PBLMHJIPEHN": [
+        "CAPDLMAHBNG": [
             true,
             false,
             false

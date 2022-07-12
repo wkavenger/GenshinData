@@ -19,6 +19,8 @@
                     "param": [
                         26800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -70,6 +72,8 @@
                     "param": [
                         26800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -78,6 +82,8 @@
                     "param": [
                         2200501,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -130,6 +136,8 @@
                     "param": [
                         26800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -138,6 +146,8 @@
                     "param": [
                         2200502,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -145,6 +155,8 @@
                     "type": "QUEST_COND_PACK_HAVE_ITEM",
                     "param": [
                         100429,
+                        0,
+                        0,
                         0,
                         0
                     ]
@@ -199,8 +211,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200501",
                         "2"
                     ]
@@ -222,8 +234,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200502",
                         "2"
                     ]
@@ -245,8 +257,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2200503",
                         "2"
                     ]
@@ -265,5 +277,10 @@
     ],
     "preloadLuaList": [
         645902683150
-    ]
+    ],
+    "freeStyleDic": {
+        "2421": [
+            1280
+        ]
+    }
 }

@@ -616,8 +616,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000712",
                         "2"
                     ]
@@ -640,8 +640,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000702",
                         "2"
                     ]
@@ -665,8 +665,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000703",
                         "2"
                     ]
@@ -690,8 +690,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000704",
                         "2"
                     ]
@@ -715,8 +715,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000707",
                         "2"
                     ]
@@ -738,8 +738,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000708",
                         "2"
                     ]
@@ -762,8 +762,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000710",
                         "2"
                     ]
@@ -787,29 +787,29 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000706",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000707",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000708",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000709",
                         "2"
                     ]
@@ -833,29 +833,29 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000706",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000707",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000708",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000709",
                         "2"
                     ]
@@ -880,29 +880,29 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000706",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000707",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000708",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000709",
                         "2"
                     ]
@@ -927,29 +927,29 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000706",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000707",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000708",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7000709",
                         "2"
                     ]
@@ -985,7 +985,10 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 70007,
             "assetIndex": 410985643890,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 7000756,
@@ -1023,5 +1026,27 @@
     ],
     "forcePreloadLuaList": [
         271047514913
-    ]
+    ],
+    "freeStyleDic": {
+        "10023": [
+            1170,
+            1190
+        ],
+        "10024": [
+            1130,
+            1190
+        ],
+        "10025": [
+            1030
+        ],
+        "10026": [
+            1090
+        ],
+        "10027": [
+            1190
+        ],
+        "10028": [
+            1190
+        ]
+    }
 }

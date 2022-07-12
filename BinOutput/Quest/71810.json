@@ -137,6 +137,13 @@
             "isRewind": true,
             "finishExec": [
                 {
+                    "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "3",
+                        "133104916"
+                    ]
+                },
+                {
                     "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
                     "param": [
                         "3",
@@ -416,8 +423,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7181001",
                         "2"
                     ]
@@ -439,8 +446,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7181003",
                         "2"
                     ]
@@ -461,8 +468,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7181009",
                         "2"
                     ]

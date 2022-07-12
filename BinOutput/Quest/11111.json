@@ -1,5 +1,6 @@
 {
     "id": 11111,
+    "ICLLDPJFIMA": 2018,
     "series": 11110,
     "type": "LQ",
     "titleTextMapHash": 2109944287,
@@ -56,6 +57,9 @@
                 10345,
                 2084,
                 10348
+            ],
+            "exclusivePlaceList": [
+                40014
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -119,6 +123,9 @@
                 10345,
                 2084,
                 10365
+            ],
+            "exclusivePlaceList": [
+                40014
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -259,8 +266,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111101",
                         "2"
                     ]
@@ -282,8 +289,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111102",
                         "2"
                     ]
@@ -306,8 +313,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111101",
                         "2"
                     ]
@@ -329,8 +336,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111105",
                         "2"
                     ]
@@ -352,8 +359,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111102",
                         "2"
                     ]
@@ -377,8 +384,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111102",
                         "2"
                     ]

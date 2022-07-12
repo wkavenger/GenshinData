@@ -4,17 +4,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -28,6 +28,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -35,11 +36,11 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip01",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "SwordOneHand"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip01",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "SwordOneHand"
         }
     },
     "Catalyst_Book": {
@@ -47,17 +48,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -71,6 +72,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -78,20 +80,20 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip02",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Catalyst"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip02",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Catalyst"
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "NormalMove": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "AttackLoop": [],
                             "AttackToIdle": [],
                             "Open": [],
@@ -102,6 +104,7 @@
             }
         },
         "audio": {
+            "$type": "ConfigGadgetAudio",
             "animAudio": {
                 "onTransitionIn": [
                     {
@@ -137,17 +140,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -161,6 +164,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -168,20 +172,20 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip02",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Catalyst"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip02",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Catalyst"
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "Close": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "Close": []
                         }
                     }
@@ -189,12 +193,12 @@
             },
             "audioEventLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndex": 1,
-                "layerIndexName": "AudioEventLayer",
+                "ILGOPNKMKDG": 1,
+                "JLAFELOFEGB": "AudioEventLayer",
                 "stateIDs": {
                     "NormalMove": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "AttackLoop": [],
                             "Open": [],
                             "CloseAudio": []
@@ -204,6 +208,7 @@
             }
         },
         "audio": {
+            "$type": "ConfigGadgetAudio",
             "animAudio": {
                 "onTransitionIn": [
                     {
@@ -243,17 +248,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -267,6 +272,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -274,11 +280,11 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip01",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Claymore"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip01",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Claymore"
         }
     },
     "Weapon_Bow_Metal": {
@@ -286,16 +292,16 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 10.0,
+                "CMBBAPKBDCI": 10.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -312,6 +318,7 @@
                 "dieDisappearEffect": "Eff_Monster_Undead_01_Shield_Broken"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -319,17 +326,17 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip02",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Bow",
-            "bowData": {
-                "bowRatioName": "BowRatio",
-                "bowStringLoosePoint": {
-                    "x": 0.11999999731779099
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip02",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Bow",
+            "BLAHEFILLKI": {
+                "FFGPLLEAMHA": "BowRatio",
+                "ABGICLHBCBA": {
+                    "_x": 0.11999999731779099
                 },
-                "bowStringMaxLen": 0.3799999952316284
+                "CFCELMHPILP": 0.41999998688697815
             }
         }
     },
@@ -338,16 +345,16 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -361,6 +368,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -368,11 +376,11 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip01",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Pole"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip01",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Pole"
         }
     },
     "Weapon_Sword_Wood_Normal": {
@@ -380,17 +388,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true,
             "checkInSurface": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -404,6 +412,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Wood_Normal",
@@ -411,11 +420,11 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip01",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "SwordOneHand"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip01",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "SwordOneHand"
         }
     },
     "Weapon_Sword_Wood_Hard": {
@@ -423,17 +432,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true,
             "checkInSurface": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -447,6 +456,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Wood_Hard",
@@ -454,11 +464,11 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip01",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "SwordOneHand"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip01",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "SwordOneHand"
         }
     },
     "Catalyst_Mute": {
@@ -466,16 +476,16 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -489,6 +499,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Metal",
@@ -496,20 +507,20 @@
                 "abilityOverride": ""
             }
         ],
-        "equipment": {
-            "attachTo": "equip02",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Catalyst"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip02",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Catalyst"
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "NormalMove": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "AttackLoop": [],
                             "AttackToIdle": [],
                             "Open": [],
@@ -520,6 +531,7 @@
             }
         },
         "audio": {
+            "$type": "ConfigGadgetAudio",
             "animAudio": {}
         }
     },
@@ -528,17 +540,17 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachMesh",
-                "mesh": "EffectMesh"
+                "FGKBBEGGKCB": "EffectMesh"
             },
             "affectedByWorld": true
         },
         "combat": {
             "property": {
-                "HP": 9999999.0,
+                "CMBBAPKBDCI": 9999999.0,
                 "defense": 999999.0,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -552,10 +564,16 @@
                 "lockType": "Default"
             }
         },
-        "equipment": {
-            "attachTo": "equip03",
-            "subAttachTo": "",
-            "auxToTrans": ""
+        "attackAttenuation": "",
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip03",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": ""
         }
+    },
+    "SubEquip_Shinobu_Mask": {
+        "$type": "ConfigGadget",
+        "common": {},
+        "attackAttenuation": ""
     }
 }

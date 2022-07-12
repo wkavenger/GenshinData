@@ -20,6 +20,8 @@
                     "param": [
                         38406,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -57,6 +59,8 @@
                     "param": [
                         2211101,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -100,8 +104,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2211101",
                         "2"
                     ]
@@ -123,8 +127,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2211102",
                         "2"
                     ]

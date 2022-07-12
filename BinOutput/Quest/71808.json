@@ -553,6 +553,26 @@
                         0,
                         0
                     ]
+                },
+                {
+                    "type": "QUEST_COND_STATE_NOT_EQUAL",
+                    "param": [
+                        7180805,
+                        3,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "QUEST_COND_STATE_NOT_EQUAL",
+                    "param": [
+                        7180806,
+                        3,
+                        0,
+                        0,
+                        0
+                    ]
                 }
             ],
             "finishCond": [
@@ -672,13 +692,14 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180806",
                         "2"
                     ]
                 }
             ],
+            "priority": 5,
             "initDialog": 718080201,
             "npcId": [
                 2123
@@ -694,8 +715,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180807",
                         "2"
                     ]
@@ -718,36 +739,36 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180802",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180803",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180804",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180805",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180806",
                         "2"
                     ]
@@ -769,13 +790,14 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180808",
                         "2"
                     ]
                 }
             ],
+            "priority": 5,
             "initDialog": 718080501,
             "npcId": [
                 1005
@@ -791,13 +813,14 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180806",
                         "3"
                     ]
                 }
             ],
+            "priority": 4,
             "initDialog": 718080601,
             "npcId": [
                 2123
@@ -813,8 +836,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180811",
                         "2"
                     ]
@@ -835,8 +858,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180810",
                         "2"
                     ]

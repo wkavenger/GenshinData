@@ -1,7 +1,6 @@
 [
     {
-        "Id": 4015142102,
-        "TimeLimit": 5.0,
-        "NextDialogID": 4015142111
+        "_id": 4015142102,
+        "_nextDialogID": 0
     }
 ]

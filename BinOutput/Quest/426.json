@@ -16,6 +16,8 @@
                     "param": [
                         99902,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -46,6 +48,8 @@
                     "param": [
                         42601,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -63,7 +67,8 @@
                 {
                     "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
                     "param": [
-                        42602
+                        42602,
+                        0
                     ]
                 }
             ],
@@ -95,8 +100,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "42602",
                         "2"
                     ]

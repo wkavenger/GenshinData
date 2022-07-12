@@ -18,10 +18,10 @@
             "descTextMapHash": 3183193516,
             "acceptCond": [
                 {
-                    "type": "QUEST_COND_ACTIVITY_COND",
+                    "type": "QUEST_COND_STATE_EQUAL",
                     "param": [
-                        5023001,
-                        1,
+                        99902,
+                        3,
                         0,
                         0,
                         0
@@ -153,8 +153,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7065901",
                         "2"
                     ]
@@ -170,7 +170,15 @@
             "questId": 70659,
             "assetIndex": 989362008845,
             "prePerformCfg": "",
-            "talkMarkType": "TALK_MARK_COMMON"
+            "talkMarkType": "TALK_MARK_COMMON",
+            "CIAAAKHILBD": [
+                1200,
+                1171,
+                1172,
+                1173,
+                1190,
+                1240
+            ]
         },
         {
             "id": 7065903,
@@ -178,8 +186,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7065903",
                         "2"
                     ]
@@ -195,7 +203,10 @@
             "questId": 70659,
             "assetIndex": 926525549742,
             "prePerformCfg": "",
-            "talkMarkType": "TALK_MARK_COMMON"
+            "talkMarkType": "TALK_MARK_COMMON",
+            "CIAAAKHILBD": [
+                1160
+            ]
         }
     ]
 }

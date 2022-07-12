@@ -2,13 +2,15 @@
     "common": {
         "effectAttachShape": {
             "$type": "ConfigEffectAttachSkinnedMesh",
-            "mesh": "Body"
+            "FGKBBEGGKCB": "Body"
         },
         "mass": 10000.0,
-        "height": 3.0,
+        "secondHeight": 3.0,
         "affectedByWorld": true,
         "checkInSurface": true,
-        "scale": 1.2000000476837158
+        "LALONNAHJDN": 1.2000000476837158,
+        "clearAnimatorOnSetLightDeactive": true,
+        "clearAIOnSetLightDeactive": true
     },
     "model": {
         "bornEffect": "",
@@ -24,7 +26,7 @@
     "combat": {
         "property": {
             "endureType": "Monster_Boss_Other",
-            "weight": 300.0
+            "w": 300.0
         },
         "beHit": {
             "hitBloodEffect": "",
@@ -35,193 +37,40 @@
             "lockType": "Avatar&Monster_Lv4"
         },
         "die": {
-            "dieEndTime": 1.0,
+            "HGGPMFGGBNC": 1.0,
             "dieForceDisappearTime": 4.0,
             "dieDisappearEffect": "",
-            "dieDisappearEffectDelay": 1.0
+            "dieDisappearEffectDelay": 1.0,
+            "MBIPMCDOFBG": true,
+            "EFLALLBMIBB": true,
+            "NLFNLBDLPFC": true,
+            "NDACEHEDOMA": true,
+            "NENNBGPECAO": true,
+            "DMALDDCGAMB": true
         },
-        "animEvents": {
-            "AtkL01": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "triggerType": "TriggerNoRepeat",
-                    "born": {
-                        "$type": "ConfigBornBySelf",
-                        "offset": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.0
-                        }
-                    },
-                    "height": 3.0,
-                    "fanAngle": 150.0,
-                    "radius": 7.0
+        "summon": {
+            "summonTags": [
+                {
+                    "summonTag": 20011601,
+                    "name": "Effigy_Water_Ooze_TypeSplitBig",
+                    "IDGDDJJKEJF": 3
                 },
-                "attackInfo": {
-                    "attackTag": "",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "damagePercentage": 1.0,
-                        "damagePercentageRatio": 0.0,
-                        "elementType": "Wind",
-                        "elementDurability": 50.0,
-                        "strikeType": "Blunt",
-                        "enBreak": 100.0,
-                        "attackType": "Melee"
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitImpulseType": "LV5",
-                        "hitHaltTimeScale": 0.009999999776482582
-                    },
-                    "forceCameraShake": true,
-                    "cameraShake": {
-                        "shakeRange": 2.0,
-                        "shakeTime": 0.4000000059604645,
-                        "shakeDistance": 30.0
-                    }
-                }
-            },
-            "AtkL02": {
-                "attackPattern": {
-                    "$type": "ConfigAttackBox",
-                    "triggerType": "TriggerNoRepeat",
-                    "born": {
-                        "$type": "ConfigBornBySelf",
-                        "offset": {
-                            "x": 0.0,
-                            "y": 2.0,
-                            "z": 3.0
-                        }
-                    },
-                    "size": {
-                        "x": 4.0,
-                        "y": 4.0,
-                        "z": 9.0
-                    }
+                {
+                    "summonTag": 20011701,
+                    "name": "Effigy_Water_Ooze_TypeSplitSmall",
+                    "IDGDDJJKEJF": 9
                 },
-                "attackInfo": {
-                    "attackTag": "",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "damagePercentage": 1.0,
-                        "damagePercentageRatio": 0.0,
-                        "elementType": "Electric",
-                        "elementDurability": 50.0,
-                        "strikeType": "Blunt",
-                        "enBreak": 100.0,
-                        "attackType": "Melee"
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitImpulseType": "",
-                        "overrideHitImpulse": {
-                            "hitLevel": "Air",
-                            "hitImpulseX": 900.0,
-                            "hitImpulseY": 600.0
-                        },
-                        "retreatType": "ByHitDirection",
-                        "hitHaltTimeScale": 0.009999999776482582
-                    }
-                }
-            },
-            "AtkL03": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "triggerType": "TriggerNoRepeat",
-                    "born": {
-                        "$type": "ConfigBornBySelf",
-                        "offset": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.0
-                        }
-                    },
-                    "height": 3.0,
-                    "fanAngle": 150.0,
-                    "radius": 5.0
+                {
+                    "summonTag": 20011801,
+                    "name": "Effigy_Water_Ooze_TypeAttack",
+                    "IDGDDJJKEJF": 3
                 },
-                "attackInfo": {
-                    "attackTag": "",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "damagePercentage": 1.0,
-                        "damagePercentageRatio": 0.0,
-                        "elementType": "Electric",
-                        "elementDurability": 50.0,
-                        "strikeType": "Blunt",
-                        "enBreak": 100.0,
-                        "attackType": "Melee"
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitImpulseType": "",
-                        "overrideHitImpulse": {
-                            "hitLevel": "Air",
-                            "hitImpulseX": 900.0,
-                            "hitImpulseY": 600.0
-                        },
-                        "hitHaltTimeScale": 0.009999999776482582
-                    },
-                    "forceCameraShake": true,
-                    "cameraShake": {
-                        "shakeRange": 0.800000011920929,
-                        "shakeTime": 0.25,
-                        "shakeDistance": 30.0
-                    }
+                {
+                    "summonTag": 20011901,
+                    "name": "Effigy_Water_Ooze_TypeHeal",
+                    "IDGDDJJKEJF": 2
                 }
-            },
-            "AtkL04": {
-                "attackPattern": {
-                    "$type": "ConfigAttackCircle",
-                    "triggerType": "TriggerNoRepeat",
-                    "born": {
-                        "$type": "ConfigBornBySelf",
-                        "offset": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 1.5
-                        }
-                    },
-                    "height": 3.0,
-                    "fanAngle": 180.0,
-                    "radius": 6.0
-                },
-                "attackInfo": {
-                    "attackTag": "",
-                    "attenuationTag": "",
-                    "attenuationGroup": "default",
-                    "attackProperty": {
-                        "damagePercentage": 1.0,
-                        "damagePercentageRatio": 0.0,
-                        "elementType": "Electric",
-                        "elementDurability": 50.0,
-                        "strikeType": "Blunt",
-                        "enBreak": 100.0,
-                        "attackType": "Melee"
-                    },
-                    "hitPattern": {
-                        "onHitEffectName": "default",
-                        "hitImpulseType": "",
-                        "overrideHitImpulse": {
-                            "hitLevel": "Air",
-                            "hitImpulseX": 1000.0,
-                            "hitImpulseY": 600.0
-                        },
-                        "hitHaltTimeScale": 0.009999999776482582
-                    },
-                    "forceCameraShake": true,
-                    "cameraShake": {
-                        "shakeType": "CustomVector",
-                        "shakeRange": 1.0,
-                        "shakeTime": 0.25,
-                        "shakeDistance": 30.0
-                    }
-                }
-            }
+            ]
         }
     },
     "equipController": {
@@ -229,647 +78,615 @@
     },
     "abilities": [
         {
-            "abilityID": "Monster_Effigy_Wind_ShaderState1ToState2",
-            "abilityName": "Monster_Effigy_Wind_ShaderState1ToState2",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_State",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_ShaderState2ToState1",
-            "abilityName": "Monster_Effigy_Wind_ShaderState2ToState1",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SetCoreInPose",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_CoreOutAS",
-            "abilityName": "Monster_Effigy_Wind_CoreOutAS",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SetCoreOutPose",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_Shield",
-            "abilityName": "Monster_Effigy_Wind_Shield",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SetDyingPose",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_Core",
-            "abilityName": "Monster_Effigy_Wind_Core",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_HpDetect",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_RebornState",
-            "abilityName": "Monster_Effigy_Wind_RebornState",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_Reborn",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_HpDetect",
-            "abilityName": "Monster_Effigy_Wind_HpDetect",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_HealHp",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_RebornStart",
-            "abilityName": "Monster_Effigy_Wind_RebornStart",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SetShaderState1ToState2",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_RebornElemBall",
-            "abilityName": "Monster_Effigy_Wind_RebornElemBall",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SetShaderState2ToState1",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_HealHp",
-            "abilityName": "Monster_Effigy_Wind_HealHp",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_Dive",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_SetDyingPose",
-            "abilityName": "Monster_Effigy_Wind_SetDyingPose",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_DiveDamage",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_SetCoreOutPose",
-            "abilityName": "Monster_Effigy_Wind_SetCoreOutPose",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_Rain",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_SetCoreInPose",
-            "abilityName": "Monster_Effigy_Wind_SetCoreInPose",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_BubbleArray",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_SetRebornPose",
-            "abilityName": "Monster_Effigy_Wind_SetRebornPose",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_BubbleArray_Damage",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_WindFall",
-            "abilityName": "Monster_Effigy_Wind_WindFall",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_WaterBallSplash",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_CreateTornadoEmitter",
-            "abilityName": "Monster_Effigy_Wind_CreateTornadoEmitter",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SummonOoze_TypeAttack",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_EnergyAbsorb",
-            "abilityName": "Monster_Effigy_Wind_EnergyAbsorb",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SummonOoze_TypeHeal",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_WindExplode",
-            "abilityName": "Monster_Effigy_Wind_WindExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SummonOoze_TypeSplitBig1",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_FireExplode",
-            "abilityName": "Monster_Effigy_Wind_FireExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SummonOoze_TypeSplitBig2",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_ElectricExplode",
-            "abilityName": "Monster_Effigy_Wind_ElectricExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SummonOoze_TypeSplitBig3",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_WaterExplode",
-            "abilityName": "Monster_Effigy_Wind_WaterExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_BigWave",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_IceExplode",
-            "abilityName": "Monster_Effigy_Wind_IceExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_RainStorm",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_AirGun",
-            "abilityName": "Monster_Effigy_Wind_AirGun",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_WaveForm",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_VortexWindZone",
-            "abilityName": "Monster_Effigy_Wind_VortexWindZone",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SurgeStrikeDamage",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_VortexExplode",
-            "abilityName": "Monster_Effigy_Wind_VortexExplode",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Blink_BlinkStart",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_FindBlinkPos",
-            "abilityName": "Monster_Effigy_Wind_FindBlinkPos",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_FindBlinkPoint",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_Blink",
-            "abilityName": "Monster_Effigy_Wind_Blink",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_Blink",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_BlinkStart",
-            "abilityName": "Monster_Effigy_Wind_BlinkStart",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_BlinkAS",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_BlinkAS",
-            "abilityName": "Monster_Effigy_Wind_BlinkAS",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_RandomMove",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_Storm",
-            "abilityName": "Monster_Effigy_Wind_Storm",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_RandomMoveStart",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_Steer",
-            "abilityName": "Monster_Effigy_Wind_Steer",
+            "abilityID": "",
+            "abilityName": "Monster_Effigy_Water_SteerAttack",
             "abilityOverride": ""
         },
         {
-            "abilityID": "Monster_Effigy_Wind_WindBlade",
-            "abilityName": "Monster_Effigy_Wind_WindBlade",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_RandomMove",
-            "abilityName": "Monster_Effigy_Wind_RandomMove",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_RandomMoveStart",
-            "abilityName": "Monster_Effigy_Wind_RandomMoveStart",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_MultiAtk_Start",
-            "abilityName": "Monster_Effigy_Wind_MultiAtk_Start",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_MultiAtk_Attack",
-            "abilityName": "Monster_Effigy_Wind_MultiAtk_Attack",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_Reborn_FindBlinkPos",
-            "abilityName": "Monster_Effigy_Wind_Reborn_FindBlinkPos",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_FindBlinkPos_EnergyAbsorbStart",
-            "abilityName": "Monster_Effigy_Wind_FindBlinkPos_EnergyAbsorbStart",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_FindBlinkPos_EnergyAbsorb",
-            "abilityName": "Monster_Effigy_Wind_FindBlinkPos_EnergyAbsorb",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Common_WindMuteHurt",
-            "abilityName": "Monster_Common_WindMuteHurt",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_Wind_KillElemBall",
-            "abilityName": "Monster_Effigy_Wind_KillElemBall",
-            "abilityOverride": ""
-        },
-        {
-            "abilityID": "Monster_Effigy_ReturnToBorn",
-            "abilityName": "Monster_Effigy_ReturnToBorn",
+            "abilityID": "",
+            "abilityName": "Monster_Common_WaterMuteHurt",
             "abilityOverride": ""
         }
     ],
     "stateLayers": {
         "defaultLayer": {
             "$type": "ConfigNormalStateLayer",
-            "layerIndexName": "",
+            "JLAFELOFEGB": "",
             "stateIDs": {
                 "Born": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Born": [
-                            "Audio_Effigy_Wind_Born"
-                        ]
+                    "PINCPDEEFJI": {
+                        "Born": []
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
                 },
-                "Standby_BS": {
+                "Standby": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Standby_BS": [
-                            "Audio_Effigy_Wind_Standby_BS"
-                        ]
+                    "PINCPDEEFJI": {
+                        "Standby": []
                     },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
-                    ]
-                },
-                "Standby_AS": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Standby_AS": [
-                            "Audio_Effigy_Wind_Standby_AS"
-                        ]
-                    },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "DoSkill"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
                 },
                 "StandbyFree": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "StandbyFree": []
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
-                    ]
-                },
-                "BeHit": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Hit_L": [],
-                        "Hit_H": []
-                    },
-                    "resetAnimatorTriggerOnEnter": [
-                        "BeHit"
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "DoSkill"
                     ],
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
-                    ]
-                },
-                "BeHitThrow": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "HitThrow": [],
-                        "HitThrowDrop": [],
-                        "HitThrowToGround": []
-                    },
-                    "resetAnimatorTriggerOnEnter": [
-                        "BeHit",
-                        "HitAir2HitDrop"
-                    ],
-                    "resetAnimatorTriggerOnExit": [
-                        "DoSkill",
-                        "ToShaderState1"
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
                 },
                 "Die": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Die": [
-                            "Monster_Effigy_Wind_Die",
-                            "Audio_Effigy_Wind_Die"
+                            "Monster_Effigy_Water_Die"
                         ],
                         "SwimDie": [
-                            "Monster_Effigy_Wind_Die"
+                            "Monster_Effigy_Water_Die"
                         ]
                     }
                 },
-                "Dying": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Dying_Blink": [
-                            "Monster_Effigy_Wind_Reborn_Blink"
-                        ],
-                        "Dying": []
-                    },
-                    "resetAnimatorTriggerOnEnter": [
-                        "DyingState"
-                    ],
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "DyingState"
-                    ]
-                },
-                "Dying_AS": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Dying_AS": [
-                            "Monster_Effigy_Wind_DyingAS"
-                        ]
-                    },
-                    "resetAnimatorTriggerOnEnter": [
-                        "DyingState"
-                    ],
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "DyingState"
-                    ]
-                },
                 "Warning": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Warning": [
-                            "Audio_Effigy_Wind_Warning"
+                            "Audio_Effigy_Water_Warning"
                         ]
                     },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState1"
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "SurgeStrike": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "SurgeStrike": [
+                            "Monster_Effigy_Water_SurgeStrike",
+                            "Audio_Effigy_Water_SurgeStrike"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "SurgeStrike_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "SurgeStrike_CoreOutLoop": [],
+                        "SurgeStrike_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Dive": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Dive_BS": [
+                            "Audio_Effigy_Water_Dive_BS"
+                        ],
+                        "Dive": [
+                            "Monster_Effigy_Water_Dive"
+                        ],
+                        "Dive_AS": [
+                            "Audio_Effigy_Water_Dive_AS"
+                        ]
+                    },
+                    "JFJAOFFPPFP": true,
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Rain": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Rain_BS": [
+                            "Monster_Effigy_Water_RainBS",
+                            "Audio_Effigy_Water_Rain_BS"
+                        ],
+                        "Rain_Loop": [
+                            "Monster_Effigy_Water_Rain"
+                        ],
+                        "Rain_AS": [
+                            "Monster_Effigy_Water_RainAS",
+                            "Audio_Effigy_Water_Rain_AS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "DoSkill"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Rain_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Rain_CoreOutLoop": [],
+                        "Rain_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "DoSkill"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "BubbleArray": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "BubbleArray": [
+                            "Monster_Effigy_Water_BubbleArray",
+                            "Audio_Effigy_Water_BubbleArray"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "BubbleArray_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "BubbleArray_CoreOutLoop": [],
+                        "BubbleArray_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaterBallSplash": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaterBallSplash": [
+                            "Monster_Effigy_Water_WaterBallSplash",
+                            "Audio_Effigy_Water_WaterBallSplash"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaterBallSplash_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaterBallSplash_CoreOutLoop": [],
+                        "WaterBallSplash_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "BigWave": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "BigWave_BS": [
+                            "Monster_Effigy_Water_BigWaveBS",
+                            "Audio_Effigy_Water_BigWave_BS"
+                        ],
+                        "BigWave_Loop": [],
+                        "BigWave_AS": [
+                            "Monster_Effigy_Water_BigWaveAS",
+                            "Audio_Effigy_Water_BigWave_AS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "BigWave_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "BigWave_CoreOutLoop": [],
+                        "BigWave_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "RainStorm": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "RainStorm_BS": [
+                            "Monster_Effigy_Water_RainStormBS",
+                            "Audio_Effigy_Water_RainStorm_BS"
+                        ],
+                        "RainStorm_Loop": [],
+                        "RainStorm_AS": [
+                            "Audio_Effigy_Water_RainStorm_AS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "RainStorm_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "RainStorm_CoreOutLoop": [],
+                        "RainStorm_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaveForm_BS": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaveForm_BS": [
+                            "Audio_Effigy_Water_WaveForm_BS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "WaveForm_Stop"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaveForm_Loop": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaveForm_Loop": []
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaveForm_AS": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaveForm_AS": [
+                            "Monster_Effigy_Water_WaveFormAS",
+                            "Audio_Effigy_Water_WaveForm_AS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "WaveForm_CoreOut": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "WaveForm_CoreOutLoop": [],
+                        "WaveForm_CoreOutAS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
                 },
                 "RushAway": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "RushAway_BS": []
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill"
-                    ]
-                },
-                "RushAway_AS": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
+                        "RushAway_BS": [
+                            "Audio_Effigy_Water_RushAway_BS"
+                        ],
                         "RushAway_AS": [
-                            "Audio_Effigy_Wind_Rush_AS"
+                            "Monster_Effigy_Water_RushAwayAS",
+                            "Audio_Effigy_Water_RushAway_AS"
                         ]
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "RushAwayTrigger"
+                    ],
+                    "KJALBKOJAJE": [
                         "DoSkill"
-                    ],
-                    "canSteer": true
-                },
-                "EnergyAbsorb": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "EnergyAbsorb_Blink": [
-                            "Monster_Effigy_Wind_EnergyAbsorb_Blink"
-                        ],
-                        "EnergyAbsorb_BS": [
-                            "Monster_Effigy_Wind_EnergyAbsorbBS"
-                        ],
-                        "EnergyAbsorb_Loop1": [],
-                        "EnergyAbsorb_AS1": [
-                            "Audio_Effigy_Wind_EnergyAbsorb_AS1"
-                        ],
-                        "EnergyAbsorb_Loop2": [
-                            "Monster_Effigy_Wind_EnergyAbsorbLoop2"
-                        ],
-                        "EnergyAbsorb_AS2": [
-                            "Monster_Effigy_Wind_EnergyAbsorbAS2",
-                            "Monster_Effigy_Wind_RandomMoveRandomed",
-                            "Audio_Effigy_Wind_EnergyAbsorb_AS2"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
                     ]
                 },
-                "Vortex": {
+                "Weak": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Vortex_BS": [
-                            "Monster_Effigy_Wind_VortexBS",
-                            "Audio_Effigy_Wind_Vortex_BS"
-                        ],
-                        "Vortex_Loop": [],
-                        "Vortex_AS": [
-                            "Monster_Effigy_Wind_VortexAS",
-                            "Audio_Effigy_Wind_Vortex_AS"
-                        ],
-                        "Vortex_CoreOutLoop": [],
-                        "Vortex_CoreOutAS": [
-                            "Monster_Effigy_Wind_SingleAtk_CoreOutAS",
-                            "Monster_Effigy_Wind_RandomMoveRandomed"
+                    "PINCPDEEFJI": {
+                        "Weak_BS": [
+                            "Monster_Effigy_Water_WeakBS",
+                            "Audio_Effigy_Water_Weak_BS"
                         ]
                     },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "WeakStart"
                     ],
-                    "canSteer": true
-                },
-                "Vortex_Rush": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Vortex_Rush": [
-                            "Monster_Effigy_Wind_Rush"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "Vortex_RushStop"
-                    ],
-                    "canSteer": true
-                },
-                "WindFall": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "WindFall_BS": [
-                            "Monster_Effigy_Wind_WindFallBS"
-                        ],
-                        "WindFall_Loop": [],
-                        "WindFall_AS1": [
-                            "Monster_Effigy_Wind_WindFallAS1"
-                        ],
-                        "WindFall_AS2": [
-                            "Monster_Effigy_Wind_RandomMoveRandomed",
-                            "Monster_Effigy_Wind_WindFallAS2"
-                        ]
-                    },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ElectricDefenceStopTrigger",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
                 },
-                "SingleAtk": {
+                "Weak_CoreOut": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "SingleAtk": [
-                            "Monster_Effigy_Wind_SingleAtk",
-                            "Audio_Effigy_Wind_SingleAtk"
-                        ],
-                        "SingleAtk_CoreOutLoop": [],
-                        "SingleAtk_CoreOutAS": [
-                            "Monster_Effigy_Wind_SingleAtk_CoreOutAS",
-                            "Monster_Effigy_Wind_RandomMoveRandomed"
+                    "PINCPDEEFJI": {
+                        "Weak_Loop": [],
+                        "Weak_AS": [
+                            "Monster_Effigy_Water_CoreOutAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
                         ]
                     },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "RushAwayTrigger"
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "WeakStart"
                     ],
-                    "canSteer": true
-                },
-                "SingleAtk_Rush": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "SingleAtk_Rush": [
-                            "Monster_Effigy_Wind_Rush",
-                            "Audio_Effigy_Wind_SingleAtk_Rush"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "SingleAtk_RushStop"
-                    ],
-                    "canSteer": true
-                },
-                "MultiAtk": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "MultiAtk": [
-                            "Monster_Effigy_Wind_MultiAtk"
-                        ],
-                        "MultiAtk_CoreOutLoop": [],
-                        "MultiAtk_CoreOutAS": [
-                            "Monster_Effigy_Wind_SingleAtk_CoreOutAS",
-                            "Monster_Effigy_Wind_RandomMoveRandomed"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
-                    ],
-                    "canSteer": true
-                },
-                "MultiAtk_Rush": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "MultiAtk_Rush": [
-                            "Monster_Effigy_Wind_Rush"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "MultiAtk_RushStop"
-                    ],
-                    "canSteer": true
-                },
-                "Storm": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Storm_Blink": [
-                            "Monster_Effigy_Wind_Blink",
-                            "Audio_Effigy_Wind_Storm_Blink"
-                        ],
-                        "Storm_BS": [
-                            "Monster_Effigy_Wind_StormBS",
-                            "Audio_Effigy_Wind_Storm_BS"
-                        ],
-                        "Storm_Loop1": [],
-                        "Storm_AS1": [
-                            "Monster_Effigy_Wind_StormAS1",
-                            "Audio_Effigy_Wind_Storm_AS1"
-                        ],
-                        "Storm_Loop2": [],
-                        "Storm_AS2": [
-                            "Monster_Effigy_Wind_StormAS2",
-                            "Monster_Effigy_Wind_RandomMoveRandomed"
-                        ]
-                    },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
+                    "KJALBKOJAJE": [
+                        "DoSkill"
                     ]
-                },
-                "Tornado": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "Tornado_Blink": [
-                            "Monster_Effigy_Wind_Blink"
-                        ],
-                        "Tornado_BS": [
-                            "Monster_Effigy_Wind_TornadoBS",
-                            "Audio_Effigy_Wind_Tornado_BS"
-                        ],
-                        "Tornado_Loop": [],
-                        "Tornado_AS": [
-                            "Monster_Effigy_Wind_TornadoAS"
-                        ],
-                        "Tornado_CoreOutLoop": [],
-                        "Tornado_CoreOutAS": [
-                            "Monster_Effigy_Wind_SingleAtk_CoreOutAS",
-                            "Monster_Effigy_Wind_RandomMoveRandomed"
-                        ]
-                    },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
-                    ]
-                },
-                "AirGun": {
-                    "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "AirGun_BS": [
-                            "Monster_Effigy_Wind_AirGunBS",
-                            "Audio_Effigy_Wind_AirGun_BS"
-                        ],
-                        "AirGun_Loop": [],
-                        "AirGun_AS": [
-                            "Monster_Effigy_Wind_RandomMoveRandomed",
-                            "Monster_Effigy_Wind_AirGunAS"
-                        ]
-                    },
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
-                        "DoSkill",
-                        "ToShaderState2",
-                        "RushAwayTrigger"
-                    ],
-                    "canSteer": true
                 },
                 "ReturnToBorn": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
-                        "ReturnToBorn": [
-                            "Audio_Effigy_Wind_ReturnToBorn"
+                    "PINCPDEEFJI": {
+                        "ReturnToBorn_BS": [
+                            "Monster_Effigy_Water_BlinkBS",
+                            "Audio_Effigy_Water_Blink_BS"
                         ],
-                        "ReturnToBorn_Blink": [
-                            "Monster_Effigy_Wind_ReturnToBorn"
-                        ],
-                        "ReturnToBorn_AS": []
+                        "ReturnToBorn": [],
+                        "ReturnToBorn_AS": [
+                            "Monster_Effigy_Water_BlinkAS",
+                            "Audio_Effigy_Water_ReturnToBorn_AS"
+                        ]
                     },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
-                        "BeHit",
+                    "JFJAOFFPPFP": true,
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Blink": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Blink_BS": [
+                            "Monster_Effigy_Water_BlinkBS",
+                            "Audio_Effigy_Water_Blink_BS"
+                        ],
+                        "Blink": [],
+                        "Blink_AS": [
+                            "Monster_Effigy_Water_BlinkAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Dying_Blink": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Dying_BlinkBS": [
+                            "Monster_Effigy_Water_BlinkBS",
+                            "Audio_Effigy_Water_Blink_BS"
+                        ],
+                        "Dying_Blink": [],
+                        "Dying_BlinkAS": [
+                            "Monster_Effigy_Water_BlinkAS",
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "OBACGMAOFBH": [
+                        "DyingState"
+                    ],
+                    "KJALBKOJAJE": [
+                        "DoSkill"
+                    ]
+                },
+                "Dying": {
+                    "$type": "ConfigMonsterStateIDInfo",
+                    "PINCPDEEFJI": {
+                        "Dying_BS": [
+                            "Monster_Effigy_Water_DyingBS",
+                            "Audio_Effigy_Water_Dying_BS"
+                        ],
+                        "Dying_Loop": [],
+                        "Dying_AS": [
+                            "Audio_Effigy_Water_WaveForm_CoreOutAS"
+                        ]
+                    },
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 }
@@ -878,13 +695,14 @@
     },
     "billboard": {
         "$type": "ConfigCombatBillboard",
-        "attachPoint": "BillboardAttach",
+        "BDMAMLPPCMN": "BillboardAttach",
         "offset": {
-            "y": 1.5
+            "_y": 1.5
         },
-        "radiusOffset": 1.0,
-        "enableSelfAdapt": true,
-        "showHPBar": true,
+        "GNMDLCFGJHA": 1.0,
+        "KLPACBLNKLF": true,
+        "MIBFGCAAAFK": true,
+        "EIAJODLDKJG": 30.0,
         "size": "Big"
     },
     "initialPoses": {
@@ -901,53 +719,47 @@
                 "DefaultSetting": {
                     "viewRange": 15.0,
                     "viewPanoramic": true,
-                    "feelRange": 7.5
+                    "sourcelessHitAttractionRange": 7.5
                 }
             },
-            "tempaltes": {
+            "templates": {
                 "DefaultTemplate": {
                     "DefaultPoses": "DefaultSetting"
                 }
             }
         },
         "threat": {
-            "clearThreatTargetDistance": 70.0,
+            "billboardShowUIBarDis": 65.0,
             "clearThreatEdgeDistance": 7.5,
             "clearThreatByTargetOutOfZone": true,
-            "viewThreatGrow": 35.0,
-            "threatDecreaseSpeed": 100.0,
+            "viewThreatGrow": 50.0,
+            "threatDecreaseSpeed": 50.0,
             "resistTauntLevel": "Monster_TauntLevel_4"
         },
-        "defendArea": {
-            "defendRange": 50.0
-        },
+        "defendArea": {},
         "profiling": {
             "lodStrategy": "Best"
         },
         "skillGroupCDConfigs": [
             {
-                "skillGroupCDID": 0,
-                "skillGroupCDTime": 20.0
+                "skillGroupCDTime": 1,
+                "ILBDMCPPKME": 5.0
             },
             {
-                "skillGroupCDID": 1,
-                "skillGroupCDTime": 20.0
+                "skillGroupCDTime": 2,
+                "ILBDMCPPKME": 85.0
             },
             {
-                "skillGroupCDID": 2,
-                "skillGroupCDTime": 20.0
+                "skillGroupCDTime": 3,
+                "ILBDMCPPKME": 100.0
             },
             {
-                "skillGroupCDID": 3,
-                "skillGroupCDTime": 45.0
+                "skillGroupCDTime": 4,
+                "ILBDMCPPKME": 100.0
             },
             {
-                "skillGroupCDID": 4,
-                "skillGroupCDTime": 45.0
-            },
-            {
-                "skillGroupCDID": 5,
-                "skillGroupCDTime": 45.0
+                "skillGroupCDTime": 5,
+                "ILBDMCPPKME": 10.0
             }
         ],
         "skills": {
@@ -955,16 +767,6 @@
                 "name": "OnAlert",
                 "skillType": "OnAlert",
                 "faceTarget": true,
-                "castCondition": {
-                    "pose": [
-                        1,
-                        101,
-                        201,
-                        1101,
-                        1201
-                    ],
-                    "pickRangeMax": 7.5
-                },
                 "publicCDGroup": "",
                 "ignoreGCD": true,
                 "triggerGCD": false,
@@ -977,21 +779,42 @@
                 "flagSelfInZone": "10",
                 "flagTargetInZone": "11"
             },
-            "201": {
-                "name": "SingleAtk",
+            "101": {
+                "name": "Rain",
                 "castCondition": {
                     "pose": [
-                        101,
-                        1101
+                        101
                     ],
-                    "pickRangeMax": 7.5
+                    "pickRangeMin": 7.5
                 },
-                "cd": 15.0,
-                "cdUpperRange": 10.0,
+                "targetBackSpace": 7.5,
+                "cdUpperRange": 5.0,
                 "publicCDGroup": "",
-                "skillGroupCDID": 0,
                 "stateIDs": [
-                    "SingleAtk"
+                    "Rain"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "11",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "201": {
+                "name": "SurgeStrike",
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "maxTargetAngleXZ": 120.0,
+                    "pickRangeMin": 15.0,
+                    "pickRangeMax": 25.0
+                },
+                "targetBackSpace": 7.5,
+                "cdUpperRange": 5.0,
+                "publicCDGroup": "",
+                "skillGroupCDTime": 1,
+                "stateIDs": [
+                    "SurgeStrike"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "10",
@@ -999,24 +822,20 @@
                 "flagSelfInZone": "10",
                 "flagTargetInZone": "11"
             },
-            "202": {
-                "name": "SingleAtk",
-                "priority": 4,
+            "211": {
+                "name": "SurgeStrike",
                 "castCondition": {
                     "pose": [
-                        101,
-                        1101
+                        101
                     ],
-                    "pickRangeMin": 10.0,
-                    "pickRangeMax": 25.0
+                    "pickRangeMax": 15.0
                 },
-                "cd": 30.0,
-                "cdUpperRange": 5.0,
+                "targetBackSpace": 3.0,
+                "cdUpperRange": 2.5,
                 "publicCDGroup": "",
-                "skillGroupCDID": 0,
+                "skillGroupCDTime": 1,
                 "stateIDs": [
-                    "SingleAtk",
-                    "SingleAtk_Rush"
+                    "SurgeStrike"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "10",
@@ -1025,120 +844,186 @@
                 "flagTargetInZone": "10"
             },
             "301": {
-                "name": "MultiAtk",
-                "priority": 4,
+                "name": "Dive",
                 "castCondition": {
                     "pose": [
-                        101,
-                        1101
-                    ],
-                    "pickRangeMin": 5.0,
-                    "pickRangeMax": 12.5
-                },
-                "cd": 15.0,
-                "cdUpperRange": 7.5,
-                "publicCDGroup": "",
-                "skillGroupCDID": 1,
-                "stateIDs": [
-                    "MultiAtk"
-                ],
-                "skillQueryingTime": 3.5,
-                "flagTargetReachable": "10",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "10",
-                "flagTargetInZone": "11"
-            },
-            "302": {
-                "name": "MultiAtk",
-                "priority": 4,
-                "castCondition": {
-                    "pose": [
-                        101,
-                        1101
-                    ],
-                    "pickRangeMin": 12.5,
-                    "pickRangeMax": 50.0
-                },
-                "cd": 15.0,
-                "cdUpperRange": 7.5,
-                "publicCDGroup": "",
-                "skillGroupCDID": 1,
-                "stateIDs": [
-                    "MultiAtk",
-                    "MultiAtk_Rush"
-                ],
-                "skillQueryingTime": 3.5,
-                "flagTargetReachable": "10",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "10",
-                "flagTargetInZone": "10"
-            },
-            "401": {
-                "name": "Vortex",
-                "priority": 4,
-                "castCondition": {
-                    "pose": [
-                        101,
-                        1101
-                    ],
-                    "pickRangeMax": 7.5
-                },
-                "cd": 15.0,
-                "cdUpperRange": 7.5,
-                "publicCDGroup": "",
-                "skillGroupCDID": 2,
-                "stateIDs": [
-                    "Vortex"
-                ],
-                "skillQueryingTime": 3.5,
-                "flagTargetReachable": "10",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "10",
-                "flagTargetInZone": "11"
-            },
-            "402": {
-                "name": "Vortex",
-                "priority": 4,
-                "castCondition": {
-                    "pose": [
-                        101,
-                        1101
+                        101
                     ],
                     "pickRangeMin": 7.5,
-                    "pickRangeMax": 50.0
+                    "pickRangeMax": 22.5
                 },
-                "cd": 15.0,
-                "cdUpperRange": 7.5,
+                "targetBackSpace": 7.5,
+                "cdUpperRange": 5.0,
                 "publicCDGroup": "",
-                "skillGroupCDID": 2,
+                "skillGroupCDTime": 1,
                 "stateIDs": [
-                    "Vortex",
-                    "Vortex_Rush"
+                    "Dive"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "10",
                 "flagSelfOnTemplateCollider": "01",
                 "flagSelfInZone": "10",
-                "flagTargetInZone": "10"
+                "flagTargetInZone": "11"
             },
-            "701": {
-                "name": "EnergyAbsorb",
-                "priority": 2,
+            "311": {
+                "name": "Dive",
+                "NJDDMHGDEMN": 4,
                 "castCondition": {
                     "pose": [
-                        1101
+                        101
                     ],
-                    "pickRangeMax": 70.0
+                    "pickRangeMin": 7.5,
+                    "pickRangeMax": 22.5
                 },
-                "cd": 30.0,
+                "targetBackSpace": 45.0,
                 "cdUpperRange": 15.0,
-                "initialCD": 30.0,
+                "publicCDGroup": "",
+                "skillGroupCDTime": 1,
+                "stateIDs": [
+                    "Dive"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "10",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "401": {
+                "name": "BubbleArray",
+                "NJDDMHGDEMN": 3,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ]
+                },
+                "targetBackSpace": 105.0,
+                "cdUpperRange": 15.0,
+                "initialCD": 90.0,
                 "initialCDUpperRange": 10.0,
                 "publicCDGroup": "",
-                "ignoreGCD": true,
-                "skillGroupCDID": 4,
                 "stateIDs": [
-                    "EnergyAbsorb"
+                    "BubbleArray"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "10",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "501": {
+                "name": "WaterBallSplash",
+                "NJDDMHGDEMN": 2,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "JGHKFFJHGEM": 5.0
+                },
+                "targetBackSpace": 80.0,
+                "cdUpperRange": 10.0,
+                "publicCDGroup": "",
+                "ignoreGCD": true,
+                "skillGroupCDTime": 2,
+                "stateIDs": [
+                    "WaterBallSplash"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "10",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "511": {
+                "name": "WaterBallSplash",
+                "NJDDMHGDEMN": 2,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "PNKNGMNHJAP": 5.0
+                },
+                "targetBackSpace": 80.0,
+                "cdUpperRange": 10.0,
+                "publicCDGroup": "",
+                "ignoreGCD": true,
+                "skillGroupCDTime": 2,
+                "stateIDs": [
+                    "WaterBallSplash",
+                    "Blink"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "10",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "601": {
+                "name": "BigWave",
+                "NJDDMHGDEMN": 3,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "JGHKFFJHGEM": 7.5
+                },
+                "targetBackSpace": 95.0,
+                "cdUpperRange": 10.0,
+                "initialCD": 20.0,
+                "initialCDUpperRange": 5.0,
+                "publicCDGroup": "",
+                "skillGroupCDTime": 3,
+                "stateIDs": [
+                    "BigWave"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "11",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "611": {
+                "name": "BigWave",
+                "NJDDMHGDEMN": 3,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "PNKNGMNHJAP": 7.5
+                },
+                "targetBackSpace": 95.0,
+                "cdUpperRange": 10.0,
+                "initialCD": 20.0,
+                "initialCDUpperRange": 5.0,
+                "publicCDGroup": "",
+                "skillGroupCDTime": 3,
+                "stateIDs": [
+                    "BigWave",
+                    "Blink"
+                ],
+                "skillQueryingTime": 3.5,
+                "flagTargetReachable": "11",
+                "flagSelfOnTemplateCollider": "01",
+                "flagSelfInZone": "10",
+                "flagTargetInZone": "11"
+            },
+            "701": {
+                "name": "RainStorm",
+                "NJDDMHGDEMN": 3,
+                "castCondition": {
+                    "pose": [
+                        101
+                    ],
+                    "JGHKFFJHGEM": 7.5
+                },
+                "targetBackSpace": 95.0,
+                "cdUpperRange": 10.0,
+                "initialCD": 62.5,
+                "initialCDUpperRange": 7.5,
+                "publicCDGroup": "",
+                "ignoreGCD": true,
+                "skillGroupCDTime": 4,
+                "stateIDs": [
+                    "RainStorm"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "11",
@@ -1146,24 +1031,25 @@
                 "flagSelfInZone": "11",
                 "flagTargetInZone": "11"
             },
-            "801": {
-                "name": "Tornado",
-                "priority": 1,
+            "711": {
+                "name": "RainStorm",
+                "NJDDMHGDEMN": 3,
                 "castCondition": {
                     "pose": [
                         101
                     ],
-                    "pickRangeMax": 70.0
+                    "PNKNGMNHJAP": 7.5
                 },
-                "cd": 60.0,
-                "cdUpperRange": 30.0,
-                "initialCD": 40.0,
-                "initialCDUpperRange": 15.0,
+                "targetBackSpace": 95.0,
+                "cdUpperRange": 10.0,
+                "initialCD": 62.5,
+                "initialCDUpperRange": 7.5,
                 "publicCDGroup": "",
                 "ignoreGCD": true,
-                "skillGroupCDID": 5,
+                "skillGroupCDTime": 4,
                 "stateIDs": [
-                    "Tornado"
+                    "RainStorm",
+                    "Blink"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "11",
@@ -1172,77 +1058,23 @@
                 "flagTargetInZone": "11"
             },
             "901": {
-                "name": "WindFall",
-                "priority": 4,
+                "name": "Blink",
+                "NJDDMHGDEMN": 2,
                 "castCondition": {
                     "pose": [
                         101
                     ],
-                    "pickRangeMin": 7.5,
-                    "pickRangeMax": 70.0
+                    "PNKNGMNHJAP": 30.0
                 },
-                "cd": 15.0,
-                "cdUpperRange": 15.0,
-                "initialCD": 15.0,
-                "initialCDUpperRange": 15.0,
+                "targetBackSpace": 5.0,
                 "publicCDGroup": "",
                 "ignoreGCD": true,
                 "stateIDs": [
-                    "WindFall"
+                    "Blink"
                 ],
                 "skillQueryingTime": 3.5,
                 "flagTargetReachable": "11",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "11",
-                "flagTargetInZone": "11"
-            },
-            "902": {
-                "name": "WindFall",
-                "priority": 3,
-                "castCondition": {
-                    "pose": [
-                        1101
-                    ],
-                    "pickRangeMin": 7.5,
-                    "pickRangeMax": 70.0
-                },
-                "cd": 15.0,
-                "cdUpperRange": 15.0,
-                "initialCD": 5.0,
-                "initialCDUpperRange": 5.0,
-                "publicCDGroup": "",
-                "ignoreGCD": true,
-                "stateIDs": [
-                    "WindFall"
-                ],
-                "skillQueryingTime": 3.5,
-                "flagTargetReachable": "11",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "11",
-                "flagTargetInZone": "11"
-            },
-            "1001": {
-                "name": "AirGun",
-                "priority": 4,
-                "castCondition": {
-                    "pose": [
-                        101,
-                        1101
-                    ],
-                    "pickRangeMin": 15.0,
-                    "pickRangeMax": 70.0
-                },
-                "cd": 15.0,
-                "cdUpperRange": 15.0,
-                "initialCD": 15.0,
-                "initialCDUpperRange": 15.0,
-                "publicCDGroup": "",
-                "stateIDs": [
-                    "AirGun"
-                ],
-                "skillQueryingTime": 3.5,
-                "flagTargetReachable": "11",
-                "flagSelfOnTemplateCollider": "01",
+                "flagSelfOnTemplateCollider": "11",
                 "flagSelfInZone": "11",
                 "flagTargetInZone": "11"
             }
@@ -1253,46 +1085,44 @@
             "condition": {
                 "pose": [
                     1,
-                    101,
-                    1101
+                    101
                 ]
             },
             "defaultSetting": {
-                "speedLevel": 0,
-                "fadeoutBeginTime": 3.0,
+                "yHigh": 0,
+                "HLKOFOJFNPF": 3.0,
                 "fadeoutEndTime": 3.5
             }
-        },
-        "wanderTactic": {}
+        }
     },
     "inputKeys": [
         {
-            "keyID": 202,
+            "keyID": 101,
             "inputKeyCode": 257,
             "abilityName": ""
         },
         {
-            "keyID": 301,
+            "keyID": 201,
             "inputKeyCode": 258,
             "abilityName": ""
         },
         {
-            "keyID": 601,
+            "keyID": 301,
             "inputKeyCode": 259,
             "abilityName": ""
         },
         {
-            "keyID": 1001,
+            "keyID": 401,
             "inputKeyCode": 260,
             "abilityName": ""
         },
         {
-            "keyID": 801,
+            "keyID": 501,
             "inputKeyCode": 261,
             "abilityName": ""
         },
         {
-            "keyID": 901,
+            "keyID": 601,
             "inputKeyCode": 262,
             "abilityName": ""
         },
@@ -1302,40 +1132,14 @@
             "abilityName": ""
         },
         {
-            "keyID": 401,
+            "keyID": 801,
             "inputKeyCode": 264,
             "abilityName": ""
         },
         {
-            "keyID": 601,
+            "keyID": 901,
             "inputKeyCode": 265,
             "abilityName": ""
         }
-    ],
-    "audio": {
-        "animAudio": {
-            "onTransitionIn": [
-                {
-                    "currentStateName": "ElectricEscape_BS",
-                    "audioEvent": {
-                        "text": "Play_sfx_monster_effigy_electricEscape_BS"
-                    }
-                }
-            ],
-            "onTransitionOut": [
-                {
-                    "currentStateName": "ElectricEscape_BS",
-                    "audioEvent": {
-                        "text": "Stop_sfx_monster_effigy_electricEscape_BS"
-                    },
-                    "otherStateNames": [
-                        "ElectricEscape_AS",
-                        "ElectricEscape_Loop1",
-                        "ElectricEscape_Loop2"
-                    ],
-                    "usage": "Except"
-                }
-            ]
-        }
-    }
+    ]
 }

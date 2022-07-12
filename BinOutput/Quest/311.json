@@ -1,5 +1,6 @@
 {
     "id": 311,
+    "ICLLDPJFIMA": 1001,
     "series": 1001,
     "titleTextMapHash": 3089746017,
     "descTextMapHash": 14316951,
@@ -19,6 +20,8 @@
                     "param": [
                         30904,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -35,7 +38,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        30904
+                        30904,
+                        0
                     ]
                 }
             ],
@@ -61,15 +65,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "31101",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46904",
                         "2"
                     ]
@@ -92,15 +96,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "31101",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46904",
                         "3"
                     ]

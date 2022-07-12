@@ -19,6 +19,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -61,6 +63,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -69,6 +73,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -118,6 +124,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -126,6 +134,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -175,6 +185,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -183,6 +195,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -232,6 +246,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -240,6 +256,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -289,6 +307,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -297,6 +317,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -340,6 +362,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -348,6 +372,8 @@
                     "param": [
                         2004706,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -406,6 +432,8 @@
                     "param": [
                         21800,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -414,6 +442,8 @@
                     "param": [
                         2004701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -440,8 +470,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2004701",
                         "2"
                     ]
@@ -464,15 +494,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2004701",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2004702",
                         "2"
                     ]
@@ -495,15 +525,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2004706",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2004707",
                         "2"
                     ]

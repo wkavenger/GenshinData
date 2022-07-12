@@ -1,18 +1,18 @@
 [
     {
-        "GoodsId": 201013,
-        "JABKGNFABCO": 300
+        "goodsId": 201013,
+        "HLHKMBGEJCL": 300
     },
     {
-        "GoodsId": 301016,
-        "JABKGNFABCO": 300
+        "goodsId": 301016,
+        "HLHKMBGEJCL": 300
     },
     {
-        "GoodsId": 405015,
-        "JABKGNFABCO": 300
+        "goodsId": 405015,
+        "HLHKMBGEJCL": 300
     },
     {
-        "GoodsId": 102506,
-        "JABKGNFABCO": 100
+        "goodsId": 102506,
+        "HLHKMBGEJCL": 100
     }
 ]

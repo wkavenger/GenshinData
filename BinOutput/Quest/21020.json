@@ -48,6 +48,8 @@
                     "param": [
                         2102000,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -104,6 +106,8 @@
                     "param": [
                         2102010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -160,6 +164,8 @@
                     "param": [
                         2102020,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -207,6 +213,8 @@
                     "param": [
                         2102021,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -253,8 +261,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2102000",
                         "2"
                     ]
@@ -277,15 +285,15 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2102021",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2102022",
                         "2"
                     ]

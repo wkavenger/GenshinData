@@ -2,11 +2,11 @@
     "common": {
         "effectAttachShape": {
             "$type": "ConfigEffectAttachSkinnedMesh",
-            "mesh": "EffectMesh"
+            "FGKBBEGGKCB": "EffectMesh"
         },
         "mass": 999999.0,
         "viewSize": 1.25,
-        "scale": 3.5
+        "LALONNAHJDN": 3.5
     },
     "model": {
         "bornEffect": "Eff_Monster_Oceanid_AnimalBorn_Small",
@@ -19,7 +19,7 @@
     "combat": {
         "property": {
             "endureType": "Monster_Boss_Other",
-            "weight": 150.0
+            "w": 150.0
         },
         "beHit": {
             "hitBloodEffect": ""
@@ -29,33 +29,39 @@
             "lockType": "Avatar&Monster_Lv4"
         },
         "die": {
-            "dieEndTime": 2.0,
+            "HGGPMFGGBNC": 2.0,
             "dieForceDisappearTime": 5.0,
-            "dieDisappearEffect": ""
+            "dieDisappearEffect": "",
+            "MBIPMCDOFBG": true,
+            "EFLALLBMIBB": true,
+            "NLFNLBDLPFC": true,
+            "NDACEHEDOMA": true,
+            "NENNBGPECAO": true,
+            "DMALDDCGAMB": true
         },
         "animEvents": {
             "Sweep": {
                 "attackPattern": {
                     "$type": "ConfigAttackCircle",
-                    "triggerType": "TriggerNoRepeat",
-                    "born": {
+                    "lifeTime": "TriggerNoRepeat",
+                    "NGDMCBABOJA": {
                         "$type": "ConfigBornBySelf",
                         "offset": {
-                            "x": 0.0,
-                            "y": 0.0,
-                            "z": 0.5
+                            "AEAAJCIDPED": 0.0,
+                            "KAAPLGBEDPM": 0.0,
+                            "PHDCJAHHIOG": 0.5
                         }
                     },
-                    "height": 2.5,
-                    "fanAngle": 240.0,
-                    "radius": 4.25
+                    "secondHeight": 2.5,
+                    "BDAPFCGNBKA": 240.0,
+                    "ICGFCBOFFDI": 4.25
                 },
                 "attackInfo": {
                     "attackTag": "",
                     "attenuationTag": "",
                     "attenuationGroup": "default",
                     "attackProperty": {
-                        "damagePercentage": 1.0,
+                        "bonusCriticalHurt": 1.0,
                         "damagePercentageRatio": 0.0,
                         "elementType": "Water",
                         "elementDurability": 50.0,
@@ -73,20 +79,20 @@
             "Scratch": {
                 "attackPattern": {
                     "$type": "ConfigAttackBox",
-                    "triggerType": "TriggerNoRepeat",
-                    "ignoreMassive": true,
-                    "born": {
+                    "lifeTime": "TriggerNoRepeat",
+                    "LCDFJLIEENG": true,
+                    "NGDMCBABOJA": {
                         "$type": "ConfigBornBySelf",
                         "offset": {
-                            "x": 0.0,
-                            "y": 2.0,
-                            "z": 0.0
+                            "AEAAJCIDPED": 0.0,
+                            "KAAPLGBEDPM": 2.0,
+                            "PHDCJAHHIOG": 0.0
                         }
                     },
                     "size": {
-                        "x": 2.0,
-                        "y": 4.0,
-                        "z": 3.5
+                        "AEAAJCIDPED": 2.0,
+                        "KAAPLGBEDPM": 4.0,
+                        "PHDCJAHHIOG": 3.5
                     }
                 },
                 "attackInfo": {
@@ -94,7 +100,7 @@
                     "attenuationTag": "",
                     "attenuationGroup": "default",
                     "attackProperty": {
-                        "damagePercentage": 1.0,
+                        "bonusCriticalHurt": 1.0,
                         "damagePercentageRatio": 0.0,
                         "elementType": "Water",
                         "elementDurability": 50.0,
@@ -151,57 +157,57 @@
     "stateLayers": {
         "defaultLayer": {
             "$type": "ConfigNormalStateLayer",
-            "layerIndexName": "",
+            "JLAFELOFEGB": "",
             "stateIDs": {
                 "Born": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Born": []
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 },
                 "NormalIdle": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Standby": []
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 },
                 "NormalMove": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Walk": [],
                         "Run": []
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Turn": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "TurnLeft": [],
                         "TurnRight": []
                     },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Die": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Die": [
                             "Monster_Oceanid_Crane_Die"
                         ]
@@ -209,132 +215,132 @@
                 },
                 "Alert": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Alert": []
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Scratch1": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Scratch1": [
                             "Monster_Oceanid_Squirrel_Scratch",
                             "Audio_Monster_Oceanid_Squirrel_Scratch"
                         ]
                     },
-                    "cullingModelAlwaysAnimate": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Scratch2": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Scratch2": [
                             "Monster_Oceanid_Squirrel_Scratch",
                             "Audio_Monster_Oceanid_Squirrel_Scratch"
                         ]
                     },
-                    "cullingModelAlwaysAnimate": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Sweep1": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Sweep1": [
                             "Monster_Oceanid_Squirrel_Sweep",
                             "Audio_Monster_Oceanid_Squirrel_Sweep"
                         ]
                     },
-                    "cullingModelAlwaysAnimate": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Sweep2": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Sweep2": [
                             "Monster_Oceanid_Squirrel_Sweep",
                             "Audio_Monster_Oceanid_Squirrel_Sweep"
                         ]
                     },
-                    "cullingModelAlwaysAnimate": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "PGHGJFNNLMI": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Scratch_Rush": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Scratch_Rush": []
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill",
                         "Rush_Stop"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Sweep_Rush": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Sweep_Rush": []
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill",
                         "Rush_Stop"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "RamdomAction1": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "RamdomAction1": []
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "Escape": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "EscapeBS": [],
                         "Escape": []
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 }
             }
         }
     },
     "billboard": {
         "$type": "ConfigCombatBillboard",
-        "attachPoint": "BillboardAttach",
-        "offsetType": "Character",
-        "radiusOffset": 0.25,
-        "showHPBar": true,
-        "forceShowDistance": 50.0
+        "BDMAMLPPCMN": "BillboardAttach",
+        "MDLKCFCDDCD": "Character",
+        "GNMDLCFGJHA": 0.25,
+        "MIBFGCAAAFK": true,
+        "EIAJODLDKJG": 50.0
     },
     "initialPoses": {
         "Default": {},
@@ -365,20 +371,28 @@
         "sensing": {
             "settings": {
                 "DefaultSetting": {
-                    "feelRange": 50.0
+                    "sourcelessHitAttractionRange": 50.0
                 },
                 "LowAlert": {
                     "viewRange": 15.0,
                     "horizontalFov": 90.0,
-                    "verticalFov": 45.0
+                    "DMGFGMCJFMN": 45.0
                 },
                 "StandAlert": {
                     "viewRange": 0.0
+                },
+                "SpecialLowAlert": {
+                    "sourcelessHitAttractionRange": 8.0
                 }
             },
-            "tempaltes": {
+            "templates": {
                 "DefaultTemplate": {
                     "DefaultPoses": "DefaultSetting",
+                    "2": "LowAlert",
+                    "3": "StandAlert"
+                },
+                "LowAlertTemplate": {
+                    "DefaultPoses": "SpecialLowAlert",
                     "2": "LowAlert",
                     "3": "StandAlert"
                 }
@@ -407,12 +421,12 @@
         },
         "skillGroupCDConfigs": [
             {
-                "skillGroupCDID": 0,
-                "skillGroupCDTime": 5.0
+                "skillGroupCDTime": 0,
+                "ILBDMCPPKME": 5.0
             },
             {
-                "skillGroupCDID": 1,
-                "skillGroupCDTime": 5.0
+                "skillGroupCDTime": 1,
+                "ILBDMCPPKME": 5.0
             }
         ],
         "skills": {
@@ -438,12 +452,12 @@
                     ],
                     "pickRangeMax": 7.0
                 },
-                "cd": 5.0,
+                "targetBackSpace": 5.0,
                 "cdUpperRange": 2.5,
                 "initialCD": 2.5,
                 "initialCDUpperRange": 2.5,
                 "publicCDGroup": "Oceanid_meleeAttack",
-                "skillGroupCDID": 0,
+                "skillGroupCDTime": 0,
                 "stateIDs": [
                     "Scratch1",
                     "Sweep1"
@@ -462,12 +476,12 @@
                     "pickRangeMin": 8.0,
                     "pickRangeMax": 20.0
                 },
-                "cd": 3.5,
+                "targetBackSpace": 3.5,
                 "cdUpperRange": 3.5,
                 "initialCD": 2.5,
                 "initialCDUpperRange": 2.5,
                 "publicCDGroup": "Oceanid_meleeAttack_long",
-                "skillGroupCDID": 0,
+                "skillGroupCDTime": 0,
                 "stateIDs": [
                     "Scratch1",
                     "Sweep1",
@@ -486,12 +500,12 @@
                     ],
                     "pickRangeMax": 7.0
                 },
-                "cd": 3.5,
+                "targetBackSpace": 3.5,
                 "cdUpperRange": 3.5,
                 "initialCD": 2.5,
                 "initialCDUpperRange": 2.5,
                 "publicCDGroup": "Oceanid_meleeAttack",
-                "skillGroupCDID": 1,
+                "skillGroupCDTime": 1,
                 "stateIDs": [
                     "Sweep2",
                     "Scratch2"
@@ -510,12 +524,12 @@
                     "pickRangeMin": 8.0,
                     "pickRangeMax": 20.0
                 },
-                "cd": 3.5,
+                "targetBackSpace": 3.5,
                 "cdUpperRange": 3.5,
                 "initialCD": 2.5,
                 "initialCDUpperRange": 2.5,
                 "publicCDGroup": "Oceanid_meleeAttack_long",
-                "skillGroupCDID": 1,
+                "skillGroupCDTime": 1,
                 "stateIDs": [
                     "Sweep2",
                     "Scratch2",
@@ -535,7 +549,7 @@
                         3
                     ]
                 },
-                "cd": 10.0,
+                "targetBackSpace": 10.0,
                 "cdUpperRange": 5.0,
                 "initialCD": 5.0,
                 "initialCDUpperRange": 5.0,
@@ -550,13 +564,13 @@
             },
             "4001": {
                 "name": "Personality_101",
-                "priority": 4,
+                "NJDDMHGDEMN": 4,
                 "castCondition": {
                     "pose": [
                         4
                     ]
                 },
-                "cd": 3.0,
+                "targetBackSpace": 3.0,
                 "cdUpperRange": 3.0,
                 "initialCD": 5.0,
                 "initialCDUpperRange": 5.0,
@@ -573,14 +587,14 @@
             },
             "4003": {
                 "name": "Scratch",
-                "priority": 1,
+                "NJDDMHGDEMN": 1,
                 "castCondition": {
                     "pose": [
                         4
                     ],
                     "pickRangeMax": 5.0
                 },
-                "cd": 1.0,
+                "targetBackSpace": 1.0,
                 "publicCDGroup": "",
                 "ignoreGCD": true,
                 "triggerGCD": false,
@@ -608,11 +622,11 @@
                 ]
             },
             "defaultSetting": {
-                "turnSpeedOverride": 1.2000000476837158,
-                "cdMax": 10.0,
-                "cdMin": 5.0,
+                "probeNumberMax": 1.2000000476837158,
+                "probeNumberMin": 10.0,
+                "terrainOffsetMax": 5.0,
                 "distanceFromBorn": 12.0,
-                "distanceFromCurrentMax": 4.0
+                "terrainOffsetMin": 4.0
             }
         },
         "meleeChargeTactic": {
@@ -623,11 +637,21 @@
                 ]
             },
             "defaultSetting": {
-                "speedLevel": 1,
+                "yHigh": 1,
                 "startDistanceMin": 7.5,
                 "startDistanceMax": 99.0,
-                "stopDistance": 5.0,
-                "innerDistance": 15.0
+                "turnSpeedOverrideOuter": 5.0,
+                "startAngle": 15.0
+            }
+        },
+        "PCBDBJILABC": {
+            "enable": true,
+            "defaultSetting": {
+                "extractionAngleMax": 4.0,
+                "fleeAngle": 75.0,
+                "fleeDistanceMin": 3.0,
+                "fleeDistanceMax": 5.0,
+                "NIKHPEJODPE": 0.5
             }
         }
     },
@@ -645,12 +669,12 @@
     ],
     "move": {
         "$type": "ConfigAnimatorMove",
-        "velocityForce": {
-            "includeForces": [
+        "LLNGHPMEALD": {
+            "HCLFFPJLKJN": [
                 "RushMoveType"
             ]
         },
-        "initWithGroundHitCheck": false,
-        "moveOnWater": true
+        "IKDCDJHKGGC": false,
+        "AOGDBDGDBPL": true
     }
 }

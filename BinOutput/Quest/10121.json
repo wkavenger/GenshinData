@@ -1,5 +1,6 @@
 {
     "id": 10121,
+    "ICLLDPJFIMA": 2019,
     "series": 2019,
     "type": "LQ",
     "titleTextMapHash": 468058135,
@@ -43,10 +44,11 @@
             "guide": {
                 "type": "QUEST_GUIDE_LOCATION",
                 "param": [
-                    "Q10121_YOULA"
+                    "Q10121_YOULA",
+                    "20"
                 ],
                 "guideScene": 3,
-                "guideStyle": "QUEST_GUIDE_STYLE_POINT"
+                "guideStyle": "QUEST_GUIDE_STYLE_TARGET"
             },
             "isRewind": true,
             "finishExec": [
@@ -69,6 +71,9 @@
             ],
             "exclusiveNpcList": [
                 1029
+            ],
+            "exclusivePlaceList": [
+                307
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -111,6 +116,9 @@
             "isRewind": true,
             "exclusiveNpcList": [
                 1029
+            ],
+            "exclusivePlaceList": [
+                307
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -155,6 +163,9 @@
                 1029,
                 10387
             ],
+            "exclusivePlaceList": [
+                307
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -197,6 +208,9 @@
             "exclusiveNpcList": [
                 1029,
                 10388
+            ],
+            "exclusivePlaceList": [
+                307
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -241,6 +255,9 @@
                 1029,
                 10388,
                 10389
+            ],
+            "exclusivePlaceList": [
+                307
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -551,13 +568,6 @@
                         "3",
                         "133105347"
                     ]
-                },
-                {
-                    "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
-                    "param": [
-                        "3",
-                        "133105347"
-                    ]
                 }
             ],
             "exclusiveNpcList": [
@@ -723,12 +733,22 @@
                         "3",
                         "133004464"
                     ]
+                },
+                {
+                    "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "133004012",
+                        "0"
+                    ]
                 }
             ],
             "exclusiveNpcList": [
                 1029,
                 1002,
                 1419
+            ],
+            "exclusivePlaceList": [
+                7267601
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -768,7 +788,6 @@
                 "guideScene": 3,
                 "guideStyle": "QUEST_GUIDE_STYLE_TARGET"
             },
-            "isRewind": true,
             "finishExec": [
                 {
                     "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
@@ -789,6 +808,9 @@
                 1002,
                 1029,
                 1419
+            ],
+            "exclusivePlaceList": [
+                7267601
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -1135,6 +1157,9 @@
             "exclusiveNpcList": [
                 1419
             ],
+            "exclusivePlaceList": [
+                7267601
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -1146,8 +1171,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012102",
                         "2"
                     ]
@@ -1170,8 +1195,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012103",
                         "2"
                     ]
@@ -1195,8 +1220,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012104",
                         "2"
                     ]
@@ -1220,8 +1245,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012105",
                         "2"
                     ]
@@ -1246,15 +1271,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012107",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+                    "_param": [
                         "10120",
                         "0"
                     ]
@@ -1278,8 +1303,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012109",
                         "2"
                     ]
@@ -1303,8 +1328,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012112",
                         "2"
                     ]
@@ -1328,8 +1353,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012114",
                         "2"
                     ]
@@ -1354,8 +1379,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012120",
                         "2"
                     ]
@@ -1379,15 +1404,15 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012105",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012106",
                         "2"
                     ]
@@ -1410,15 +1435,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012107",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+                    "_param": [
                         "10120",
                         "1"
                     ]
@@ -1442,22 +1467,22 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012115",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012116",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012117",
                         "2"
                     ]
@@ -1480,8 +1505,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1012106",
                         "2"
                     ]
@@ -1503,5 +1528,16 @@
     "preloadLuaList": [
         40205056658,
         645902683150
-    ]
+    ],
+    "freeStyleDic": {
+        "10387": [
+            1120
+        ],
+        "10388": [
+            1190
+        ],
+        "10389": [
+            1230
+        ]
+    }
 }

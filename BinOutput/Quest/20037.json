@@ -19,6 +19,8 @@
                     "param": [
                         21100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -61,6 +63,8 @@
                     "param": [
                         21100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -69,6 +73,8 @@
                     "param": [
                         2003701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -119,6 +125,8 @@
                     "param": [
                         21100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -127,6 +135,8 @@
                     "param": [
                         2003702,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -168,6 +178,8 @@
                     "param": [
                         21100,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -176,6 +188,8 @@
                     "param": [
                         2003703,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -223,8 +237,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003702",
                         "2"
                     ]
@@ -247,15 +261,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003702",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_NOT_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_NOT_EQUAL",
+                    "_param": [
                         "2003703",
                         "3"
                     ]
@@ -277,8 +291,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003703",
                         "2"
                     ]
@@ -300,15 +314,15 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003703",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_NOT_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_NOT_EQUAL",
+                    "_param": [
                         "2003706",
                         "3"
                     ]
@@ -330,8 +344,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003706",
                         "2"
                     ]

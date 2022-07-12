@@ -3,11 +3,11 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -20,6 +20,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -35,11 +36,11 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -52,6 +53,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -59,20 +61,22 @@
                 "abilityOverride": ""
             }
         ],
-        "uiInteract": {
-            "gadgetUIBtnCfgPath": "TEST/TEST_Chest_Btn",
-            "uiName": "",
-            "onTouch": "MultipleReward",
-            "openRewardId": 3
+        "MGCNBMNNNBE": {
+            "LKPLOBLLJJB": "TEST/TEST_Chest_Btn",
+            "HBECACNHDOE": "",
+            "BFDNCPJEJKL": "MultipleReward",
+            "icon": "",
+            "HDFNCMKCLKL": "",
+            "OBADKBGIGJM": 3
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "All": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "Born": [],
                             "Loop": [
                                 "CrucibleReword_TriggerAbility"
@@ -85,14 +89,14 @@
                 }
             }
         },
-        "gadgetAction": {
-            "gadgetStateActionList": [
+        "FDEMDNICDIL": {
+            "DEAIFFHKFMC": [
                 {
                     "$type": "ConfigGadgetStateEnableGadgetIntee"
                 },
                 {
                     "$type": "ConfigGadgetStateEnableGadgetIntee",
-                    "gadgetState": "GearStart",
+                    "GEJDBKMDGKF": "GearStart",
                     "enable": true
                 }
             ]
@@ -103,13 +107,13 @@
         "common": {
             "disableTickDistance": 3000.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -122,6 +126,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -132,42 +137,47 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR5",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 1.0,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "uiInteract": {
-            "gadgetUIBtnCfgPath": "UI/open_mp_crucible_page",
-            "uiName": "UI_ACTIVITY_CRUCIBLE_GAGDGET_BTN"
+        "MGCNBMNNNBE": {
+            "LKPLOBLLJJB": "UI/open_mp_crucible_page",
+            "HBECACNHDOE": "UI_ACTIVITY_CRUCIBLE_GAGDGET_BTN",
+            "icon": "",
+            "HDFNCMKCLKL": ""
         },
-        "gadgetAction": {
-            "gadgetStateActionList": [
+        "FDEMDNICDIL": {
+            "DEAIFFHKFMC": [
                 {
                     "$type": "ConfigGadgetStateSetAnimInt",
                     "intID": "gadgetState",
-                    "syncState": true
+                    "AMEMDHJKBOD": true
                 }
             ],
-            "interactActionList": [
+            "MDJCLMMDOJM": [
                 {
                     "$type": "ConfigGadgetStateEnableGadgetIntee",
-                    "predicate": {
+                    "KMHGLAPPBMB": {
                         "$type": "ConfigPredicateByInteract"
                     }
                 },
                 {
                     "$type": "ConfigGadgetStateEnableGadgetIntee",
-                    "predicate": {
+                    "KMHGLAPPBMB": {
                         "$type": "ConfigPredicateByInteract",
-                        "isEnableInteract": true
+                        "FBDGHJHJFNP": true
                     },
                     "enable": true
                 }
             ]
         },
-        "lowPriorityIntee": true
+        "JLNBDIJCCLG": true
     },
     "SceneObj_Gear_ElementForce_Bullet": {
         "$type": "ConfigGadget",
@@ -181,10 +191,10 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -200,11 +210,12 @@
             },
             "die": {
                 "hasAnimatorDie": true,
-                "dieEndTime": 1.0,
+                "HGGPMFGGBNC": 1.0,
                 "dieForceDisappearTime": 1.0,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -214,16 +225,16 @@
         ],
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 0.5,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 0.5,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             }
         }
     },
@@ -237,8 +248,8 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -252,6 +263,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -262,18 +274,21 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR5",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 1.0,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "gadgetAction": {
-            "gadgetStateActionList": [
+        "FDEMDNICDIL": {
+            "DEAIFFHKFMC": [
                 {
                     "$type": "ConfigGadgetStateSetAnimInt",
                     "intID": "gadgetState",
-                    "syncState": true
+                    "AMEMDHJKBOD": true
                 }
             ]
         }
@@ -285,10 +300,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -301,6 +316,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -308,20 +324,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Water"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Water_Big": {
@@ -331,10 +347,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -347,6 +363,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -354,20 +371,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Water_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Fire": {
@@ -377,10 +394,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -393,6 +410,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -400,20 +418,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Fire"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Fire_Big": {
@@ -423,10 +441,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -439,6 +457,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -446,20 +465,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Fire_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Electric": {
@@ -469,10 +488,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -485,6 +504,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -492,20 +512,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Electric"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Electric_Big": {
@@ -515,10 +535,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -531,6 +551,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -538,20 +559,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Electric_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Ice": {
@@ -561,10 +582,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -577,6 +598,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -584,20 +606,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Ice"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Ice_Big": {
@@ -607,10 +629,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -623,6 +645,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -630,20 +653,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Ice_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Grass": {
@@ -653,10 +676,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -669,6 +692,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -676,20 +700,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Grass"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Grass_Big": {
@@ -699,10 +723,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -715,6 +739,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -722,20 +747,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Grass_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Rocky": {
@@ -745,10 +770,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -761,6 +786,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -768,20 +794,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Rocky"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Rocky_Big": {
@@ -791,10 +817,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -807,6 +833,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -814,20 +841,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Rocky_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Wind": {
@@ -837,10 +864,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -853,6 +880,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -860,20 +888,20 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Wind"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Wind_Big": {
@@ -883,10 +911,10 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -899,6 +927,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -906,30 +935,30 @@
                 "abilityOverride": ""
             }
         ],
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigGadgetCollidedPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "targetType": "All"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "OJIFKEOCJGB": "All"
             },
-            "collisionActions": [
+            "EJODEIIDHIH": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Wind_Big"
                 }
             ],
-            "thisColliderName": "Collider",
-            "targetColliderName": "InteeTrigger"
+            "LAHCODPGOHB": "Collider",
+            "GAAJFJBDOPF": "InteeTrigger"
         }
     },
     "SceneObj_Gear_ElemForce_Fire_Hit": {
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -942,6 +971,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -959,11 +989,11 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "attack": 50.0,
                 "defense": 99999.0,
-                "weight": 1.0,
-                "canTriggerBullet": false
+                "w": 1.0,
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -977,6 +1007,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -984,24 +1015,24 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 8.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 8.0
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 5.0,
-            "anglerVelocity": 720.0,
-            "acceleration": 8.0,
-            "traceOnYAxis": true
+            "FMMJLOCHHLM": 5.0,
+            "FDJOMFDBDBF": 720.0,
+            "AAAEMJGEEJO": 8.0,
+            "MCNHEAILGPP": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerNoRepeat",
-                "targetType": "All",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerNoRepeat",
+                "OJIFKEOCJGB": "All",
+                "BJKEDLNCDHF": true
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "SceneObj_Gear_ElemForce_Rock_AbsorbBullet"
@@ -1013,10 +1044,10 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1029,6 +1060,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1039,21 +1071,24 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR2",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.5,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     },
     "SceneObj_Gear_ElemForce_RockSeed": {
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1066,6 +1101,7 @@
                 "overrideRange": 5.0
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1075,14 +1111,14 @@
         ],
         "billboard": {
             "$type": "ConfigCombatBillboard",
-            "attachPoint": "BillboardAttach",
+            "BDMAMLPPCMN": "BillboardAttach",
             "offset": {
-                "y": 2.0
+                "_y": 2.0
             },
-            "radiusOffset": 1.0,
-            "showHPBar": true,
+            "GNMDLCFGJHA": 1.0,
+            "MIBFGCAAAFK": true,
             "size": "Grand",
-            "shieldBarOnly": true
+            "NDDDDLMMEAK": true
         }
     },
     "SceneObj_Gear_RockForce_Bullet": {
@@ -1096,10 +1132,10 @@
         },
         "combat": {
             "property": {
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -1115,11 +1151,12 @@
             },
             "die": {
                 "hasAnimatorDie": true,
-                "dieEndTime": 1.0,
+                "HGGPMFGGBNC": 1.0,
                 "dieForceDisappearTime": 1.0,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1129,16 +1166,16 @@
         ],
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 0.5,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 0.5,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             }
         }
     },
@@ -1150,15 +1187,15 @@
             },
             "mass": 50.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1171,6 +1208,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1180,18 +1218,18 @@
         ],
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 3.0,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 3.0,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             },
-            "maxAutoKillDist": 180.0
+            "OJGNLNGJPHI": 180.0
         }
     },
     "SceneObj_Gear_GrassWind": {
@@ -1201,9 +1239,9 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1219,11 +1257,12 @@
             },
             "die": {
                 "hasAnimatorDie": true,
-                "dieEndTime": 0.5,
+                "HGGPMFGGBNC": 0.5,
                 "dieForceDisappearTime": 0.5,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1234,24 +1273,27 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.5,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "misc": {
-            "windSeed": {},
-            "escapeEffect": ""
+        "HGHKEEEMHLO": {
+            "IEAPEBMKBED": {},
+            "DOIGJLEMNMA": ""
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "All": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "Buffer": [
                                 "HideCollider"
                             ],
@@ -1274,9 +1316,9 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1292,11 +1334,12 @@
             },
             "die": {
                 "hasAnimatorDie": true,
-                "dieEndTime": 0.5,
+                "HGGPMFGGBNC": 0.5,
                 "dieForceDisappearTime": 0.5,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1307,20 +1350,23 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.5,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "All": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "Buffer": [
                                 "HideCollider"
                             ],
@@ -1347,11 +1393,10 @@
         },
         "combat": {
             "property": {
-                "useCreatorProperty": true,
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -1366,11 +1411,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 1.0,
+                "HGGPMFGGBNC": 1.0,
                 "dieForceDisappearTime": 1.0,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1380,16 +1426,16 @@
         ],
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 0.5,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 0.5,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             }
         }
     },
@@ -1403,10 +1449,10 @@
         },
         "combat": {
             "property": {
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -1420,11 +1466,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 1.0,
+                "HGGPMFGGBNC": 1.0,
                 "dieForceDisappearTime": 1.0,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1432,21 +1479,21 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 0.5,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 0.5,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             }
         }
     },
@@ -1460,10 +1507,10 @@
         },
         "combat": {
             "property": {
-                "HP": 500.0,
+                "CMBBAPKBDCI": 500.0,
                 "attack": 10.0,
                 "defense": 500.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -1477,11 +1524,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 1.0,
+                "HGGPMFGGBNC": 1.0,
                 "dieForceDisappearTime": 1.0,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -1489,21 +1537,21 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "RootNode",
-            "followRotation": true
+            "BDMAMLPPCMN": "RootNode",
+            "DEMMFGLNINM": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 0.5,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 0.5,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             }
         }
     },
@@ -1511,10 +1559,10 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1527,6 +1575,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "SceneObj_Level_Common_Property_Prop_Guiguo_01",
@@ -1537,21 +1586,24 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR2",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.5,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     },
     "SceneObj_Level_Common_Property_Prop_Guiguo_Revert": {
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -1564,6 +1616,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "SceneObj_Level_Common_Property_Prop_Guiguo_Revert",
@@ -1582,8 +1635,8 @@
         },
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "weight": 50.0,
+                "CMBBAPKBDCI": 99999.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -1597,6 +1650,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "SceneObj_Level_Common_Property_Prop_GuihuoJizuo_01",
@@ -1607,18 +1661,21 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR5",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 1.0,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "gadgetAction": {
-            "gadgetStateActionList": [
+        "FDEMDNICDIL": {
+            "DEAIFFHKFMC": [
                 {
                     "$type": "ConfigGadgetStateSetAnimInt",
                     "intID": "gadgetState",
-                    "syncState": true
+                    "AMEMDHJKBOD": true
                 }
             ]
         }

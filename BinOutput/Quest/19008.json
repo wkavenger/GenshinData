@@ -1,5 +1,6 @@
 {
     "id": 19008,
+    "ICLLDPJFIMA": 3001,
     "series": 101401,
     "type": "LQ",
     "titleTextMapHash": 1345090431,
@@ -246,8 +247,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1900801",
                         "2"
                     ]

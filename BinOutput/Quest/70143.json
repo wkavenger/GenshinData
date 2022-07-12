@@ -65,6 +65,16 @@
                         0,
                         0
                     ]
+                },
+                {
+                    "type": "QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER",
+                    "param": [
+                        22,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
                 }
             ],
             "finishCond": [
@@ -101,8 +111,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7014301",
                         "2"
                     ]
@@ -125,8 +135,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7014302",
                         "2"
                     ]

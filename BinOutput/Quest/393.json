@@ -1,5 +1,6 @@
 {
     "id": 393,
+    "ICLLDPJFIMA": 1003,
     "series": 1003,
     "titleTextMapHash": 1520658585,
     "descTextMapHash": 3601198255,
@@ -23,6 +24,8 @@
                     "param": [
                         39008,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -66,6 +69,8 @@
                     "param": [
                         39301,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -110,6 +115,8 @@
                     "param": [
                         39302,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -141,8 +148,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "39303",
                         "2"
                     ]

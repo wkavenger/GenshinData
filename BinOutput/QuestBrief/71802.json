@@ -127,6 +127,9 @@
                     ]
                 }
             ],
+            "exclusivePlaceList": [
+                308
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""

@@ -19,6 +19,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -42,6 +44,16 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_UI"
             },
             "isRewind": true,
+            "finishExec": [
+                {
+                    "type": "QUEST_EXEC_RANDOM_QUEST_VAR",
+                    "param": [
+                        "0",
+                        "1",
+                        "6"
+                    ]
+                }
+            ],
             "exclusiveNpcList": [
                 2001,
                 200101
@@ -61,6 +73,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -69,6 +83,8 @@
                     "param": [
                         0,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -136,6 +152,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -144,6 +162,8 @@
                     "param": [
                         0,
                         2,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -211,6 +231,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -219,6 +241,8 @@
                     "param": [
                         0,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -286,6 +310,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -294,6 +320,8 @@
                     "param": [
                         0,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -361,6 +389,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -369,6 +399,8 @@
                     "param": [
                         0,
                         5,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -437,6 +469,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -445,6 +479,8 @@
                     "param": [
                         2210701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -480,6 +516,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -488,6 +526,8 @@
                     "param": [
                         2210701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -522,6 +562,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -530,6 +572,8 @@
                     "param": [
                         2210708,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -573,6 +617,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -581,6 +627,8 @@
                     "param": [
                         0,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -643,6 +691,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -651,6 +701,8 @@
                     "param": [
                         1,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -703,6 +755,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -711,6 +765,8 @@
                     "param": [
                         2,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -773,6 +829,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -781,6 +839,8 @@
                     "param": [
                         3,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -843,6 +903,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -851,6 +913,8 @@
                     "param": [
                         4,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -912,6 +976,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -920,6 +986,8 @@
                     "param": [
                         2210709,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -972,6 +1040,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -980,6 +1050,8 @@
                     "param": [
                         2210710,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1032,6 +1104,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1040,6 +1114,8 @@
                     "param": [
                         2210712,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1092,6 +1168,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1100,6 +1178,8 @@
                     "param": [
                         2210713,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1152,6 +1232,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1160,6 +1242,8 @@
                     "param": [
                         2210714,
                         4,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1212,6 +1296,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1220,6 +1306,8 @@
                     "param": [
                         2210701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1255,6 +1343,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1263,6 +1353,8 @@
                     "param": [
                         2210709,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1299,6 +1391,8 @@
                     "param": [
                         25200,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -1307,6 +1401,8 @@
                     "param": [
                         2210721,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -1354,8 +1450,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210701",
                         "2"
                     ]
@@ -1378,15 +1474,15 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210709",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210715",
                         "2"
                     ]
@@ -1418,8 +1514,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210710",
                         "2"
                     ]
@@ -1443,8 +1539,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210711",
                         "2"
                     ]
@@ -1468,8 +1564,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210712",
                         "2"
                     ]
@@ -1493,8 +1589,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210713",
                         "2"
                     ]
@@ -1518,8 +1614,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210714",
                         "2"
                     ]
@@ -1543,8 +1639,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210715",
                         "3"
                     ]
@@ -1565,8 +1661,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210716",
                         "2"
                     ]
@@ -1590,8 +1686,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210717",
                         "2"
                     ]
@@ -1615,8 +1711,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210718",
                         "2"
                     ]
@@ -1640,8 +1736,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210719",
                         "2"
                     ]
@@ -1666,8 +1762,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210708",
                         "2"
                     ]
@@ -1689,8 +1785,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2210722",
                         "2"
                     ]

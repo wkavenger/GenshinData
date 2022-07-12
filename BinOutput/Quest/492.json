@@ -1,5 +1,6 @@
 {
     "id": 492,
+    "ICLLDPJFIMA": 2006,
     "series": 2006,
     "type": "LQ",
     "titleTextMapHash": 797114329,
@@ -19,6 +20,8 @@
                     "param": [
                         48602,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }

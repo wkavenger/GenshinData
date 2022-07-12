@@ -1,7 +1,9 @@
 {
     "id": 11114,
+    "ICLLDPJFIMA": 2018,
     "series": 11110,
     "type": "LQ",
+    "activeMode": "PLAY_MODE_ALL",
     "titleTextMapHash": 3045015799,
     "luaPath": "Actor/Quest/LQ11114",
     "showType": "QUEST_HIDDEN",
@@ -47,8 +49,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1111307",
                         "3"
                     ]

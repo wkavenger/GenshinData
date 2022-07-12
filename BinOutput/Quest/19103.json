@@ -1,5 +1,6 @@
 {
     "id": 19103,
+    "ICLLDPJFIMA": 3006,
     "series": 103901,
     "type": "LQ",
     "titleTextMapHash": 785144455,
@@ -275,10 +276,11 @@
                 }
             ],
             "guide": {
-                "type": "QUEST_GUIDE_LOCATION",
+                "type": "QUEST_GUIDE_NPC",
                 "autoGuide": "QUEST_GUIDE_AUTO_ENABLE",
                 "param": [
-                    "COOP103901Diona09"
+                    "502",
+                    "SELECT_NPC_NONE"
                 ],
                 "guideScene": 3,
                 "guideStyle": "QUEST_GUIDE_STYLE_POINT",
@@ -358,8 +360,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1910305",
                         "2"
                     ]

@@ -1,5 +1,6 @@
 {
     "id": 19105,
+    "ICLLDPJFIMA": 3006,
     "series": 103901,
     "type": "LQ",
     "titleTextMapHash": 1594882159,
@@ -60,6 +61,13 @@
                         "3",
                         "133001008"
                     ]
+                },
+                {
+                    "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "3",
+                        "133001005"
+                    ]
                 }
             ],
             "exclusiveNpcList": [
@@ -116,6 +124,12 @@
                     "param": [
                         "133001008"
                     ]
+                },
+                {
+                    "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "133001005"
+                    ]
                 }
             ],
             "beginExec": [
@@ -144,8 +158,8 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1910501",
                         "2"
                     ]

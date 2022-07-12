@@ -1,5 +1,6 @@
 {
     "id": 383,
+    "ICLLDPJFIMA": 1002,
     "series": 1002,
     "titleTextMapHash": 3395488209,
     "descTextMapHash": 4282875479,
@@ -25,6 +26,8 @@
                     "param": [
                         38004,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -33,6 +36,8 @@
                     "param": [
                         38105,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -41,6 +46,8 @@
                     "param": [
                         38202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -82,6 +89,8 @@
                     "param": [
                         38301,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -126,6 +135,8 @@
                     "param": [
                         38302,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -185,6 +196,8 @@
                     "param": [
                         38303,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -226,15 +239,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "38301",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "38302",
                         "2"
                     ]
@@ -273,15 +286,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "38303",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "38304",
                         "2"
                     ]

@@ -121,6 +121,10 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "isRewind": true,
+            "exclusiveNpcList": [
+                1669
+            ],
+            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -349,6 +353,10 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "finishParent": true,
+            "exclusiveNpcList": [
+                1669
+            ],
+            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -428,8 +436,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7012102",
                         "2"
                     ]
@@ -445,54 +453,6 @@
             "assetIndex": 164147730173,
             "prePerformCfg": "",
             "lockGameTime": true
-        },
-        {
-            "id": 7012102,
-            "beginWay": "TALK_BEGIN_MANUAL",
-            "activeMode": "PLAY_MODE_ALL",
-            "beginCond": [
-                {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
-                        "7012103",
-                        "2"
-                    ]
-                }
-            ],
-            "initDialog": 701210201,
-            "npcId": [
-                1669
-            ],
-            "performCfg": "",
-            "heroTalk": "TALK_HERO_MAIN",
-            "questId": 70121,
-            "assetIndex": 245490855249,
-            "dontBlockDaily": true,
-            "prePerformCfg": ""
-        },
-        {
-            "id": 7012103,
-            "beginWay": "TALK_BEGIN_MANUAL",
-            "activeMode": "PLAY_MODE_ALL",
-            "beginCond": [
-                {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
-                        "7012107",
-                        "2"
-                    ]
-                }
-            ],
-            "initDialog": 701210301,
-            "npcId": [
-                1669
-            ],
-            "performCfg": "",
-            "heroTalk": "TALK_HERO_MAIN",
-            "questId": 70121,
-            "assetIndex": 339655643261,
-            "dontBlockDaily": true,
-            "prePerformCfg": ""
         }
     ],
     "preloadLuaList": [

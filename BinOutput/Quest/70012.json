@@ -256,8 +256,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001201",
                         "2"
                     ]
@@ -282,15 +282,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001202",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "7002102"
                     ]
                 }
@@ -313,8 +313,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001203",
                         "2"
                     ]
@@ -339,8 +339,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001204",
                         "2"
                     ]
@@ -360,5 +360,10 @@
     ],
     "preloadLuaList": [
         645902683150
-    ]
+    ],
+    "freeStyleDic": {
+        "11007": [
+            11
+        ]
+    }
 }

@@ -226,6 +226,9 @@
                 2147,
                 2063
             ],
+            "exclusivePlaceList": [
+                1100902
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -283,6 +286,9 @@
                 2142,
                 2143,
                 2063
+            ],
+            "exclusivePlaceList": [
+                1100902
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",

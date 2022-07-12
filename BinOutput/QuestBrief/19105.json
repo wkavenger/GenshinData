@@ -58,6 +58,13 @@
                         "3",
                         "133001008"
                     ]
+                },
+                {
+                    "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "3",
+                        "133001005"
+                    ]
                 }
             ],
             "exclusiveNpcList": [
@@ -113,6 +120,12 @@
                     "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
                     "param": [
                         "133001008"
+                    ]
+                },
+                {
+                    "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "133001005"
                     ]
                 }
             ],

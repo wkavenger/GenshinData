@@ -1,5 +1,6 @@
 {
     "id": 11100,
+    "ICLLDPJFIMA": 2011,
     "series": 2011,
     "type": "LQ",
     "titleTextMapHash": 3029738889,
@@ -26,6 +27,8 @@
                     "param": [
                         1110009,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -59,6 +62,8 @@
                     "param": [
                         1110001,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -77,12 +82,14 @@
                 {
                     "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
                     "param": [
-                        1110002
+                        1110002,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_TEAM_DEAD",
                     "param": [
+                        0,
                         0
                     ]
                 }
@@ -140,6 +147,8 @@
                     "param": [
                         1110002,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -170,6 +179,8 @@
                     "param": [
                         1110010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -220,6 +231,8 @@
                     "param": [
                         1110010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -270,6 +283,8 @@
                     "param": [
                         1110010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -320,6 +335,8 @@
                     "param": [
                         1110010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -366,6 +383,8 @@
                     "param": [
                         1110011,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -408,6 +427,8 @@
                     "param": [
                         10004,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -415,6 +436,8 @@
                     "type": "QUEST_COND_PERSONAL_LINE_UNLOCK",
                     "param": [
                         10,
+                        0,
+                        0,
                         0,
                         0
                     ]
@@ -462,6 +485,8 @@
                     "param": [
                         1110003,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -504,6 +529,8 @@
                     "param": [
                         1110010,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -537,8 +564,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110001",
                         "2"
                     ]
@@ -560,8 +587,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110003",
                         "2"
                     ]
@@ -583,8 +610,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110004",
                         "2"
                     ]
@@ -606,8 +633,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110005",
                         "2"
                     ]
@@ -629,8 +656,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110006",
                         "2"
                     ]
@@ -652,8 +679,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110008",
                         "2"
                     ]
@@ -675,8 +702,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110010",
                         "2"
                     ]
@@ -698,8 +725,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110007",
                         "2"
                     ]
@@ -724,5 +751,56 @@
     ],
     "forcePreloadLuaList": [
         653736649836
-    ]
+    ],
+    "freeStyleDic": {
+        "1005": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10202": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10217": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10218": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10219": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10222": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ],
+        "10223": [
+            3,
+            4,
+            1270,
+            1300,
+            4000
+        ]
+    }
 }

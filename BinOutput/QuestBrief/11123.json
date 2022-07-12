@@ -341,7 +341,6 @@
                     ]
                 }
             ],
-            "exclusiveNpcPriority": 1100,
             "trialAvatarList": [
                 26
             ],
@@ -419,7 +418,6 @@
                     ]
                 }
             ],
-            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -492,7 +490,8 @@
                 10384,
                 10385,
                 10377,
-                10382
+                10382,
+                10425
             ],
             "exclusivePlaceList": [
                 310301
@@ -519,6 +518,7 @@
                     ]
                 }
             ],
+            "finishCondComb": "LOGIC_OR",
             "finishCond": [
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
@@ -688,7 +688,6 @@
                     ]
                 }
             ],
-            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -783,10 +782,6 @@
             "exclusiveNpcList": [
                 10232
             ],
-            "exclusivePlaceList": [
-                310301
-            ],
-            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         }

@@ -1,5 +1,6 @@
 {
     "id": 11102,
+    "ICLLDPJFIMA": 2011,
     "series": 2011,
     "type": "LQ",
     "titleTextMapHash": 2780964201,
@@ -24,6 +25,8 @@
                     "param": [
                         1110107,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -81,6 +84,8 @@
                     "param": [
                         1110201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -130,6 +135,8 @@
                     "param": [
                         1110202,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -189,6 +196,8 @@
                     "param": [
                         1110203,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -207,13 +216,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1102
+                        1102,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -282,6 +293,8 @@
                     "param": [
                         1110206,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -300,13 +313,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1102
+                        1102,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -376,6 +391,8 @@
                     "param": [
                         1110207,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -395,13 +412,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1102
+                        1102,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -454,6 +473,8 @@
                     "param": [
                         1110204,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -473,13 +494,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1102
+                        1102,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -518,8 +541,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110202",
                         "2"
                     ]
@@ -541,8 +564,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110204",
                         "2"
                     ]
@@ -564,8 +587,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110205",
                         "2"
                     ]
@@ -587,8 +610,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110201",
                         "2"
                     ]
@@ -610,8 +633,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110201",
                         "2"
                     ]
@@ -633,8 +656,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110201",
                         "2"
                     ]
@@ -656,8 +679,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110201",
                         "2"
                     ]
@@ -679,8 +702,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1110203",
                         "2"
                     ]

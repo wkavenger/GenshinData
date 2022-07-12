@@ -1,5 +1,6 @@
 {
     "id": 11024,
+    "ICLLDPJFIMA": 2014,
     "series": 2014,
     "type": "LQ",
     "titleTextMapHash": 2976371791,
@@ -97,8 +98,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1102401",
                         "2"
                     ]
@@ -114,5 +115,10 @@
             "assetIndex": 447004198078,
             "prePerformCfg": ""
         }
-    ]
+    ],
+    "freeStyleDic": {
+        "10232": [
+            1120
+        ]
+    }
 }

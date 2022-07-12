@@ -1,5 +1,6 @@
 {
     "id": 41114,
+    "ICLLDPJFIMA": 4001,
     "series": 10009,
     "type": "EQ",
     "titleTextMapHash": 3813438551,
@@ -882,8 +883,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111401",
                         "2"
                     ]
@@ -906,8 +907,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111407",
                         "2"
                     ]
@@ -929,8 +930,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111414",
                         "2"
                     ]
@@ -952,8 +953,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111409",
                         "2"
                     ]
@@ -975,8 +976,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111411",
                         "2"
                     ]
@@ -998,8 +999,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111405",
                         "2"
                     ]
@@ -1021,8 +1022,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111415",
                         "2"
                     ]
@@ -1044,8 +1045,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4111416",
                         "2"
                     ]
@@ -1070,5 +1071,16 @@
     ],
     "forcePreloadLuaList": [
         991729215544
-    ]
+    ],
+    "freeStyleDic": {
+        "10095": [
+            1170
+        ],
+        "10011": [
+            1130
+        ],
+        "10013": [
+            1120
+        ]
+    }
 }

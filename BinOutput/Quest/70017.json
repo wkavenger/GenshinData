@@ -225,8 +225,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001701",
                         "2"
                     ]
@@ -251,8 +251,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001704",
                         "2"
                     ]
@@ -276,8 +276,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7001703",
                         "2"
                     ]
@@ -301,5 +301,10 @@
     ],
     "forcePreloadLuaList": [
         598957144509
-    ]
+    ],
+    "freeStyleDic": {
+        "11007": [
+            11
+        ]
+    }
 }

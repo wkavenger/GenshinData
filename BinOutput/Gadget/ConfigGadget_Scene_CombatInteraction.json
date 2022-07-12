@@ -1,14 +1,14 @@
 {
     "SceneObj_CombatInteraction_PumpkinBomb": {
         "$type": "ConfigGadget",
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "attack": 35.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true,
-                "canTriggerBullet": false
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -20,11 +20,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.10000000149011612,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "PumpkinBomb_Interact",
@@ -35,11 +36,14 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR0_5",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.75,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     },
     "SceneObj_CombatInteraction_BombBox": {
@@ -47,12 +51,12 @@
         "common": {
             "mass": 200.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0
+                "w": 80.0
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -63,11 +67,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "BOMB_BOX",
@@ -75,9 +80,9 @@
                 "abilityOverride": ""
             }
         ],
-        "misc": {
-            "escapeEffect": "",
-            "targetIndicatorYOffset": 1.4500000476837158
+        "HGHKEEEMHLO": {
+            "DOIGJLEMNMA": "",
+            "MCOFDPPMBOP": 1.4500000476837158
         }
     },
     "SceneObj_CombatInteraction_BombBox_WithEye": {
@@ -85,12 +90,12 @@
         "common": {
             "mass": 200.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0
+                "w": 80.0
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -101,11 +106,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "BOMB_BOX",
@@ -113,9 +119,9 @@
                 "abilityOverride": ""
             }
         ],
-        "misc": {
-            "escapeEffect": "",
-            "targetIndicatorYOffset": 1.4500000476837158
+        "HGHKEEEMHLO": {
+            "DOIGJLEMNMA": "",
+            "MCOFDPPMBOP": 1.4500000476837158
         },
         "face": {
             "characterName": "Slime_01",
@@ -130,12 +136,12 @@
         "common": {
             "mass": 200.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0
+                "w": 80.0
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -146,11 +152,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "BOMB_BOX",
@@ -164,12 +171,12 @@
         "common": {
             "mass": 200.0
         },
-        "hasModel": true,
+        "MNDEFJBNOGI": true,
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0
+                "w": 80.0
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -180,11 +187,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "BOMB_BOX",
@@ -194,24 +202,27 @@
         ],
         "field": {
             "shape": "CircleR2",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.75,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "misc": {
-            "escapeEffect": "",
-            "targetIndicatorYOffset": 1.4500000476837158
+        "HGHKEEEMHLO": {
+            "DOIGJLEMNMA": "",
+            "MCOFDPPMBOP": 1.4500000476837158
         }
     },
     "SceneObj_CombatInteraction_ElementSmoke": {
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0,
+                "w": 80.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -225,11 +236,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ElementSmoke",
@@ -242,9 +254,9 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 8000.0,
+                "CMBBAPKBDCI": 8000.0,
                 "attack": 80.0,
-                "weight": 80.0,
+                "w": 80.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -258,11 +270,12 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.20000000298023224,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "SceneObj_Area_Common_Property_Prop_ElementSmokeFormal_01",
@@ -271,16 +284,14 @@
             }
         ]
     },
-    "SceneObj_CombatInteraction_ElectricFlora": {
+    "SceneObj_Area_Dq_Property_Prop_ElectricMist_01": {
         "$type": "ConfigGadget",
-        "hasModel": true,
         "combat": {
             "property": {
-                "HP": 99999.0,
-                "attack": 35.0,
-                "weight": 50.0,
-                "isLockHP": true,
-                "canTriggerBullet": false
+                "CMBBAPKBDCI": 8000.0,
+                "attack": 80.0,
+                "w": 80.0,
+                "isLockHP": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -293,11 +304,48 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.10000000149011612,
+                "HGGPMFGGBNC": 0.10000000149011612,
+                "dieForceDisappearTime": 0.20000000298023224,
+                "dieDisappearEffect": ""
+            }
+        },
+        "attackAttenuation": "",
+        "abilities": [
+            {
+                "abilityID": "SceneObj_Area_Dq_Property_Prop_ElectricMist_01",
+                "abilityName": "SceneObj_Area_Dq_Property_Prop_ElectricMist_01",
+                "abilityOverride": ""
+            }
+        ]
+    },
+    "SceneObj_CombatInteraction_ElectricFlora": {
+        "$type": "ConfigGadget",
+        "MNDEFJBNOGI": true,
+        "combat": {
+            "property": {
+                "CMBBAPKBDCI": 99999.0,
+                "attack": 35.0,
+                "w": 50.0,
+                "isLockHP": true,
+                "ignorePurgeRate": false
+            },
+            "beHit": {
+                "hitBloodEffect": "",
+                "hitAutoRedirect": false,
+                "muteAllHitText": true
+            },
+            "combatLock": {
+                "lockShape": "CircleLockEnemy",
+                "denyLockOn": true,
+                "lockType": "Gadget_Lv1"
+            },
+            "die": {
+                "HGGPMFGGBNC": 0.10000000149011612,
                 "dieForceDisappearTime": 0.10000000149011612,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "SceneObj_CombatInteraction_ElectricFlora",
@@ -308,11 +356,14 @@
         "field": {
             "concernType": "AllAvatars",
             "shape": "CircleR1",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.75,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     }
 }

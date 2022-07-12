@@ -359,6 +359,12 @@
                     "param": [
                         "29100"
                     ]
+                },
+                {
+                    "type": "QUEST_EXEC_DEL_ALL_SPECIFIC_PACK_ITEM",
+                    "param": [
+                        "101909"
+                    ]
                 }
             ],
             "beginExec": [
@@ -562,8 +568,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007301",
                         "2"
                     ]
@@ -579,7 +585,10 @@
             "questId": 20073,
             "assetIndex": 230413968256,
             "prePerformCfg": "",
-            "lockGameTime": true
+            "lockGameTime": true,
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 2007302,
@@ -588,8 +597,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007306",
                         "2"
                     ]
@@ -605,7 +614,10 @@
             "questId": 20073,
             "assetIndex": 540346291709,
             "prePerformCfg": "",
-            "lockGameTime": true
+            "lockGameTime": true,
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 2007303,
@@ -614,15 +626,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007302",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "2007301"
                     ]
                 }
@@ -645,15 +657,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007304",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "2007302"
                     ]
                 }
@@ -676,21 +688,21 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007303",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "2007303"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007307",
                         "3"
                     ]
@@ -714,29 +726,29 @@
             "beginCondComb": "LOGIC_A_AND_ETCOR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007302",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007304",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007306",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007303",
                         "2"
                     ]
@@ -760,22 +772,22 @@
             "beginCondComb": "LOGIC_A_AND_ETCOR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007304",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007303",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007306",
                         "2"
                     ]
@@ -798,8 +810,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007306",
                         "2"
                     ]
@@ -823,22 +835,22 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007302",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007304",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2007303",
                         "2"
                     ]

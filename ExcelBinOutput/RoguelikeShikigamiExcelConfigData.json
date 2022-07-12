@@ -1,713 +1,713 @@
 [
     {
-        "PJEKPGKOJNA": 1,
-        "GroupId": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 1,
+        "groupId": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 3742363821,
-        "PKFGFMJGMPB": 4099927267
+        "LDCOCPENOIA": 3742363821,
+        "NANBOOPMOEG": 4099927267
     },
     {
-        "PJEKPGKOJNA": 2,
-        "GroupId": 1,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 2,
+        "groupId": 1,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 100,
-        "LKKFNMPFBEH": 2714754429,
-        "PKFGFMJGMPB": 2427307627
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 100,
+        "LDCOCPENOIA": 2714754429,
+        "NANBOOPMOEG": 2427307627
     },
     {
-        "PJEKPGKOJNA": 3,
-        "GroupId": 1,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 3,
+        "groupId": 1,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 150,
-        "LKKFNMPFBEH": 1534336845,
-        "PKFGFMJGMPB": 4268888419
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 150,
+        "LDCOCPENOIA": 1534336845,
+        "NANBOOPMOEG": 4268888419
     },
     {
-        "PJEKPGKOJNA": 4,
-        "GroupId": 1,
-        "Level": 3,
-        "UnlockCond": [
+        "PJONFFMKBNF": 4,
+        "groupId": 1,
+        "level": 3,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 200,
-        "LKKFNMPFBEH": 762875669,
-        "PKFGFMJGMPB": 1896775763
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 200,
+        "LDCOCPENOIA": 762875669,
+        "NANBOOPMOEG": 1896775763
     },
     {
-        "PJEKPGKOJNA": 5,
-        "GroupId": 1,
-        "Level": 4,
-        "UnlockCond": [
+        "PJONFFMKBNF": 5,
+        "groupId": 1,
+        "level": 4,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 250,
-        "LKKFNMPFBEH": 2385855581,
-        "PKFGFMJGMPB": 2453661859
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 250,
+        "LDCOCPENOIA": 2385855581,
+        "NANBOOPMOEG": 2453661859
     },
     {
-        "PJEKPGKOJNA": 6,
-        "GroupId": 1,
-        "Level": 5,
-        "UnlockCond": [
+        "PJONFFMKBNF": 6,
+        "groupId": 1,
+        "level": 5,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 1436649173,
-        "PKFGFMJGMPB": 3932010235
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 1436649173,
+        "NANBOOPMOEG": 3932010235
     },
     {
-        "PJEKPGKOJNA": 7,
-        "GroupId": 1,
-        "Level": 6,
-        "UnlockCond": [
+        "PJONFFMKBNF": 7,
+        "groupId": 1,
+        "level": 6,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 350,
-        "LKKFNMPFBEH": 966127805,
-        "PKFGFMJGMPB": 3730221195
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 350,
+        "LDCOCPENOIA": 966127805,
+        "NANBOOPMOEG": 3730221195
     },
     {
-        "PJEKPGKOJNA": 8,
-        "GroupId": 1,
-        "Level": 7,
-        "UnlockCond": [
+        "PJONFFMKBNF": 8,
+        "groupId": 1,
+        "level": 7,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "1"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 400,
-        "LKKFNMPFBEH": 3253451269,
-        "PKFGFMJGMPB": 1256426971
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 400,
+        "LDCOCPENOIA": 3253451269,
+        "NANBOOPMOEG": 1256426971
     },
     {
-        "PJEKPGKOJNA": 9,
-        "GroupId": 1,
-        "Level": 8,
-        "UnlockCond": [
+        "PJONFFMKBNF": 9,
+        "groupId": 1,
+        "level": 8,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "1"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 450,
-        "LKKFNMPFBEH": 709615757,
-        "PKFGFMJGMPB": 2673210539
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 450,
+        "LDCOCPENOIA": 709615757,
+        "NANBOOPMOEG": 2673210539
     },
     {
-        "PJEKPGKOJNA": 10,
-        "GroupId": 1,
-        "Level": 9,
-        "UnlockCond": [
+        "PJONFFMKBNF": 10,
+        "groupId": 1,
+        "level": 9,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "2"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "2"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 500,
-        "LKKFNMPFBEH": 4110015541,
-        "PKFGFMJGMPB": 2538315483
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 500,
+        "LDCOCPENOIA": 4110015541,
+        "NANBOOPMOEG": 2538315483
     },
     {
-        "PJEKPGKOJNA": 11,
-        "GroupId": 1,
-        "Level": 10,
-        "UnlockCond": [
+        "PJONFFMKBNF": 11,
+        "groupId": 1,
+        "level": 10,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "2"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "2"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 550,
-        "LKKFNMPFBEH": 3540037429,
-        "PKFGFMJGMPB": 2500766443
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 550,
+        "LDCOCPENOIA": 3540037429,
+        "NANBOOPMOEG": 2500766443
     },
     {
-        "PJEKPGKOJNA": 12,
-        "GroupId": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 12,
+        "groupId": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2203345765,
-        "PKFGFMJGMPB": 4056876451
+        "LDCOCPENOIA": 2203345765,
+        "NANBOOPMOEG": 4056876451
     },
     {
-        "PJEKPGKOJNA": 13,
-        "GroupId": 2,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 13,
+        "groupId": 2,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 3464635597,
-        "PKFGFMJGMPB": 613663603
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 3464635597,
+        "NANBOOPMOEG": 613663603
     },
     {
-        "PJEKPGKOJNA": 14,
-        "GroupId": 2,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 14,
+        "groupId": 2,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 878017501,
-        "PKFGFMJGMPB": 3654159643
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 878017501,
+        "NANBOOPMOEG": 3654159643
     },
     {
-        "PJEKPGKOJNA": 15,
-        "GroupId": 3,
-        "UnlockCond": [
+        "PJONFFMKBNF": 15,
+        "groupId": 3,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 160855093,
-        "PKFGFMJGMPB": 981143211
+        "LDCOCPENOIA": 160855093,
+        "NANBOOPMOEG": 981143211
     },
     {
-        "PJEKPGKOJNA": 16,
-        "GroupId": 3,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 16,
+        "groupId": 3,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 1571050317,
-        "PKFGFMJGMPB": 1264705619
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 1571050317,
+        "NANBOOPMOEG": 1264705619
     },
     {
-        "PJEKPGKOJNA": 17,
-        "GroupId": 3,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 17,
+        "groupId": 3,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 1005895141,
-        "PKFGFMJGMPB": 3008728907
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 1005895141,
+        "NANBOOPMOEG": 3008728907
     },
     {
-        "PJEKPGKOJNA": 18,
-        "GroupId": 3,
-        "Level": 3,
-        "UnlockCond": [
+        "PJONFFMKBNF": 18,
+        "groupId": 3,
+        "level": 3,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 2403784789,
-        "PKFGFMJGMPB": 3697885059
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 2403784789,
+        "NANBOOPMOEG": 3697885059
     },
     {
-        "PJEKPGKOJNA": 19,
-        "GroupId": 4,
-        "UnlockCond": [
+        "PJONFFMKBNF": 19,
+        "groupId": 4,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 3107454413,
-        "PKFGFMJGMPB": 3313279387
+        "LDCOCPENOIA": 3107454413,
+        "NANBOOPMOEG": 3313279387
     },
     {
-        "PJEKPGKOJNA": 20,
-        "GroupId": 4,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 20,
+        "groupId": 4,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 4196416669,
-        "PKFGFMJGMPB": 1466025755
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 4196416669,
+        "NANBOOPMOEG": 1466025755
     },
     {
-        "PJEKPGKOJNA": 21,
-        "GroupId": 4,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 21,
+        "groupId": 4,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 2569169845,
-        "PKFGFMJGMPB": 2939313515
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 2569169845,
+        "NANBOOPMOEG": 2939313515
     },
     {
-        "PJEKPGKOJNA": 22,
-        "GroupId": 4,
-        "Level": 3,
-        "UnlockCond": [
+        "PJONFFMKBNF": 22,
+        "groupId": 4,
+        "level": 3,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 3698066197,
-        "PKFGFMJGMPB": 2752616859
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 3698066197,
+        "NANBOOPMOEG": 2752616859
     },
     {
-        "PJEKPGKOJNA": 23,
-        "GroupId": 5,
-        "UnlockCond": [
+        "PJONFFMKBNF": 23,
+        "groupId": 5,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2570316365,
-        "PKFGFMJGMPB": 313740827
+        "LDCOCPENOIA": 2570316365,
+        "NANBOOPMOEG": 313740827
     },
     {
-        "PJEKPGKOJNA": 24,
-        "GroupId": 5,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 24,
+        "groupId": 5,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "1"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 638194773,
-        "PKFGFMJGMPB": 352105147
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 638194773,
+        "NANBOOPMOEG": 352105147
     },
     {
-        "PJEKPGKOJNA": 25,
-        "GroupId": 5,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 25,
+        "groupId": 5,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
-                "Param": "2"
+                "type": "SHIKIGAMI_UNLOCK_ROGUELIKE_STAGE",
+                "param": "2"
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 1522279509,
-        "PKFGFMJGMPB": 2976141547
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 1522279509,
+        "NANBOOPMOEG": 2976141547
     },
     {
-        "PJEKPGKOJNA": 26,
-        "GroupId": 6,
-        "UnlockCond": [
+        "PJONFFMKBNF": 26,
+        "groupId": 6,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2925074525,
-        "PKFGFMJGMPB": 926501699
+        "LDCOCPENOIA": 2925074525,
+        "NANBOOPMOEG": 926501699
     },
     {
-        "PJEKPGKOJNA": 27,
-        "GroupId": 6,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 27,
+        "groupId": 6,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 200,
-        "LKKFNMPFBEH": 457915389,
-        "PKFGFMJGMPB": 2459288731
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 200,
+        "LDCOCPENOIA": 457915389,
+        "NANBOOPMOEG": 2459288731
     },
     {
-        "PJEKPGKOJNA": 28,
-        "GroupId": 6,
-        "Level": 2,
-        "UnlockCond": [
+        "PJONFFMKBNF": 28,
+        "groupId": 6,
+        "level": 2,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 250,
-        "LKKFNMPFBEH": 3511201485,
-        "PKFGFMJGMPB": 36229875
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 250,
+        "LDCOCPENOIA": 3511201485,
+        "NANBOOPMOEG": 36229875
     },
     {
-        "PJEKPGKOJNA": 29,
-        "GroupId": 6,
-        "Level": 3,
-        "UnlockCond": [
+        "PJONFFMKBNF": 29,
+        "groupId": 6,
+        "level": 3,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 2569704557,
-        "PKFGFMJGMPB": 772310691
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 2569704557,
+        "NANBOOPMOEG": 772310691
     },
     {
-        "PJEKPGKOJNA": 30,
-        "GroupId": 6,
-        "Level": 4,
-        "UnlockCond": [
+        "PJONFFMKBNF": 30,
+        "groupId": 6,
+        "level": 4,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 350,
-        "LKKFNMPFBEH": 3063041661,
-        "PKFGFMJGMPB": 3072819483
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 350,
+        "LDCOCPENOIA": 3063041661,
+        "NANBOOPMOEG": 3072819483
     },
     {
-        "PJEKPGKOJNA": 31,
-        "GroupId": 6,
-        "Level": 5,
-        "UnlockCond": [
+        "PJONFFMKBNF": 31,
+        "groupId": 6,
+        "level": 5,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 400,
-        "LKKFNMPFBEH": 3184307901,
-        "PKFGFMJGMPB": 2364557211
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 400,
+        "LDCOCPENOIA": 3184307901,
+        "NANBOOPMOEG": 2364557211
     },
     {
-        "PJEKPGKOJNA": 32,
-        "GroupId": 7,
-        "UnlockCond": [
+        "PJONFFMKBNF": 32,
+        "groupId": 7,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 916063061,
-        "PKFGFMJGMPB": 2582597299
+        "LDCOCPENOIA": 916063061,
+        "NANBOOPMOEG": 2582597299
     },
     {
-        "PJEKPGKOJNA": 33,
-        "GroupId": 7,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 33,
+        "groupId": 7,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 4217800381,
-        "PKFGFMJGMPB": 4086421667
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 4217800381,
+        "NANBOOPMOEG": 4086421667
     },
     {
-        "PJEKPGKOJNA": 34,
-        "GroupId": 8,
-        "UnlockCond": [
+        "PJONFFMKBNF": 34,
+        "groupId": 8,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 4063467061,
-        "PKFGFMJGMPB": 3894026035
+        "LDCOCPENOIA": 4063467061,
+        "NANBOOPMOEG": 3894026035
     },
     {
-        "PJEKPGKOJNA": 35,
-        "GroupId": 8,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 35,
+        "groupId": 8,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 3572215981,
-        "PKFGFMJGMPB": 3854303843
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 3572215981,
+        "NANBOOPMOEG": 3854303843
     },
     {
-        "PJEKPGKOJNA": 36,
-        "GroupId": 9,
-        "UnlockCond": [
+        "PJONFFMKBNF": 36,
+        "groupId": 9,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2180158805,
-        "PKFGFMJGMPB": 2391548291
+        "LDCOCPENOIA": 2180158805,
+        "NANBOOPMOEG": 2391548291
     },
     {
-        "PJEKPGKOJNA": 37,
-        "GroupId": 9,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 37,
+        "groupId": 9,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 66447285,
-        "PKFGFMJGMPB": 3248160595
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 66447285,
+        "NANBOOPMOEG": 3248160595
     },
     {
-        "PJEKPGKOJNA": 38,
-        "GroupId": 10,
-        "UnlockCond": [
+        "PJONFFMKBNF": 38,
+        "groupId": 10,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2788899429,
-        "PKFGFMJGMPB": 3343164763
+        "LDCOCPENOIA": 2788899429,
+        "NANBOOPMOEG": 3343164763
     },
     {
-        "PJEKPGKOJNA": 39,
-        "GroupId": 10,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 39,
+        "groupId": 10,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "4"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "4"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 621141029,
-        "PKFGFMJGMPB": 2847738139
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 621141029,
+        "NANBOOPMOEG": 2847738139
     },
     {
-        "PJEKPGKOJNA": 40,
-        "GroupId": 11,
-        "UnlockCond": [
+        "PJONFFMKBNF": 40,
+        "groupId": 11,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "1"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "1"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "LKKFNMPFBEH": 2863303269,
-        "PKFGFMJGMPB": 2172829155
+        "LDCOCPENOIA": 2863303269,
+        "NANBOOPMOEG": 2172829155
     },
     {
-        "PJEKPGKOJNA": 41,
-        "GroupId": 11,
-        "Level": 1,
-        "UnlockCond": [
+        "PJONFFMKBNF": 41,
+        "groupId": 11,
+        "level": 1,
+        "unlockCond": [
             {
-                "Type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
-                "Param": "7"
+                "type": "SHIKIGAMI_UNLOCK_ACTIVITY_DAY",
+                "param": "7"
             },
             {
-                "Param": ""
+                "param": ""
             }
         ],
-        "EBGCGKEMBLL": 133,
-        "HGOBNOICJNF": 300,
-        "LKKFNMPFBEH": 1701559645,
-        "PKFGFMJGMPB": 445606571
+        "CCEKJKFBFBD": 133,
+        "GDNBCGKGALP": 300,
+        "LDCOCPENOIA": 1701559645,
+        "NANBOOPMOEG": 445606571
     }
 ]

@@ -796,8 +796,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182401",
                         "2"
                     ]
@@ -821,8 +821,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182402",
                         "2"
                     ]
@@ -846,8 +846,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182413",
                         "2"
                     ]
@@ -871,22 +871,22 @@
             "beginCondComb": "LOGIC_A_AND_ETCOR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182401",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_NOT_RECEIVE",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_NOT_RECEIVE",
+                    "_param": [
                         "7181413",
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7181413",
                         "2"
                     ]
@@ -910,15 +910,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182402",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_NOT_RECEIVE",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_NOT_RECEIVE",
+                    "_param": [
                         "7182413",
                         "1"
                     ]
@@ -942,8 +942,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7182405",
                         "2"
                     ]
@@ -960,5 +960,10 @@
             "assetIndex": 178100224018,
             "prePerformCfg": ""
         }
-    ]
+    ],
+    "freeStyleDic": {
+        "231102": [
+            5010
+        ]
+    }
 }

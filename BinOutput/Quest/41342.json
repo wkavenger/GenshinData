@@ -705,8 +705,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134201",
                         "2"
                     ]
@@ -721,7 +721,15 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 41342,
             "assetIndex": 334981407393,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1190,
+                1171,
+                1172,
+                1173,
+                1090,
+                1130
+            ]
         },
         {
             "id": 4134202,
@@ -729,8 +737,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134202",
                         "2"
                     ]
@@ -745,7 +753,13 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 41342,
             "assetIndex": 309205179998,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1130,
+                1171,
+                1172,
+                1173
+            ]
         },
         {
             "id": 4134203,
@@ -753,8 +767,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134203",
                         "2"
                     ]
@@ -778,15 +792,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134204",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "4134201"
                     ]
                 }
@@ -808,8 +822,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134205",
                         "2"
                     ]
@@ -832,8 +846,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134206",
                         "2"
                     ]
@@ -848,7 +862,16 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 41342,
             "assetIndex": 909818010391,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1170,
+                1180,
+                1240,
+                1171,
+                1172,
+                1173,
+                1190
+            ]
         },
         {
             "id": 4134208,
@@ -856,8 +879,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134208",
                         "2"
                     ]
@@ -880,8 +903,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134209",
                         "2"
                     ]
@@ -904,8 +927,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134210",
                         "2"
                     ]
@@ -929,15 +952,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134212",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "4134202"
                     ]
                 }
@@ -959,8 +982,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134213",
                         "2"
                     ]
@@ -983,8 +1006,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134214",
                         "2"
                     ]
@@ -1008,15 +1031,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134215",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "4134203"
                     ]
                 }
@@ -1038,8 +1061,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134204",
                         "2"
                     ]
@@ -1063,36 +1086,36 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134210",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134211",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134212",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134207",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134213",
                         "2"
                     ]
@@ -1115,8 +1138,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4134215",
                         "2"
                     ]

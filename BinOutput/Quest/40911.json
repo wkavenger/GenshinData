@@ -20,6 +20,8 @@
                     "param": [
                         38406,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -27,6 +29,8 @@
                     "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
                     "param": [
                         50002,
+                        0,
+                        0,
                         0,
                         0
                     ]
@@ -36,6 +40,8 @@
                     "param": [
                         500101,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -86,6 +92,8 @@
                     "param": [
                         4091101,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -128,6 +136,8 @@
                     "param": [
                         4091102,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -193,6 +203,8 @@
                     "param": [
                         38406,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -201,6 +213,8 @@
                     "param": [
                         50002,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -209,6 +223,8 @@
                     "param": [
                         500101,
                         1,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -259,6 +275,8 @@
                     "param": [
                         38406,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -285,8 +303,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4091101",
                         "2"
                     ]
@@ -307,8 +325,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4091103",
                         "2"
                     ]
@@ -329,8 +347,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4091104",
                         "2"
                     ]

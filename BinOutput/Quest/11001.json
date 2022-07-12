@@ -1,5 +1,6 @@
 {
     "id": 11001,
+    "ICLLDPJFIMA": 2007,
     "series": 2007,
     "type": "LQ",
     "titleTextMapHash": 1789362889,
@@ -24,6 +25,8 @@
                     "param": [
                         1100005,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -76,6 +79,8 @@
                     "param": [
                         1100101,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -118,6 +123,8 @@
                     "param": [
                         1100102,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -135,7 +142,8 @@
                 {
                     "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
                     "param": [
-                        1100103
+                        1100103,
+                        0
                     ]
                 }
             ],
@@ -168,6 +176,8 @@
                     "param": [
                         1100103,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -208,8 +218,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1100102",
                         "2"
                     ]
@@ -231,8 +241,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1100104",
                         "2"
                     ]
@@ -257,5 +267,25 @@
     ],
     "forcePreloadLuaList": [
         577643403332
-    ]
+    ],
+    "freeStyleDic": {
+        "1012": [
+            1090,
+            1120,
+            1180,
+            1220
+        ],
+        "153701": [
+            1090,
+            1120,
+            1180,
+            1220
+        ],
+        "154101": [
+            1090,
+            1120,
+            1180,
+            1220
+        ]
+    }
 }

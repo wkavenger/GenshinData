@@ -23,7 +23,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        30904
+                        30904,
+                        0
                     ]
                 }
             ],

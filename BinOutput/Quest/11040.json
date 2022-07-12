@@ -1,5 +1,6 @@
 {
     "id": 11040,
+    "ICLLDPJFIMA": 2017,
     "series": 2017,
     "type": "LQ",
     "titleTextMapHash": 2006835359,
@@ -206,8 +207,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104002",
                         "2"
                     ]
@@ -229,15 +230,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104002",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104003",
                         "2"
                     ]
@@ -258,8 +259,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104004",
                         "2"
                     ]
@@ -283,5 +284,10 @@
     ],
     "forcePreloadLuaList": [
         580734778092
-    ]
+    ],
+    "freeStyleDic": {
+        "1020": [
+            1120
+        ]
+    }
 }

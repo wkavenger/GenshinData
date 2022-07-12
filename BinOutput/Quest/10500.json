@@ -1,5 +1,6 @@
 {
     "id": 10500,
+    "ICLLDPJFIMA": 2010,
     "series": 2010,
     "type": "LQ",
     "titleTextMapHash": 3356395703,
@@ -497,8 +498,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050002",
                         "2"
                     ]
@@ -521,15 +522,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050003",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46622",
                         "3"
                     ]
@@ -551,8 +552,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050006",
                         "2"
                     ]
@@ -574,8 +575,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050004",
                         "2"
                     ]
@@ -597,8 +598,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050004",
                         "2"
                     ]
@@ -620,8 +621,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050008",
                         "2"
                     ]
@@ -643,8 +644,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050003",
                         "2"
                     ]
@@ -667,15 +668,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1050002",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+                    "_param": [
                         "50001",
                         "1"
                     ]
@@ -695,5 +696,13 @@
     ],
     "preloadLuaList": [
         645902683150
-    ]
+    ],
+    "freeStyleDic": {
+        "10095": [
+            1190
+        ],
+        "243001": [
+            1050
+        ]
+    }
 }

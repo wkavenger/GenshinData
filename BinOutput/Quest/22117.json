@@ -19,6 +19,8 @@
                     "param": [
                         28300,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -69,6 +71,8 @@
                     "param": [
                         28300,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -77,6 +81,8 @@
                     "param": [
                         2211701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -120,6 +126,8 @@
                     "param": [
                         28300,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -128,6 +136,8 @@
                     "param": [
                         2211702,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -180,8 +190,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2211701",
                         "2"
                     ]
@@ -204,8 +214,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2211703",
                         "2"
                     ]
@@ -228,8 +238,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2211702",
                         "2"
                     ]

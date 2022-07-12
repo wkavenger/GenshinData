@@ -1,5 +1,6 @@
 {
     "id": 11043,
+    "ICLLDPJFIMA": 2017,
     "series": 2017,
     "type": "LQ",
     "titleTextMapHash": 934758791,
@@ -331,8 +332,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104301",
                         "2"
                     ]
@@ -353,8 +354,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104303",
                         "2"
                     ]
@@ -375,8 +376,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104304",
                         "2"
                     ]

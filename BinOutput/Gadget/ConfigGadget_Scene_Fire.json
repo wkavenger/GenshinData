@@ -3,9 +3,9 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "attack": 20.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -19,10 +19,11 @@
                 "lockType": "Gadget_Lv1"
             },
             "die": {
-                "dieEndTime": 0.009999999776482582,
+                "HGGPMFGGBNC": 0.009999999776482582,
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "DropLight_Interact",
@@ -30,11 +31,11 @@
                 "abilityOverride": ""
             }
         ],
-        "misc": {
-            "gear": {
-                "startElemType": "Fire"
+        "HGHKEEEMHLO": {
+            "OLKKCJEFPIK": {
+                "GPHGGNJKHNO": "Fire"
             },
-            "escapeEffect": ""
+            "DOIGJLEMNMA": ""
         }
     },
     "DropLight_Bullet": {
@@ -47,7 +48,7 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "defense": 99999.0
             },
             "beHit": {
@@ -62,6 +63,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -74,14 +76,14 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
+        "AGOIJBKMIOI": {
             "lifeInfinite": true,
-            "lifeTime": 10.0
+            "KHMAEMALBFD": 10.0
         },
         "move": {
             "$type": "ConfigLinerBulletMove",
-            "velocityForce": {
-                "excludeForces": [
+            "LLNGHPMEALD": {
+                "MPGPCCEHFGL": [
                     "WindZoneType",
                     "AirflowType",
                     "RiseType",
@@ -89,15 +91,15 @@
                     "AirflowAccType"
                 ]
             },
-            "speed": 1.0,
-            "acceleration": 10.0
+            "FMMJLOCHHLM": 1.0,
+            "AAAEMJGEEJO": 10.0
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "DropLight_Crash"
@@ -115,7 +117,7 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "defense": 99999.0
             },
             "beHit": {
@@ -130,6 +132,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Ability_01",
@@ -137,13 +140,13 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigLinerBulletMove",
-            "velocityForce": {
-                "excludeForces": [
+            "LLNGHPMEALD": {
+                "MPGPCCEHFGL": [
                     "WindZoneType",
                     "AirflowType",
                     "RiseType",
@@ -151,15 +154,15 @@
                     "AirflowAccType"
                 ]
             },
-            "speed": 1.0,
-            "acceleration": 10.0
+            "FMMJLOCHHLM": 1.0,
+            "AAAEMJGEEJO": 10.0
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "DropLight_Crash02"
@@ -171,9 +174,9 @@
         "$type": "ConfigGadget",
         "combat": {
             "property": {
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "attack": 20.0,
-                "weight": 50.0,
+                "w": 50.0,
                 "isLockHP": true
             },
             "beHit": {
@@ -187,6 +190,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "GearWater_Interact",
@@ -196,17 +200,20 @@
         ],
         "field": {
             "shape": "CircleR2",
+            "OIFFBJLEMDF": "",
             "triggerInfinite": true,
             "lifeInfinite": true,
             "checkInterval": 0.5,
             "overwriteCampType": true,
-            "campType": "All"
+            "campType": "All",
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         },
-        "misc": {
-            "gear": {
-                "startElemType": "Water"
+        "HGHKEEEMHLO": {
+            "OLKKCJEFPIK": {
+                "GPHGGNJKHNO": "Water"
             },
-            "escapeEffect": ""
+            "DOIGJLEMNMA": ""
         }
     }
 }

@@ -21,6 +21,8 @@
                     "param": [
                         12,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -37,7 +39,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        2003104
+                        2003104,
+                        0
                     ]
                 }
             ],
@@ -65,6 +68,8 @@
                     "type": "QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER",
                     "param": [
                         12,
+                        0,
+                        0,
                         0,
                         0
                     ]
@@ -121,6 +126,8 @@
                     "param": [
                         2003102,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -137,7 +144,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        2003102
+                        2003102,
+                        0
                     ]
                 }
             ],
@@ -166,6 +174,8 @@
                     "param": [
                         2003103,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -206,6 +216,8 @@
                     "param": [
                         2003201,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -214,6 +226,8 @@
                     "param": [
                         2003102,
                         2,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -230,7 +244,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        2003104
+                        2003104,
+                        0
                     ]
                 }
             ],
@@ -275,6 +290,8 @@
                     "param": [
                         2003105,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -313,6 +330,8 @@
                     "param": [
                         2003102,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -347,21 +366,21 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003102",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
+                    "_param": [
                         "0"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
+                    "_param": [
                         "0"
                     ]
                 }
@@ -382,21 +401,21 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003103",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
+                    "_param": [
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
+                    "_param": [
                         "0"
                     ]
                 }
@@ -420,21 +439,21 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003104",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
+                    "_param": [
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
+                    "_param": [
                         "1"
                     ]
                 }
@@ -455,21 +474,21 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003105",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
+                    "_param": [
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
+                    "_param": [
                         "0"
                     ]
                 }
@@ -493,21 +512,21 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2003106",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_CAN_GET",
+                    "_param": [
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
-                    "param": [
+                    "_type": "QUEST_COND_DAILY_TASK_REWARD_RECEIVED",
+                    "_param": [
                         "1"
                     ]
                 }

@@ -119,6 +119,10 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "isRewind": true,
+            "exclusiveNpcList": [
+                1669
+            ],
+            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -347,6 +351,10 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "finishParent": true,
+            "exclusiveNpcList": [
+                1669
+            ],
+            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },

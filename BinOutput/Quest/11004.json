@@ -1,5 +1,6 @@
 {
     "id": 11004,
+    "ICLLDPJFIMA": 2007,
     "series": 2007,
     "type": "LQ",
     "titleTextMapHash": 977197905,
@@ -25,6 +26,8 @@
                     "param": [
                         1100304,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -73,6 +76,8 @@
                     "param": [
                         1100401,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -92,13 +97,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1010
+                        1010,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -144,6 +151,8 @@
                     "param": [
                         1100402,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -162,13 +171,15 @@
                 {
                     "type": "QUEST_CONTENT_FAIL_DUNGEON",
                     "param": [
-                        1010
+                        1010,
+                        0
                     ]
                 },
                 {
                     "type": "QUEST_CONTENT_ENTER_MY_WORLD",
                     "param": [
-                        3
+                        3,
+                        0
                     ]
                 }
             ],
@@ -230,6 +241,8 @@
                     "param": [
                         1100401,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -247,7 +260,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        1100403
+                        1100403,
+                        0
                     ]
                 }
             ],
@@ -267,6 +281,8 @@
                     "param": [
                         1100401,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -285,7 +301,8 @@
                 {
                     "type": "QUEST_CONTENT_COMPLETE_TALK",
                     "param": [
-                        1100403
+                        1100403,
+                        0
                     ]
                 }
             ],
@@ -300,8 +317,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1100403",
                         "2"
                     ]
@@ -325,5 +342,10 @@
     ],
     "forcePreloadLuaList": [
         1073538320648
-    ]
+    ],
+    "freeStyleDic": {
+        "1012": [
+            1220
+        ]
+    }
 }

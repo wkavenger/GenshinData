@@ -1,5 +1,6 @@
 {
     "id": 19082,
+    "ICLLDPJFIMA": 3005,
     "series": 103402,
     "type": "LQ",
     "titleTextMapHash": 2756001527,
@@ -193,6 +194,9 @@
                 1027,
                 2049
             ],
+            "exclusivePlaceList": [
+                11014
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -244,6 +248,9 @@
             "exclusiveNpcList": [
                 1027,
                 2049
+            ],
+            "exclusivePlaceList": [
+                11014
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",

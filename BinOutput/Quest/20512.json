@@ -202,8 +202,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2051201",
                         "2"
                     ]
@@ -225,8 +225,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2051202",
                         "2"
                     ]
@@ -248,8 +248,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2051203",
                         "2"
                     ]
@@ -265,5 +265,10 @@
             "assetIndex": 363316213879,
             "prePerformCfg": ""
         }
-    ]
+    ],
+    "freeStyleDic": {
+        "1408": [
+            1190
+        ]
+    }
 }

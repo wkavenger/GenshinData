@@ -67,6 +67,7 @@
                     ]
                 }
             ],
+            "finishCondComb": "LOGIC_OR",
             "finishCond": [
                 {
                     "type": "QUEST_CONTENT_ADD_QUEST_PROGRESS",
@@ -75,6 +76,13 @@
                         0
                     ],
                     "count": 1
+                },
+                {
+                    "type": "QUEST_CONTENT_FINISH_PLOT",
+                    "param": [
+                        7065502,
+                        0
+                    ]
                 }
             ],
             "guide": {

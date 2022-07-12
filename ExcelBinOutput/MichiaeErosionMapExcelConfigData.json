@@ -1,29 +1,29 @@
 [
     {
-        "Id": 1,
-        "HGJKGDEMNGH": [
+        "id": 1,
+        "COMIFGEECBG": [
             0,
             15
         ],
-        "MBCCNPBCIMA": 1352001231,
-        "IFALNDDEKGF": 2829445854
+        "BIGDMIMGLMH": 1352001231,
+        "EGGMADODGLP": 2829445854
     },
     {
-        "Id": 2,
-        "HGJKGDEMNGH": [
+        "id": 2,
+        "COMIFGEECBG": [
             15,
             30
         ],
-        "MBCCNPBCIMA": 1485645855,
-        "IFALNDDEKGF": 1644151894
+        "BIGDMIMGLMH": 1485645855,
+        "EGGMADODGLP": 1644151894
     },
     {
-        "Id": 3,
-        "HGJKGDEMNGH": [
+        "id": 3,
+        "COMIFGEECBG": [
             30,
             100
         ],
-        "MBCCNPBCIMA": 3354022439,
-        "IFALNDDEKGF": 2753250646
+        "BIGDMIMGLMH": 3354022439,
+        "EGGMADODGLP": 2753250646
     }
 ]

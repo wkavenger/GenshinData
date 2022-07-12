@@ -1,22 +1,22 @@
 [
     {
-        "Id": 1,
-        "Level": 2,
-        "PMNIGHHADFD": 20
+        "id": 1,
+        "offeringId": 2,
+        "HCHJCHEBOML": 20
     },
     {
-        "Id": 2,
-        "Level": 2,
-        "PMNIGHHADFD": 30
+        "id": 2,
+        "offeringId": 2,
+        "HCHJCHEBOML": 30
     },
     {
-        "Id": 3,
-        "Level": 2,
-        "PMNIGHHADFD": 40
+        "id": 3,
+        "offeringId": 2,
+        "HCHJCHEBOML": 40
     },
     {
-        "Id": 4,
-        "Level": 2,
-        "PMNIGHHADFD": 50
+        "id": 4,
+        "offeringId": 2,
+        "HCHJCHEBOML": 50
     }
 ]

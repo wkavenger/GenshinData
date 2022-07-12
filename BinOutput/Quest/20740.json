@@ -252,7 +252,37 @@
                 {
                     "type": "QUEST_COND_STATE_EQUAL",
                     "param": [
-                        2074008,
+                        2074002,
+                        3,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "QUEST_COND_STATE_EQUAL",
+                    "param": [
+                        2074003,
+                        3,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "QUEST_COND_STATE_EQUAL",
+                    "param": [
+                        2074004,
+                        3,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "type": "QUEST_COND_STATE_EQUAL",
+                    "param": [
+                        2074011,
                         3,
                         0,
                         0,
@@ -737,8 +767,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2074005",
                         "2"
                     ]
@@ -761,8 +791,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2074010",
                         "2"
                     ]
@@ -782,12 +812,33 @@
         },
         {
             "id": 2074006,
-            "beginCondComb": "LOGIC_AND",
+            "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
-                        "2074008",
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2074002",
+                        "2"
+                    ]
+                },
+                {
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2074003",
+                        "2"
+                    ]
+                },
+                {
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2074004",
+                        "2"
+                    ]
+                },
+                {
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
+                        "2074011",
                         "2"
                     ]
                 }
@@ -808,8 +859,8 @@
             "id": 2074007,
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2074009",
                         "2"
                     ]
@@ -833,8 +884,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2074012",
                         "2"
                     ]
@@ -860,8 +911,8 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2074012",
                         "2"
                     ]

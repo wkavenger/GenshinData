@@ -21,6 +21,8 @@
                     "param": [
                         36004,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -54,6 +56,8 @@
                     "param": [
                         46701,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -95,6 +99,8 @@
                     "param": [
                         46702,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -133,8 +139,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46702",
                         "2"
                     ]
@@ -148,7 +154,10 @@
             "performCfg": "QuestDialogue/WQ/Mengde_467/Q46701",
             "questId": 467,
             "assetIndex": 1069452694263,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 46702,
@@ -156,22 +165,22 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "100011",
                         "1"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "100064",
                         "1"
                     ]
@@ -193,15 +202,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "108011",
                         "1"
                     ]
@@ -215,14 +224,17 @@
             "performCfg": "QuestDialogue/WQ/Mengde_467/Q46703",
             "questId": 467,
             "assetIndex": 409548034611,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 46708,
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
@@ -242,8 +254,8 @@
             "id": 46709,
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
@@ -263,8 +275,8 @@
             "id": 46710,
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
@@ -286,15 +298,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "108012",
                         "1"
                     ]
@@ -308,7 +320,10 @@
             "performCfg": "QuestDialogue/WQ/Mengde_467/Q46711",
             "questId": 467,
             "assetIndex": 256651146126,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 46712,
@@ -316,15 +331,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "108013",
                         "1"
                     ]
@@ -338,7 +353,10 @@
             "performCfg": "QuestDialogue/WQ/Mengde_467/Q46712",
             "questId": 467,
             "assetIndex": 39847788594,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         },
         {
             "id": 46713,
@@ -346,15 +364,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "46703",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "108014",
                         "1"
                     ]
@@ -368,7 +386,10 @@
             "performCfg": "QuestDialogue/WQ/Mengde_467/Q46713",
             "questId": 467,
             "assetIndex": 771235973542,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                9000
+            ]
         }
     ],
     "preloadLuaList": [

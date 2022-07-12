@@ -519,15 +519,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7102206",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+                    "_param": [
                         "50004",
                         "0"
                     ]
@@ -551,15 +551,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7102206",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_GLOBAL_VAR_EQUAL",
+                    "_param": [
                         "50004",
                         "0"
                     ]
@@ -582,8 +582,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7102201",
                         "3"
                     ]
@@ -605,8 +605,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7102204",
                         "3"
                     ]
@@ -623,5 +623,10 @@
             "assetIndex": 427053889771,
             "prePerformCfg": ""
         }
-    ]
+    ],
+    "freeStyleDic": {
+        "20217": [
+            1190
+        ]
+    }
 }

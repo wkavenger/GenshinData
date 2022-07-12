@@ -1,31 +1,31 @@
 [
     {
-        "ScheduleId": 2010001,
-        "GONHGNFKBDP": 100,
-        "IFACAFEIHLB": [
+        "scheduleId": 2010001,
+        "FHLBLDEKGGI": 100,
+        "GBMPFPOABKJ": [
             {
-                "MJJDNALGLOJ": [
+                "KALICNNGBJB": [
                     0,
                     80
                 ]
             },
             {
-                "MJJDNALGLOJ": [
+                "KALICNNGBJB": [
                     80,
                     100
                 ],
-                "LPICMNCMNCG": 30
+                "GLBMBABHJHM": 30
             },
             {
-                "MJJDNALGLOJ": [
+                "KALICNNGBJB": [
                     100,
                     999
                 ],
-                "LPICMNCMNCG": 50
+                "GLBMBABHJHM": 50
             }
         ],
-        "NEEEOBDOCPP": 0.3449999988079071,
-        "HGFNEAPOIOL": 96.0,
-        "PushTipsId": 6040
+        "DJGOCCPAGAF": 0.3449999988079071,
+        "CKPJLALKHOF": 96.0,
+        "pushTipsId": 6040
     }
 ]

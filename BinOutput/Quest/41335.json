@@ -408,8 +408,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4133501",
                         "2"
                     ]
@@ -432,8 +432,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4133503",
                         "2"
                     ]
@@ -448,7 +448,10 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 41335,
             "assetIndex": 1058464054855,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1120
+            ]
         },
         {
             "id": 4133505,
@@ -456,8 +459,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4133506",
                         "2"
                     ]
@@ -481,15 +484,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4133507",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_GIVING_ACTIVED",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_GIVING_ACTIVED",
+                    "_param": [
                         "4133507"
                     ]
                 }
@@ -503,7 +506,11 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 41335,
             "assetIndex": 795423712198,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "CIAAAKHILBD": [
+                1170,
+                1180
+            ]
         },
         {
             "id": 4133508,
@@ -511,8 +518,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "4133508",
                         "2"
                     ]
@@ -536,5 +543,11 @@
     ],
     "forcePreloadLuaList": [
         455064291228
-    ]
+    ],
+    "freeStyleDic": {
+        "240901": [
+            1120,
+            1190
+        ]
+    }
 }

@@ -2,76 +2,78 @@
     "common": {
         "effectAttachShape": {
             "$type": "ConfigEffectAttachSkinnedMesh",
-            "mesh": "EffectMesh"
+            "FGKBBEGGKCB": "EffectMesh"
         },
         "mass": 10.0
     },
     "headControl": {
         "$type": "ConfigHeadControl",
         "useHeadControl": true,
-        "useWhiteAnimStates": false
+        "OFGNJKHOAGM": false
     },
     "equipController": {
+        "sheathPoint": "WeaponBackPut",
+        "dissolveSheathFadeDelay": 0.07500000298023224,
+        "dissolveSheathFadeTime": 0.30000001192092896,
         "attachPoints": {
             "equip01": "WeaponR",
             "equip02": "WeaponL",
             "equip00": "WeaponBackPut"
-        },
-        "sheathPoint": "WeaponBackPut",
-        "dissolveSheathFadeDelay": 0.07500000298023224,
-        "dissolveSheathFadeTime": 0.30000001192092896
+        }
     },
     "stateLayers": {
         "defaultLayer": {
             "$type": "ConfigNormalStateLayer",
-            "layerIndexName": "",
+            "JLAFELOFEGB": "",
             "stateIDs": {
                 "ShowWeapon_BS": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ShowWeapon_BS": [
                             "Boy_Sword_ShowWeapon_BS",
                             "Emo_Avatar_Common_Boy_Sword_UI_ShowWeaponBS"
                         ]
                     },
-                    "setAnimatorBoolean": [
+                    "PEPOMHIGAEL": [
                         {
                             "name": "&GotoAnyState"
                         }
                     ],
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "ShowRelic_BS": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ShowRelic_BS": [
                             "Emo_Avatar_Common_Manekin_RelicShowBS"
                         ]
                     },
-                    "setAnimatorBoolean": [
+                    "PEPOMHIGAEL": [
                         {
                             "name": "&GotoAnyState"
                         }
                     ],
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "ShowWeapon": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
-                        "ShowWeapon": [],
+                    "PINCPDEEFJI": {
+                        "ShowWeapon": [
+                            "Emo_Avatar_Common_Boy_Sword_UI_ShowWeaponLoop"
+                        ],
                         "ShowWeapon_AS": [
                             "Boy_Sword_ShowWeapon_AS",
                             "Emo_Avatar_Common_Boy_Sword_UI_ShowWeaponAS"
                         ]
                     },
-                    "animatorTriggerOnLanded": "",
-                    "battouOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "JHDECFFCOBN": true
                 },
                 "ShowRelic": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ShowRelic": [
                             "Emo_Avatar_Common_Manekin_RelicShowLoop"
                         ],
@@ -79,12 +81,12 @@
                             "Emo_Avatar_Common_Manekin_RelicShowAS"
                         ]
                     },
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "ShowCharacter": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ShowCharacter": [],
                         "Show01": [
                             "Manekin_Albedo_Show01",
@@ -95,65 +97,67 @@
                             "Audio_Boy_Sword_Albedo_StandbyShow_02_UI"
                         ]
                     },
-                    "setAnimatorBoolean": [
+                    "PEPOMHIGAEL": [
                         {
                             "name": "&GotoAnyState"
                         }
                     ],
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "Skill_BS": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Skill_BS": [
                             "Emo_Avatar_Albedo_UI_Talent_Think_01BS"
                         ]
                     },
-                    "setAnimatorBoolean": [
+                    "PEPOMHIGAEL": [
                         {
                             "name": "&GotoAnyState"
                         }
                     ],
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "Skill": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
-                        "Skill": []
+                    "PINCPDEEFJI": {
+                        "Skill": [
+                            "Emo_Avatar_Albedo_UI_Talent_Think_01Loop"
+                        ]
                     },
-                    "animatorTriggerOnLanded": ""
+                    "CMJPCCCIGIH": ""
                 },
                 "Skill_AS": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Skill_AS": [
                             "Emo_Avatar_Albedo_UI_Talent_Think_01AS"
                         ]
                     },
-                    "animatorTriggerOnLanded": ""
+                    "CMJPCCCIGIH": ""
                 },
                 "Story": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Story": []
                     },
-                    "setAnimatorBoolean": [
+                    "PEPOMHIGAEL": [
                         {
                             "name": "&GotoAnyState"
                         }
                     ],
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 },
                 "ShowFlycloak": {
                     "$type": "ConfigAvatarStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ShowFlycloak": []
                     },
-                    "animatorTriggerOnLanded": "",
-                    "sheatheOnStart": true
+                    "CMJPCCCIGIH": "",
+                    "LJKLGHMMIMP": true
                 }
             }
         }
@@ -179,12 +183,6 @@
                     "currentStateName": "ShowWeapon_BS",
                     "audioEvent": {
                         "text": "Stop_ui_menu_weapon_show_putAway_appear_short"
-                    }
-                },
-                {
-                    "currentStateName": "Show02",
-                    "audioEvent": {
-                        "text": "Stop_vo_external_1P_2D"
                     }
                 },
                 {

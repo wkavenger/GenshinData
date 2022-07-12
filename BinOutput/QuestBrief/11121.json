@@ -174,10 +174,10 @@
                 }
             ],
             "guide": {
-                "type": "QUEST_GUIDE_LOCATION",
+                "type": "QUEST_GUIDE_NPC",
                 "param": [
-                    "Q11121_Kuanggong_Pos",
-                    "25"
+                    "10378",
+                    "SELECT_NPC_NONE"
                 ],
                 "guideScene": 3,
                 "guideStyle": "QUEST_GUIDE_STYLE_TARGET",

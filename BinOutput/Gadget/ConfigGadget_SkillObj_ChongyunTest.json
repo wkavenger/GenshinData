@@ -4,8 +4,8 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -23,6 +23,7 @@
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Avatar_Chongyun_IceCrystal_Dummy",
@@ -31,8 +32,12 @@
             }
         ],
         "field": {
+            "concernType": "AllAvatars",
             "shape": "CircleR8",
-            "lifeTime": 5.0
+            "OIFFBJLEMDF": "",
+            "KHMAEMALBFD": 5.0,
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     },
     "Chongyun_IceCrystal": {
@@ -41,8 +46,8 @@
             "property": {
                 "useCreatorProperty": true,
                 "isInvincible": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -60,6 +65,7 @@
                 "dieDisappearEffect": "Eff_Chongyun_ElementalSkill_IceCrystal_Disappear"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Avatar_Chongyun_IceCrystal",
@@ -74,7 +80,10 @@
         ],
         "field": {
             "shape": "CircleR8",
-            "lifeTime": 10.0
+            "OIFFBJLEMDF": "",
+            "KHMAEMALBFD": 10.0,
+            "NKLJGKCFFID": "",
+            "MKBFGKPIGGN": ""
         }
     },
     "ChongyunTest_TestBlade": {
@@ -88,7 +97,7 @@
             "property": {
                 "useCreatorProperty": true,
                 "isInvincible": true,
-                "canTriggerBullet": false
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -102,6 +111,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ChongyunTest_TestBlade_Hit",
@@ -109,35 +119,35 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 0.6000000238418579
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 0.6000000238418579
         },
         "move": {
             "$type": "ConfigLinerBulletMove",
-            "velocityForce": {
-                "muteAll": true
+            "LLNGHPMEALD": {
+                "CCCNFHNGFAK": true
             },
-            "speed": 20.0,
-            "canBornInWater": true,
-            "stickToGround": {
-                "maxStepHeight": 1.5,
-                "maxSlopeAngle": 40.0,
-                "heightToGround": 0.800000011920929,
-                "flexibleRange": 0.800000011920929,
-                "isStickToWater": true,
-                "unstickWhenDownSlide": "Keep",
-                "unstickWhenUpSlide": "Keep"
+            "FMMJLOCHHLM": 20.0,
+            "JMEOBDFCELF": true,
+            "JDFJCOBMMAD": {
+                "NLFPPOFOLFD": 1.5,
+                "GKLJFMKODEL": 40.0,
+                "PEJAMNOLDKO": 0.800000011920929,
+                "ELELDPLAOJK": 0.800000011920929,
+                "CHLJCOKJODN": true,
+                "JAHCCCINIMC": "Keep",
+                "OGHHMDIMMNP": "Keep"
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerAlways",
-                "triggerCD": 1.0,
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerAlways",
+                "PENKNGDICGD": 1.0,
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetDamageByAttackValue",
                     "attackInfo": {
@@ -145,7 +155,7 @@
                         "attenuationTag": "",
                         "attenuationGroup": "default",
                         "attackProperty": {
-                            "damagePercentage": 0.0,
+                            "bonusCriticalHurt": 0.0,
                             "damagePercentageRatio": 0.0,
                             "elementType": "Ice",
                             "elementDurability": 25.0,
@@ -157,7 +167,7 @@
                             "hitImpulseType": "",
                             "overrideHitImpulse": {
                                 "hitLevel": "Heavy",
-                                "hitImpulseX": 200.0,
+                                "HPOPMELEPEB": 200.0,
                                 "hitImpulseY": 0.0
                             },
                             "hitHaltTimeScale": 0.05000000074505806

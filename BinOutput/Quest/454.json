@@ -1,5 +1,6 @@
 {
     "id": 454,
+    "ICLLDPJFIMA": 2005,
     "series": 2005,
     "type": "LQ",
     "titleTextMapHash": 263672017,
@@ -21,6 +22,8 @@
                     "param": [
                         45407,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -63,6 +66,8 @@
                     "param": [
                         45415,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -80,7 +85,8 @@
                 {
                     "type": "QUEST_CONTENT_FINISH_PLOT",
                     "param": [
-                        45402
+                        45402,
+                        0
                     ]
                 }
             ],
@@ -114,6 +120,8 @@
                     "param": [
                         45402,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -167,6 +175,8 @@
                     "param": [
                         45403,
                         2,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -196,6 +206,8 @@
                     "param": [
                         45416,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -213,7 +225,8 @@
                 {
                     "type": "QUEST_CONTENT_NOT_FINISH_PLOT",
                     "param": [
-                        45405
+                        45405,
+                        0
                     ]
                 }
             ],
@@ -280,6 +293,8 @@
                     "param": [
                         45405,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -332,6 +347,8 @@
                     "param": [
                         45306,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -375,6 +392,8 @@
                     "param": [
                         45414,
                         2,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -404,6 +423,8 @@
                     "param": [
                         45414,
                         2,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -432,6 +453,8 @@
                     "param": [
                         45401,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -473,6 +496,8 @@
                     "param": [
                         45410,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -515,6 +540,8 @@
                     "param": [
                         45411,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -558,6 +585,8 @@
                     "param": [
                         45412,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -599,6 +628,8 @@
                     "param": [
                         45413,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -644,6 +675,8 @@
                     "param": [
                         45414,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -688,6 +721,8 @@
                     "param": [
                         45404,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -747,6 +782,8 @@
                     "param": [
                         45416,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -783,8 +820,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45401",
                         "2"
                     ]
@@ -804,8 +841,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45402",
                         "2"
                     ]
@@ -826,15 +863,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45403",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_PACK_HAVE_ITEM",
-                    "param": [
+                    "_type": "QUEST_COND_PACK_HAVE_ITEM",
+                    "_param": [
                         "100021",
                         "1"
                     ]
@@ -855,15 +892,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45403",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_NUM_LESS_THAN",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_NUM_LESS_THAN",
+                    "_param": [
                         "100021",
                         "1"
                     ]
@@ -883,8 +920,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45402",
                         "2"
                     ]
@@ -904,8 +941,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45406",
                         "2"
                     ]
@@ -926,15 +963,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45403",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_ITEM_NUM_LESS_THAN",
-                    "param": [
+                    "_type": "QUEST_COND_ITEM_NUM_LESS_THAN",
+                    "_param": [
                         "100021",
                         "1"
                     ]
@@ -954,8 +991,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45411",
                         "2"
                     ]
@@ -975,8 +1012,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45413",
                         "2"
                     ]
@@ -996,8 +1033,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "45415",
                         "2"
                     ]
@@ -1027,5 +1064,26 @@
         629278783799,
         121368397622,
         28753295967
-    ]
+    ],
+    "freeStyleDic": {
+        "1002": [
+            1120,
+            1170,
+            1180,
+            1190,
+            1230
+        ],
+        "1011": [
+            1120,
+            1170,
+            1180,
+            1190
+        ],
+        "1165": [
+            1120,
+            1170,
+            1180,
+            1190
+        ]
+    }
 }

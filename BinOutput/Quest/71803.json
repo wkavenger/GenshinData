@@ -104,6 +104,9 @@
             "exclusiveNpcList": [
                 2016
             ],
+            "exclusivePlaceList": [
+                1100901
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -200,6 +203,9 @@
             "exclusiveNpcList": [
                 2016
             ],
+            "exclusivePlaceList": [
+                1100901
+            ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
@@ -291,8 +297,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180301",
                         "3"
                     ]
@@ -307,15 +313,16 @@
             "heroTalk": "TALK_HERO_MAIN",
             "questId": 71803,
             "assetIndex": 67416579817,
-            "prePerformCfg": ""
+            "prePerformCfg": "",
+            "lowPriority": true
         },
         {
             "id": 7180303,
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180304",
                         "2"
                     ]
@@ -337,8 +344,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7180305",
                         "2"
                     ]
@@ -362,8 +369,8 @@
             "id": 7180305,
             "beginCond": [
                 {
-                    "type": "QUEST_COND_QUEST_VAR_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_QUEST_VAR_EQUAL",
+                    "_param": [
                         "1",
                         "1",
                         "71803"

@@ -38,6 +38,8 @@
                     "param": [
                         31801,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -64,8 +66,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "31802",
                         "2"
                     ]

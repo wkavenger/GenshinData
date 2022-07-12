@@ -1,5 +1,6 @@
 {
     "id": 11045,
+    "ICLLDPJFIMA": 2017,
     "series": 2017,
     "type": "LQ",
     "titleTextMapHash": 1999819415,
@@ -777,10 +778,10 @@
             "guide": {},
             "finishExec": [
                 {
-                    "type": "QUEST_EXEC_REFRESH_GROUP_SUITE",
+                    "type": "QUEST_EXEC_NOTIFY_GROUP_LUA",
                     "param": [
                         "3",
-                        "133002939,3"
+                        "133002939"
                     ]
                 }
             ],
@@ -913,8 +914,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104501",
                         "2"
                     ]
@@ -935,8 +936,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104504",
                         "2"
                     ]
@@ -957,8 +958,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104505",
                         "2"
                     ]
@@ -979,8 +980,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1104505",
                         "2"
                     ]
@@ -1006,5 +1007,10 @@
     ],
     "forcePreloadLuaList": [
         620006448706
-    ]
+    ],
+    "freeStyleDic": {
+        "158701": [
+            1120
+        ]
+    }
 }

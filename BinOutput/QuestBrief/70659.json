@@ -15,10 +15,10 @@
             "descTextMapHash": 3183193516,
             "acceptCond": [
                 {
-                    "type": "QUEST_COND_ACTIVITY_COND",
+                    "type": "QUEST_COND_STATE_EQUAL",
                     "param": [
-                        5023001,
-                        1,
+                        99902,
+                        3,
                         0,
                         0,
                         0

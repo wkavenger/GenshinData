@@ -2,9 +2,9 @@
     "common": {
         "effectAttachShape": {
             "$type": "ConfigEffectAttachSkinnedMesh",
-            "mesh": "EffectMesh"
+            "FGKBBEGGKCB": "EffectMesh"
         },
-        "mass": 60.0,
+        "mass": 9999999.0,
         "viewSize": 2.0,
         "affectedByWorld": true,
         "checkInSurface": true,
@@ -24,7 +24,7 @@
     "combat": {
         "property": {
             "endureType": "Monster_Minion",
-            "weight": 60.0,
+            "w": 60.0,
             "isInvincible": true
         },
         "beHit": {
@@ -37,58 +37,65 @@
         },
         "die": {
             "fallWhenAirDie": false,
-            "dieEndTime": 2.0,
+            "HGGPMFGGBNC": 2.0,
             "dieForceDisappearTime": 10.0,
             "dieDisappearEffect": ""
         }
     },
+    "abilities": [
+        {
+            "abilityID": "Homeworld_CommonInitial",
+            "abilityName": "Animal_Homeworld_Common_Initial",
+            "abilityOverride": ""
+        }
+    ],
     "stateLayers": {
         "defaultLayer": {
             "$type": "ConfigNormalStateLayer",
-            "layerIndexName": "",
+            "JLAFELOFEGB": "",
             "stateIDs": {
                 "Born": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Born": [
                             "Audio_Crane_FlyDown"
                         ]
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 },
                 "NormalIdle": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Standby": [
                             "Audio_Crane_Standby"
                         ],
                         "Standby_Aware": []
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 },
                 "NormalMove": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Walk": [
                             "Audio_Crane_Walk"
                         ]
                     },
-                    "canDoSkill": true,
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "FlyDown": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "FlyDown": [
                             "Audio_Crane_FlyDown"
                         ],
@@ -99,18 +106,18 @@
                             "Audio_Crane_LandToGround"
                         ]
                     },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnEnter": [
+                    "JFJAOFFPPFP": true,
+                    "OBACGMAOFBH": [
                         "HitAir2HitDrop"
                     ],
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "FlyUp": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "TakeOff": [
                             "Animal_Homeworld_Crane_TakeOff",
                             "Audio_Crane_TakeOff"
@@ -125,29 +132,29 @@
                             "Audio_Crane_FlyUp"
                         ]
                     },
-                    "canSyncMove": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "JFJAOFFPPFP": true,
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ],
-                    "canSteer": true
+                    "HNDGEBFOBMD": true
                 },
                 "BeHit": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Hit_L": [
                             "Audio_Crane_Alert_Scared"
                         ]
                     },
-                    "resetAnimatorTriggerOnEnter": [
+                    "OBACGMAOFBH": [
                         "BeHit"
                     ],
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "DoSkill"
                     ]
                 },
                 "Die": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Die": [
                             "Animal_Homeworld_Crane_Die",
                             "Audio_Crane_Land"
@@ -159,103 +166,103 @@
                 },
                 "Aware": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Aware": []
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Alert": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Alert": [],
                         "Alert_Scared": [
                             "Animal_Homeworld_Crane_Alert",
                             "Audio_Crane_Alert_Scared"
                         ]
                     },
-                    "resetAnimatorTriggerOnExit": [
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "ToWander": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ToWander": [
                             "Audio_Crane_Standby"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "ToIdle": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "ToIdle": [
                             "Audio_Crane_Standby"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Personality_101": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Personality_101": [
                             "Audio_Crane_Personality_101"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Personality_102": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Personality_102": [
                             "Audio_Crane_Personality_102"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Personality_103": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Personality_103": [
                             "Audio_Crane_Personality_103"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
                 },
                 "Personality_104": {
                     "$type": "ConfigMonsterStateIDInfo",
-                    "animatorStates": {
+                    "PINCPDEEFJI": {
                         "Personality_104": [
                             "Audio_Crane_Personality_104"
                         ]
                     },
-                    "canDoSkill": true,
-                    "resetAnimatorTriggerOnExit": [
+                    "KGOCGKMHPKM": true,
+                    "KJALBKOJAJE": [
                         "BeHit",
                         "DoSkill"
                     ]
@@ -293,20 +300,18 @@
                     "sensitivity": 2.0,
                     "viewRange": 3.0,
                     "horizontalFov": 90.0,
-                    "verticalFov": 30.0,
-                    "feelRange": 3.0
+                    "DMGFGMCJFMN": 30.0,
+                    "sourcelessHitAttractionRange": 3.0
                 }
             }
         },
         "neurons": {
             "DefaultSetting": [
-                "HIT",
-                "WEATHER_BAD",
-                "FEAR"
+                "HIT"
             ]
         },
         "threat": {
-            "clearThreatTargetDistance": 10.0,
+            "billboardShowUIBarDis": 10.0,
             "feelThreatGrow": 1000.0,
             "viewAttenuation": [
                 {
@@ -332,18 +337,18 @@
         "poseControl": {
             "items": [
                 {
-                    "minTime": 3.0,
+                    "poseID": 3.0,
                     "maxTime": 13.0,
-                    "poseID": 1,
+                    "minTime": 1,
                     "RandomPose": [
                         2
                     ],
                     "switchOnlyInCanDoSkillState": true
                 },
                 {
-                    "minTime": 10.0,
+                    "poseID": 10.0,
                     "maxTime": 100.0,
-                    "poseID": 2,
+                    "minTime": 2,
                     "RandomPose": [
                         1
                     ],
@@ -355,35 +360,6 @@
             "hasDirectionIndicator": false
         },
         "skills": {
-            "1": {
-                "name": "OnAware",
-                "skillType": "OnAware",
-                "publicCDGroup": "",
-                "triggerGCD": false,
-                "stateIDs": [
-                    "Aware"
-                ],
-                "skillQueryingTime": 3.0,
-                "flagTargetReachable": "10",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "10",
-                "flagTargetInZone": "11"
-            },
-            "2": {
-                "name": "OnAlert",
-                "skillType": "OnAlert",
-                "faceTarget": true,
-                "publicCDGroup": "",
-                "triggerGCD": false,
-                "stateIDs": [
-                    "Alert"
-                ],
-                "skillQueryingTime": 3.0,
-                "flagTargetReachable": "10",
-                "flagSelfOnTemplateCollider": "01",
-                "flagSelfInZone": "10",
-                "flagTargetInZone": "11"
-            },
             "101": {
                 "name": "Personality_101",
                 "skillType": "Free",
@@ -393,7 +369,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 15.0,
+                "targetBackSpace": 15.0,
                 "cdUpperRange": 15.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -415,7 +391,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 60.0,
+                "targetBackSpace": 60.0,
                 "cdUpperRange": 60.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -437,7 +413,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 30.0,
+                "targetBackSpace": 30.0,
                 "cdUpperRange": 30.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -459,7 +435,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 30.0,
+                "targetBackSpace": 30.0,
                 "cdUpperRange": 30.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -480,7 +456,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 15.0,
+                "targetBackSpace": 15.0,
                 "cdUpperRange": 15.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -501,7 +477,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 60.0,
+                "targetBackSpace": 60.0,
                 "cdUpperRange": 60.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -522,7 +498,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 30.0,
+                "targetBackSpace": 30.0,
                 "cdUpperRange": 30.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -543,7 +519,7 @@
                     ],
                     "needReInitCD": true
                 },
-                "cd": 30.0,
+                "targetBackSpace": 30.0,
                 "cdUpperRange": 30.0,
                 "initialCD": 7.5,
                 "initialCDUpperRange": 25.0,
@@ -558,6 +534,7 @@
             }
         },
         "skillGCD": 7.5,
+        "returnToBornTactic": {},
         "wanderTactic": {
             "enable": true,
             "condition": {
@@ -565,13 +542,19 @@
                     1
                 ]
             },
+            "threatLevelLimit": [
+                0,
+                1,
+                2
+            ],
             "defaultSetting": {
-                "turnSpeedOverride": 0.25,
+                "probeNumberMax": 0.25,
                 "distanceFromBorn": 10.0,
                 "distanceFromCurrentMin": 3.0,
-                "distanceFromCurrentMax": 5.0
+                "terrainOffsetMin": 5.0
             }
         },
+        "combatFollowMoveTactic": {},
         "landingTactic": {
             "enable": true,
             "condition": {
@@ -581,10 +564,10 @@
                 ]
             },
             "defaultSetting": {
-                "speedLevel": 2,
-                "landingAngleMax": 75.0,
+                "yHigh": 2,
+                "landingTerrainAltitude": 75.0,
                 "landingAngleMin": 60.0,
-                "landingTerrainAltitude": 3.5
+                "landingAngleMax": 3.5
             }
         },
         "extractionTactic": {
@@ -597,20 +580,28 @@
                 ]
             },
             "nerveTrigger": [
-                "HIT",
-                "WEATHER_BAD",
-                "FEAR"
+                "HIT"
             ],
             "defaultSetting": {
-                "extractionAngleMax": 45.0,
+                "triggerDistance": 45.0,
                 "extractionAngleMin": 30.0,
-                "triggerDistance": 0.0,
-                "killSelfTime": 3.0
+                "extractionAngleMax": 0.0,
+                "extractionDistance": 4.0
             }
         }
     },
+    "move": {
+        "$type": "ConfigAnimatorMove",
+        "EAIEEKFMGPC": "Walk",
+        "DHENABMCPKC": {
+            "1": "Walk",
+            "2": "Walk",
+            "901": "Run",
+            "902": "Run",
+            "903": "Run"
+        }
+    },
     "animal": {
-        "hasAbility": false,
         "tickAbilityElement": false,
         "hasCharacterRenderering": false
     }

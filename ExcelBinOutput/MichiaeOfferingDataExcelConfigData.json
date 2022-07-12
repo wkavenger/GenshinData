@@ -1,16 +1,16 @@
 [
     {
-        "ConfigId": 1,
-        "NAJHKCJFHGG": 892754422,
-        "PICBICJHIEI": [
+        "configId": 1,
+        "NKFHIBALAPF": 892754422,
+        "FPMILKHPLMB": [
             "",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 3458603201,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 3458603201,
+        "ALDAGPDIFKL": [
             "0",
             "300",
             "",
@@ -19,18 +19,18 @@
         ]
     },
     {
-        "ConfigId": 2,
-        "Level": 1,
-        "NAJHKCJFHGG": 898507734,
-        "PICBICJHIEI": [
+        "configId": 2,
+        "level": 1,
+        "NKFHIBALAPF": 898507734,
+        "FPMILKHPLMB": [
             "6",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 3276071097,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 3276071097,
+        "ALDAGPDIFKL": [
             "6",
             "300",
             "",
@@ -39,18 +39,18 @@
         ]
     },
     {
-        "ConfigId": 3,
-        "Level": 2,
-        "NAJHKCJFHGG": 804322998,
-        "PICBICJHIEI": [
+        "configId": 3,
+        "level": 2,
+        "NKFHIBALAPF": 804322998,
+        "FPMILKHPLMB": [
             "12",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 502550361,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 502550361,
+        "ALDAGPDIFKL": [
             "12",
             "300",
             "",
@@ -59,18 +59,18 @@
         ]
     },
     {
-        "ConfigId": 4,
-        "Level": 3,
-        "NAJHKCJFHGG": 712780014,
-        "PICBICJHIEI": [
+        "configId": 4,
+        "level": 3,
+        "NKFHIBALAPF": 712780014,
+        "FPMILKHPLMB": [
             "18",
             "330",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 3669646369,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 3669646369,
+        "ALDAGPDIFKL": [
             "18",
             "330",
             "",
@@ -79,18 +79,18 @@
         ]
     },
     {
-        "ConfigId": 5,
-        "Level": 4,
-        "NAJHKCJFHGG": 2058993054,
-        "PICBICJHIEI": [
+        "configId": 5,
+        "level": 4,
+        "NKFHIBALAPF": 2058993054,
+        "FPMILKHPLMB": [
             "24",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 308105593,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 308105593,
+        "ALDAGPDIFKL": [
             "24",
             "330",
             "",
@@ -99,18 +99,18 @@
         ]
     },
     {
-        "ConfigId": 6,
-        "Level": 5,
-        "NAJHKCJFHGG": 4288370838,
-        "PICBICJHIEI": [
+        "configId": 6,
+        "level": 5,
+        "NKFHIBALAPF": 4288370838,
+        "FPMILKHPLMB": [
             "30",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 2940502065,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 2940502065,
+        "ALDAGPDIFKL": [
             "30",
             "330",
             "",
@@ -119,18 +119,18 @@
         ]
     },
     {
-        "ConfigId": 7,
-        "Level": 6,
-        "NAJHKCJFHGG": 4144624774,
-        "PICBICJHIEI": [
+        "configId": 7,
+        "level": 6,
+        "NKFHIBALAPF": 4144624774,
+        "FPMILKHPLMB": [
             "51",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 2341687377,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 2341687377,
+        "ALDAGPDIFKL": [
             "51",
             "330",
             "",
@@ -139,18 +139,18 @@
         ]
     },
     {
-        "ConfigId": 8,
-        "Level": 7,
-        "NAJHKCJFHGG": 4005514230,
-        "PICBICJHIEI": [
+        "configId": 8,
+        "level": 7,
+        "NKFHIBALAPF": 4005514230,
+        "FPMILKHPLMB": [
             "57",
             "360",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 717811953,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 717811953,
+        "ALDAGPDIFKL": [
             "57",
             "360",
             "",
@@ -159,18 +159,18 @@
         ]
     },
     {
-        "ConfigId": 9,
-        "Level": 8,
-        "NAJHKCJFHGG": 1297725510,
-        "PICBICJHIEI": [
+        "configId": 9,
+        "level": 8,
+        "NKFHIBALAPF": 1297725510,
+        "FPMILKHPLMB": [
             "63",
             "10",
             "30",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 4042210137,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 4042210137,
+        "ALDAGPDIFKL": [
             "63",
             "360",
             "10",
@@ -179,18 +179,18 @@
         ]
     },
     {
-        "ConfigId": 10,
-        "Level": 9,
-        "NAJHKCJFHGG": 1150165830,
-        "PICBICJHIEI": [
+        "configId": 10,
+        "level": 9,
+        "NKFHIBALAPF": 1150165830,
+        "FPMILKHPLMB": [
             "69",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 1518667433,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 1518667433,
+        "ALDAGPDIFKL": [
             "69",
             "360",
             "10",
@@ -199,18 +199,18 @@
         ]
     },
     {
-        "ConfigId": 11,
-        "Level": 10,
-        "NAJHKCJFHGG": 3006417414,
-        "PICBICJHIEI": [
+        "configId": 11,
+        "level": 10,
+        "NKFHIBALAPF": 3006417414,
+        "FPMILKHPLMB": [
             "75",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 149616145,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 149616145,
+        "ALDAGPDIFKL": [
             "75",
             "360",
             "10",
@@ -219,18 +219,18 @@
         ]
     },
     {
-        "ConfigId": 12,
-        "Level": 11,
-        "NAJHKCJFHGG": 212848686,
-        "PICBICJHIEI": [
+        "configId": 12,
+        "level": 11,
+        "NKFHIBALAPF": 212848686,
+        "FPMILKHPLMB": [
             "96",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 2464077233,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 2464077233,
+        "ALDAGPDIFKL": [
             "96",
             "360",
             "10",
@@ -239,18 +239,18 @@
         ]
     },
     {
-        "ConfigId": 13,
-        "Level": 12,
-        "NAJHKCJFHGG": 2387324086,
-        "PICBICJHIEI": [
+        "configId": 13,
+        "level": 12,
+        "NKFHIBALAPF": 2387324086,
+        "FPMILKHPLMB": [
             "102",
             "390",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 3823666569,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 3823666569,
+        "ALDAGPDIFKL": [
             "102",
             "390",
             "10",
@@ -259,18 +259,18 @@
         ]
     },
     {
-        "ConfigId": 14,
-        "Level": 13,
-        "NAJHKCJFHGG": 97887326,
-        "PICBICJHIEI": [
+        "configId": 14,
+        "level": 13,
+        "NKFHIBALAPF": 97887326,
+        "FPMILKHPLMB": [
             "108",
             "20",
             "30",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 1104950257,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 1104950257,
+        "ALDAGPDIFKL": [
             "108",
             "390",
             "20",
@@ -279,18 +279,18 @@
         ]
     },
     {
-        "ConfigId": 15,
-        "Level": 14,
-        "NAJHKCJFHGG": 718111126,
-        "PICBICJHIEI": [
+        "configId": 15,
+        "level": 14,
+        "NKFHIBALAPF": 718111126,
+        "FPMILKHPLMB": [
             "114",
             "50",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 3300114337,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 3300114337,
+        "ALDAGPDIFKL": [
             "114",
             "390",
             "20",
@@ -299,18 +299,18 @@
         ]
     },
     {
-        "ConfigId": 16,
-        "Level": 15,
-        "NAJHKCJFHGG": 3208670598,
-        "PICBICJHIEI": [
+        "configId": 16,
+        "level": 15,
+        "NKFHIBALAPF": 3208670598,
+        "FPMILKHPLMB": [
             "120",
             "",
             "",
             "",
             ""
         ],
-        "ALBOKKCLKNA": 2177331785,
-        "EHKDHPNNJDB": [
+        "EPKKGFGIOLB": 2177331785,
+        "ALDAGPDIFKL": [
             "120",
             "390",
             "20",

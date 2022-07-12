@@ -1,5 +1,6 @@
 {
     "id": 11122,
+    "ICLLDPJFIMA": 2015,
     "series": 1112,
     "type": "LQ",
     "titleTextMapHash": 3766367927,
@@ -42,11 +43,10 @@
             "guide": {
                 "type": "QUEST_GUIDE_LOCATION",
                 "param": [
-                    "Q11122_Look_Pos",
-                    "25"
+                    "Q11122_Look_Pos"
                 ],
                 "guideScene": 3,
-                "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
+                "guideStyle": "QUEST_GUIDE_STYLE_POINT",
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "isRewind": true,
@@ -121,7 +121,7 @@
                 "type": "QUEST_GUIDE_LOCATION",
                 "param": [
                     "Q11122_Search_1_Pos",
-                    "30"
+                    "20"
                 ],
                 "guideScene": 3,
                 "guideStyle": "QUEST_GUIDE_STYLE_TARGET",
@@ -221,7 +221,6 @@
                     ]
                 }
             ],
-            "exclusiveNpcPriority": 1100,
             "versionBegin": "",
             "versionEnd": ""
         },
@@ -394,12 +393,6 @@
                 {
                     "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
                     "param": [
-                        "133103921"
-                    ]
-                },
-                {
-                    "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
-                    "param": [
                         "133106911"
                     ]
                 }
@@ -466,6 +459,14 @@
                 "guideLayer": "QUEST_GUIDE_LAYER_SCENE"
             },
             "isRewind": true,
+            "finishExec": [
+                {
+                    "type": "QUEST_EXEC_UNREGISTER_DYNAMIC_GROUP",
+                    "param": [
+                        "133103921"
+                    ]
+                }
+            ],
             "beginExec": [
                 {
                     "type": "QUEST_EXEC_REGISTER_DYNAMIC_GROUP",
@@ -478,8 +479,7 @@
             "exclusiveNpcList": [
                 10232,
                 10376,
-                10395,
-                10424
+                10395
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -672,7 +672,9 @@
             "exclusiveNpcList": [
                 10379,
                 10380,
-                10381
+                10381,
+                10232,
+                10376
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -751,7 +753,9 @@
             "exclusiveNpcList": [
                 10379,
                 10380,
-                10381
+                10381,
+                10232,
+                10376
             ],
             "exclusiveNpcPriority": 1100,
             "versionBegin": "",
@@ -827,8 +831,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112201",
                         "2"
                     ]
@@ -850,8 +854,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112202",
                         "2"
                     ]
@@ -873,8 +877,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112204",
                         "2"
                     ]
@@ -896,8 +900,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112207",
                         "2"
                     ]
@@ -919,8 +923,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112208",
                         "2"
                     ]
@@ -942,8 +946,8 @@
             "beginWay": "TALK_BEGIN_AUTO",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112209",
                         "2"
                     ]
@@ -966,15 +970,15 @@
             "beginCondComb": "LOGIC_OR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "11122012",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112208",
                         "2"
                     ]
@@ -996,8 +1000,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112201",
                         "2"
                     ]
@@ -1019,8 +1023,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112210",
                         "2"
                     ]
@@ -1042,8 +1046,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112211",
                         "2"
                     ]
@@ -1066,29 +1070,29 @@
             "beginCondComb": "LOGIC_A_AND_ETCOR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112210",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112204",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112205",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112211",
                         "2"
                     ]
@@ -1111,29 +1115,29 @@
             "beginCondComb": "LOGIC_A_AND_ETCOR",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112211",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112210",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112204",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112205",
                         "2"
                     ]
@@ -1155,8 +1159,8 @@
             "beginWay": "TALK_BEGIN_MANUAL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "1112205",
                         "2"
                     ]
@@ -1178,9 +1182,18 @@
         841936751481,
         538369618613,
         624290907433,
-        793516331533
+        793516331533,
+        233380506317
     ],
     "forcePreloadLuaList": [
         246447633849
-    ]
+    ],
+    "freeStyleDic": {
+        "10395": [
+            4190
+        ],
+        "10382": [
+            4130
+        ]
+    }
 }

@@ -21,6 +21,8 @@
                     "param": [
                         2102301,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -62,6 +64,8 @@
                     "param": [
                         2102301,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -109,6 +113,8 @@
                     "param": [
                         2102302,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -164,15 +170,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2102303",
                         "2"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2102301",
                         "3"
                     ]

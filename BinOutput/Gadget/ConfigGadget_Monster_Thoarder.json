@@ -4,15 +4,15 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleX": 0.5,
-                "scaleY": 0.5
+                "DFOMHHEIEEC": 0.5,
+                "FGALCDKIDHJ": 0.5
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
                 "isLockHP": true,
-                "canTriggerBullet": false
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -29,19 +29,19 @@
                 "ATK01": {
                     "attackPattern": {
                         "$type": "ConfigAttackBox",
-                        "triggerType": "TriggerNoRepeat",
-                        "born": {
+                        "lifeTime": "TriggerNoRepeat",
+                        "NGDMCBABOJA": {
                             "$type": "ConfigBornByCollisionPoint",
                             "offset": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": -0.5
+                                "AEAAJCIDPED": 0.0,
+                                "KAAPLGBEDPM": 0.0,
+                                "PHDCJAHHIOG": -0.5
                             }
                         },
                         "size": {
-                            "x": 0.10000000149011612,
-                            "y": 0.10000000149011612,
-                            "z": 1.0
+                            "AEAAJCIDPED": 0.10000000149011612,
+                            "KAAPLGBEDPM": 0.10000000149011612,
+                            "PHDCJAHHIOG": 1.0
                         }
                     },
                     "attackInfo": {
@@ -49,7 +49,7 @@
                         "attenuationTag": "",
                         "attenuationGroup": "default",
                         "attackProperty": {
-                            "damagePercentage": 0.5,
+                            "bonusCriticalHurt": 0.5,
                             "damagePercentageRatio": 0.0,
                             "elementDurability": 100.0,
                             "strikeType": "Pierce",
@@ -68,6 +68,7 @@
                 }
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ThrowingKnife_Effect",
@@ -75,28 +76,28 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 8.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 8.0
         },
         "move": {
             "$type": "ConfigLinerParabolaBulletMove",
-            "speed": 30.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 30.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "straightRange": 40.0,
-            "gravityOfAcceleration": 10.0,
-            "airResistance": 0.009999999776482582
+            "KBKBGMEBOBM": 40.0,
+            "OOKNCMNOLHL": 10.0,
+            "BEOAIOIBIHG": 0.009999999776482582
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetDoAttackEvent",
-                    "attackEvent": "ATK01"
+                    "DMCJDGELKBC": "ATK01"
                 }
             ]
         }
@@ -106,13 +107,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -129,6 +130,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Loop",
@@ -141,37 +143,37 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 15.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 36.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 50.0,
+            "OOKNCMNOLHL": 30.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.75,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 0.75,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_Bomb_Explode"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
     "Thoarder_MolotovCocktail": {
@@ -179,13 +181,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -202,6 +204,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "MolotovCocktail_Loop",
@@ -214,37 +217,37 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 15.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 15.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 30.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 30.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 1.5,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 1.5,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_MolotovCocktail_Explode"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
     "Thoarder_Bomb_Water_01": {
@@ -252,13 +255,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -275,6 +278,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Water_01_Loop",
@@ -287,37 +291,37 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 15.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 15.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 30.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 30.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 1.5,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 1.5,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_Bomb_Water_01_Explode"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
     "Thoarder_Bomb_Ice_01": {
@@ -325,13 +329,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -348,6 +352,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Ice_01_Loop",
@@ -360,37 +365,37 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 15.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 15.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 30.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 30.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 1.5,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 1.5,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_Bomb_Ice_01_Explode"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
     "Thoarder_Bomb_Electric_01": {
@@ -398,13 +403,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -421,6 +426,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Electric_01_Loop",
@@ -433,37 +439,37 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 15.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 15.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 30.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 30.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 1.5,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 1.5,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_Bomb_Electric_01_Explode"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
     "Thoarder_Bomb_ElementalEffect_Fire": {
@@ -471,13 +477,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -494,6 +500,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ElementalEffect",
@@ -501,8 +508,8 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 3.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 3.5
         }
     },
     "Thoarder_Bomb_ElementalEffect_Water": {
@@ -510,13 +517,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -533,6 +540,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ElementalEffect",
@@ -540,8 +548,8 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 3.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 3.5
         }
     },
     "Thoarder_Bomb_ElementalEffect_Ice": {
@@ -549,13 +557,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -572,6 +580,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ElementalEffect",
@@ -579,8 +588,8 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 3.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 3.5
         }
     },
     "Thoarder_Bomb_ElementalEffect_Electric": {
@@ -588,13 +597,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -611,6 +620,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "ElementalEffect",
@@ -618,8 +628,8 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 3.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 3.5
         }
     },
     "Thoarder_Shovel_MuddyBullet": {
@@ -627,13 +637,13 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -650,6 +660,7 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "MuddyBullet_Loop",
@@ -662,51 +673,51 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 20.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 36.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 36.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.75,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 0.75,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_MuddyBullet_OnHit"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
         }
     },
-    "Thoarder_HatchetThrow": {
+    "Thoarder_Fat_Shovel_MuddyBullet": {
         "$type": "ConfigGadget",
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             }
         },
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 999999.0,
+                "CMBBAPKBDCI": 999999.0,
                 "attack": 10.0,
                 "defense": 999999.0,
                 "isLockHP": true
@@ -723,6 +734,81 @@
                 "lockType": "Default"
             }
         },
+        "attackAttenuation": "",
+        "abilities": [
+            {
+                "abilityID": "MuddyBullet_Loop",
+                "abilityName": "Thoarder_StoneBullet_Loop",
+                "abilityOverride": ""
+            },
+            {
+                "abilityID": "MuddyBullet_OnHit",
+                "abilityName": "Monster_Thoarder_Male_Fat_Shovel_MuddyBullet_OnHit",
+                "abilityOverride": ""
+            }
+        ],
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
+        },
+        "move": {
+            "$type": "ConfigParabolaBulletMove",
+            "FMMJLOCHHLM": 40.0,
+            "DMMDOKKMANE": {
+                "$type": "ConfigBulletMoveAngleByVelocity"
+            },
+            "IBEKNBIGDBM": 30.0,
+            "OOKNCMNOLHL": 20.0,
+            "PKGGMCBEEMN": {
+                "$type": "ConfigParabolaBulletMoveCorrection",
+                "FOHINLMCLCC": 5.0,
+                "OICALFLJDEA": 20.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
+            }
+        },
+        "AFEIEIPGDCN": {
+            "$type": "ConfigBulletPattern",
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
+            },
+            "DHBKLEHDFNF": [
+                {
+                    "$type": "ConfigGadgetTriggerAbility",
+                    "abilityName": "Monster_Thoarder_Male_Fat_Shovel_MuddyBullet_OnHit"
+                }
+            ],
+            "LNKCPELLKIF": true
+        }
+    },
+    "Thoarder_HatchetThrow": {
+        "$type": "ConfigGadget",
+        "common": {
+            "effectAttachShape": {
+                "$type": "ConfigEffectAttachBox",
+                "FGNLBMLCKLP": 0.4000000059604645
+            }
+        },
+        "combat": {
+            "property": {
+                "useCreatorProperty": true,
+                "CMBBAPKBDCI": 999999.0,
+                "attack": 10.0,
+                "defense": 999999.0,
+                "isLockHP": true
+            },
+            "beHit": {
+                "hitBloodEffect": "",
+                "muteAllHit": true,
+                "muteAllHitEffect": true,
+                "muteAllHitText": true
+            },
+            "combatLock": {
+                "lockShape": "CircleLockEnemy",
+                "denyLockOn": true,
+                "lockType": "Default"
+            }
+        },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "HatchetThrow_Loop",
@@ -735,38 +821,252 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "updateAngle": {
+            "FMMJLOCHHLM": 20.0,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity"
             },
-            "angleOffHor": 36.0,
-            "gravityOfAcceleration": 15.0,
-            "correction": {
+            "IBEKNBIGDBM": 36.0,
+            "OOKNCMNOLHL": 15.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.75,
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 24.0
+                "FOHINLMCLCC": 0.75,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 24.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "triggerType": "TriggerNoRepeat",
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerNoRepeat",
+                "PENKNGDICGD": 0.10000000149011612,
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Thoarder_HatchetThrow_Damage"
                 }
             ],
-            "killByOther": true
+            "LNKCPELLKIF": true
+        }
+    },
+    "Thoarder_HatchetThrow_Plus": {
+        "$type": "ConfigGadget",
+        "common": {
+            "effectAttachShape": {
+                "$type": "ConfigEffectAttachBox",
+                "FGNLBMLCKLP": 0.4000000059604645
+            }
+        },
+        "combat": {
+            "property": {
+                "useCreatorProperty": true,
+                "CMBBAPKBDCI": 999999.0,
+                "attack": 10.0,
+                "defense": 999999.0,
+                "isLockHP": true
+            },
+            "beHit": {
+                "hitBloodEffect": "",
+                "muteAllHit": true,
+                "muteAllHitEffect": true,
+                "muteAllHitText": true
+            },
+            "combatLock": {
+                "lockShape": "CircleLockEnemy",
+                "denyLockOn": true,
+                "lockType": "Default"
+            }
+        },
+        "attackAttenuation": "",
+        "abilities": [
+            {
+                "abilityID": "HatchetThrow_Loop",
+                "abilityName": "Thoarder_HatchetThrow_Bullet",
+                "abilityOverride": ""
+            },
+            {
+                "abilityID": "HatchetThrow_Damage",
+                "abilityName": "Thoarder_Female_Hatchet_Anego_ThrowPlus_Damage",
+                "abilityOverride": ""
+            }
+        ],
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
+        },
+        "move": {
+            "$type": "ConfigParabolaBulletMove",
+            "FMMJLOCHHLM": 20.0,
+            "DMMDOKKMANE": {
+                "$type": "ConfigBulletMoveAngleByVelocity"
+            },
+            "IBEKNBIGDBM": 36.0,
+            "OOKNCMNOLHL": 20.0,
+            "PKGGMCBEEMN": {
+                "$type": "ConfigParabolaBulletMoveCorrection",
+                "FOHINLMCLCC": 0.25,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 40.0
+            }
+        },
+        "AFEIEIPGDCN": {
+            "$type": "ConfigBulletPattern",
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
+            },
+            "DHBKLEHDFNF": [
+                {
+                    "$type": "ConfigGadgetTriggerAbility",
+                    "abilityName": "Thoarder_Female_Hatchet_Anego_ThrowPlus_Damage"
+                }
+            ],
+            "LNKCPELLKIF": true
+        }
+    },
+    "Thoarder_HammerThrow": {
+        "$type": "ConfigGadget",
+        "common": {
+            "effectAttachShape": {
+                "$type": "ConfigEffectAttachBox",
+                "DFOMHHEIEEC": 2.0,
+                "FGALCDKIDHJ": 2.0,
+                "FGNLBMLCKLP": 0.800000011920929
+            }
+        },
+        "combat": {
+            "property": {
+                "useCreatorProperty": true,
+                "CMBBAPKBDCI": 999999.0,
+                "attack": 10.0,
+                "defense": 999999.0,
+                "isLockHP": true
+            },
+            "beHit": {
+                "hitBloodEffect": "",
+                "muteAllHit": true,
+                "muteAllHitEffect": true,
+                "muteAllHitText": true
+            },
+            "combatLock": {
+                "lockShape": "CircleLockEnemy",
+                "denyLockOn": true,
+                "lockType": "Default"
+            }
+        },
+        "attackAttenuation": "",
+        "abilities": [
+            {
+                "abilityID": "HatchetThrow_Loop",
+                "abilityName": "Thoarder_HatchetThrow_Loop",
+                "abilityOverride": ""
+            },
+            {
+                "abilityID": "HatchetThrow_Damage",
+                "abilityName": "Thoarder_HatchetThrow_Damage",
+                "abilityOverride": ""
+            }
+        ],
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
+        },
+        "move": {
+            "$type": "ConfigParabolaBulletMove",
+            "FMMJLOCHHLM": 50.0,
+            "DMMDOKKMANE": {
+                "$type": "ConfigBulletMoveAngleByVelocity"
+            },
+            "IBEKNBIGDBM": 5.0,
+            "OOKNCMNOLHL": 50.0,
+            "PKGGMCBEEMN": {
+                "$type": "ConfigParabolaBulletMoveCorrection",
+                "FOHINLMCLCC": 0.25,
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 30.0,
+                "OGKIPNLKEJP": 50.0
+            }
+        },
+        "AFEIEIPGDCN": {
+            "$type": "ConfigBulletPattern",
+            "EJFGJMDMBNJ": {
+                "lifeTime": "TriggerNoRepeat",
+                "OJIFKEOCJGB": "Enemy"
+            },
+            "DHBKLEHDFNF": [
+                {
+                    "$type": "ConfigGadgetTriggerAbility",
+                    "abilityName": "Thoarder_HatchetThrow_Damage"
+                }
+            ],
+            "LNKCPELLKIF": true
+        }
+    },
+    "Thoarder_Slippie_Fire_Arrow": {
+        "$type": "ConfigGadget",
+        "common": {
+            "effectAttachShape": {
+                "$type": "ConfigEffectAttachBox",
+                "DFOMHHEIEEC": 0.5,
+                "FGALCDKIDHJ": 0.5
+            }
+        },
+        "combat": {
+            "property": {
+                "useCreatorProperty": true,
+                "isLockHP": true,
+                "ignorePurgeRate": false
+            },
+            "beHit": {
+                "hitBloodEffect": "",
+                "muteAllHit": true,
+                "muteAllHitEffect": true,
+                "muteAllHitText": true
+            },
+            "combatLock": {
+                "lockShape": "CircleLockEnemy",
+                "denyLockOn": true,
+                "lockType": "Default"
+            }
+        },
+        "attackAttenuation": "",
+        "abilities": [
+            {
+                "abilityID": "Damage",
+                "abilityName": "Thoarder_Male_Slippie_FireArrow_Damage",
+                "abilityOverride": ""
+            }
+        ],
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 8.0
+        },
+        "move": {
+            "$type": "ConfigLinerParabolaBulletMove",
+            "FMMJLOCHHLM": 30.0,
+            "JMEOBDFCELF": true,
+            "DMMDOKKMANE": {
+                "$type": "ConfigBulletMoveAngleByVelocity"
+            },
+            "KBKBGMEBOBM": 40.0,
+            "OOKNCMNOLHL": 10.0,
+            "BEOAIOIBIHG": 0.009999999776482582
+        },
+        "AFEIEIPGDCN": {
+            "$type": "ConfigBulletPattern",
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
+            },
+            "DHBKLEHDFNF": [
+                {
+                    "$type": "ConfigGadgetTriggerAbility",
+                    "abilityName": "Thoarder_Male_Slippie_FireArrow_Damage"
+                }
+            ]
         }
     }
 }

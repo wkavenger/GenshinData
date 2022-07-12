@@ -19,6 +19,8 @@
                     "param": [
                         21601,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -69,6 +71,8 @@
                     "param": [
                         21601,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -77,6 +81,8 @@
                     "param": [
                         2005001,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -154,6 +160,8 @@
                     "param": [
                         21601,
                         0,
+                        0,
+                        0,
                         0
                     ]
                 },
@@ -162,6 +170,8 @@
                     "param": [
                         2005002,
                         3,
+                        0,
+                        0,
                         0
                     ]
                 }
@@ -224,8 +234,8 @@
             "activeMode": "PLAY_MODE_ALL",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2005001",
                         "2"
                     ]
@@ -248,15 +258,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2005001",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2005002",
                         "2"
                     ]
@@ -279,15 +289,15 @@
             "beginCondComb": "LOGIC_AND",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2005002",
                         "3"
                     ]
                 },
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "2005003",
                         "2"
                     ]

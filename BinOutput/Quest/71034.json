@@ -58,8 +58,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103401",
                         "2"
                     ]
@@ -82,8 +82,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103401",
                         "2"
                     ]
@@ -106,8 +106,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103401",
                         "2"
                     ]
@@ -130,8 +130,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103401",
                         "2"
                     ]
@@ -154,8 +154,8 @@
             "activeMode": "PLAY_MODE_HOST",
             "beginCond": [
                 {
-                    "type": "QUEST_COND_STATE_EQUAL",
-                    "param": [
+                    "_type": "QUEST_COND_STATE_EQUAL",
+                    "_param": [
                         "7103401",
                         "2"
                     ]
@@ -179,5 +179,22 @@
     ],
     "forcePreloadLuaList": [
         787431402627
-    ]
+    ],
+    "freeStyleDic": {
+        "240901": [
+            1190
+        ],
+        "220501": [
+            1190
+        ],
+        "230501": [
+            1060
+        ],
+        "230901": [
+            5010
+        ],
+        "230801": [
+            5010
+        ]
+    }
 }

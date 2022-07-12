@@ -4,7 +4,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -13,9 +13,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -23,6 +23,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "NoarmalAttack_Damage",
@@ -35,27 +36,27 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 2.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 2.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "angleOffHor": 25.0,
-            "gravityOfAcceleration": 40.0,
-            "correction": {
+            "FMMJLOCHHLM": 20.0,
+            "IBEKNBIGDBM": 25.0,
+            "OOKNCMNOLHL": 40.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 18.0
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 18.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_NoarmalAttack_01_Damage"
@@ -68,7 +69,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -77,9 +78,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -87,6 +88,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "NoarmalAttack_Damage",
@@ -99,27 +101,27 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 2.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 2.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "angleOffHor": 25.0,
-            "gravityOfAcceleration": 40.0,
-            "correction": {
+            "FMMJLOCHHLM": 20.0,
+            "IBEKNBIGDBM": 25.0,
+            "OOKNCMNOLHL": 40.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 18.0
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 18.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_NoarmalAttack_02_Damage"
@@ -132,7 +134,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -141,9 +143,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -151,6 +153,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "NoarmalAttack_Damage",
@@ -163,27 +166,27 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 2.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 2.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 20.0,
-            "angleOffHor": 25.0,
-            "gravityOfAcceleration": 40.0,
-            "correction": {
+            "FMMJLOCHHLM": 20.0,
+            "IBEKNBIGDBM": 25.0,
+            "OOKNCMNOLHL": 40.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "fixAngleOfVer": 15.0,
-                "minSpeed": 4.0,
-                "maxSpeed": 18.0
+                "OICALFLJDEA": 15.0,
+                "LAOHLEAPNBF": 4.0,
+                "OGKIPNLKEJP": 18.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_NoarmalAttack_03_Damage"
@@ -196,7 +199,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -205,9 +208,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -215,6 +218,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Explode1",
@@ -222,27 +226,27 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 10.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 10.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 8.0,
-            "delay": 0.029999999329447746,
-            "angleOffHor": 40.0,
-            "gravityOfAcceleration": 30.0,
-            "correction": {
+            "FMMJLOCHHLM": 8.0,
+            "JLFCEIPGCMI": 0.029999999329447746,
+            "IBEKNBIGDBM": 40.0,
+            "OOKNCMNOLHL": 30.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.5,
-                "fixAngleOfVer": 5.0,
-                "minSpeed": 8.0,
-                "maxSpeed": 9.0
+                "FOHINLMCLCC": 0.5,
+                "OICALFLJDEA": 5.0,
+                "LAOHLEAPNBF": 8.0,
+                "OGKIPNLKEJP": 9.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {},
-            "triggerActions": [
+            "EJFGJMDMBNJ": {},
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Jumping_Drug_Explode"
@@ -255,7 +259,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -264,9 +268,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -274,6 +278,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Explode2",
@@ -281,36 +286,36 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 10.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 10.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 8.0,
-            "delay": 0.10000000149011612,
-            "angleOffHor": 70.0,
-            "gravityOfAcceleration": 30.0,
-            "correction": {
+            "FMMJLOCHHLM": 8.0,
+            "JLFCEIPGCMI": 0.10000000149011612,
+            "IBEKNBIGDBM": 70.0,
+            "OOKNCMNOLHL": 30.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.07999999821186066,
-                "fixAngleOfVer": 5.0,
-                "minSpeed": 8.0,
-                "maxSpeed": 9.0
+                "FOHINLMCLCC": 0.07999999821186066,
+                "OICALFLJDEA": 5.0,
+                "LAOHLEAPNBF": 8.0,
+                "OGKIPNLKEJP": 9.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy",
-                "bornWithTriggerEnabled": false
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy",
+                "HMPIJBCKMDM": false
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Jumping_Drug_Explode2"
                 }
             ],
-            "enableCollisionDelay": 0.30000001192092896
+            "DAKJEPLFJGD": 0.30000001192092896
         }
     },
     "Klee_JumpBomb_03": {
@@ -318,7 +323,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -327,9 +332,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -337,6 +342,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Bomb_Explode3",
@@ -344,36 +350,36 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 10.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 10.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 8.0,
-            "delay": 0.10000000149011612,
-            "angleOffHor": 70.0,
-            "gravityOfAcceleration": 30.0,
-            "correction": {
+            "FMMJLOCHHLM": 8.0,
+            "JLFCEIPGCMI": 0.10000000149011612,
+            "IBEKNBIGDBM": 70.0,
+            "OOKNCMNOLHL": 30.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 0.5,
-                "fixAngleOfVer": 5.0,
-                "minSpeed": 8.0,
-                "maxSpeed": 9.0
+                "FOHINLMCLCC": 0.5,
+                "OICALFLJDEA": 5.0,
+                "LAOHLEAPNBF": 8.0,
+                "OGKIPNLKEJP": 9.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy",
-                "bornWithTriggerEnabled": false
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy",
+                "HMPIJBCKMDM": false
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Jumping_Drug_Explode3"
                 }
             ],
-            "enableCollisionDelay": 0.30000001192092896
+            "DAKJEPLFJGD": 0.30000001192092896
         }
     },
     "JumpDrug_Whitbox_04": {
@@ -381,7 +387,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -390,9 +396,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "HP": 99999.0,
+                "CMBBAPKBDCI": 99999.0,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -400,33 +406,34 @@
                 "lockType": "Gadget_Lv1"
             }
         },
-        "timer": {
-            "lifeTime": 15.0
+        "attackAttenuation": "",
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 15.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 10.0,
-            "angleOffHor": 25.0,
-            "gravityOfAcceleration": 12.0,
-            "correction": {
+            "FMMJLOCHHLM": 10.0,
+            "IBEKNBIGDBM": 25.0,
+            "OOKNCMNOLHL": 12.0,
+            "PKGGMCBEEMN": {
                 "$type": "ConfigParabolaBulletMoveCorrection",
-                "deviation": 2.0,
-                "fixAngleOfVer": 5.0,
-                "minSpeed": 5.0,
-                "maxSpeed": 20.0
+                "FOHINLMCLCC": 2.0,
+                "OICALFLJDEA": 5.0,
+                "LAOHLEAPNBF": 5.0,
+                "OGKIPNLKEJP": 20.0
             }
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             }
         },
-        "equipment": {
-            "attachTo": "equip03",
-            "subAttachTo": "",
-            "auxToTrans": "",
-            "equipEntityType": "Spear"
+        "KHPJMGGKMNK": {
+            "KKMNLIEOJLL": "equip03",
+            "GBGFLKOHFPH": "",
+            "EHKPLNJLJJL": "",
+            "NGBOBPPNLCH": "Spear"
         }
     },
     "Klee_Mine_Throw": {
@@ -434,7 +441,7 @@
         "common": {
             "effectAttachShape": {
                 "$type": "ConfigEffectAttachBox",
-                "scaleZ": 0.4000000059604645
+                "FGNLBMLCKLP": 0.4000000059604645
             },
             "mass": 5.0,
             "affectedByWorld": true,
@@ -444,7 +451,7 @@
             "property": {
                 "useCreatorProperty": true,
                 "isLockHP": true,
-                "isGhostToAllied": true
+                "canTriggerBullet": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -452,6 +459,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Avatar_Klee_ThrowMine",
@@ -459,29 +467,29 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 5.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 5.0
         },
         "move": {
             "$type": "ConfigParabolaBulletMove",
-            "speed": 12.0,
-            "acceleration": -10.0,
-            "angleOffHor": 70.0,
-            "gravityOfAcceleration": 35.0
+            "FMMJLOCHHLM": 12.0,
+            "AAAEMJGEEJO": -10.0,
+            "IBEKNBIGDBM": 70.0,
+            "OOKNCMNOLHL": 35.0
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy",
-                "bornWithTriggerEnabled": false
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy",
+                "HMPIJBCKMDM": false
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_ThrowMine"
                 }
             ],
-            "enableCollisionDelay": 0.20000000298023224
+            "DAKJEPLFJGD": 0.20000000298023224
         }
     },
     "Avatar_Klee_Mine": {
@@ -506,6 +514,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Avatar_Klee_Mine",
@@ -518,27 +527,27 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 16.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 16.0
         },
         "move": {
             "$type": "ConfigRigidbodyMove",
-            "velocityForce": {
-                "includeForces": [
+            "LLNGHPMEALD": {
+                "HCLFFPJLKJN": [
                     "WindZoneType",
                     "RetreatType",
                     "RetreatAirType"
                 ]
             },
-            "startCloseToGround": false
+            "CCPCIIKNOMF": false
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy",
-                "ignoreScene": true
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy",
+                "BJKEDLNCDHF": true
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_Mine"
@@ -556,9 +565,10 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "isGhostToEnemy": true
+                "denyElementStick": true
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "CreateBomb",
@@ -566,17 +576,17 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 25.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 25.0
         },
         "move": {
             "$type": "ConfigFollowMove",
-            "attachPoint": "",
-            "followRotation": true,
+            "BDMAMLPPCMN": "",
+            "DEMMFGLNINM": true,
             "offset": {
-                "y": 1.0
+                "_y": 1.0
             },
-            "followOwnerInvisible": true
+            "JOEKDFMJCGL": true
         }
     },
     "Klee_Elemental_Burst_Bomb": {
@@ -584,9 +594,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "weight": 50.0,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "w": 50.0,
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -600,6 +610,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Explode",
@@ -607,24 +618,24 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 2.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 2.0
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 25.0,
-            "maxSpeed": 25.0,
-            "minSpeed": 20.0,
-            "acceleration": 1.0,
-            "canBornInWater": true,
-            "traceOnYAxis": true
+            "FMMJLOCHHLM": 25.0,
+            "OGKIPNLKEJP": 25.0,
+            "LAOHLEAPNBF": 20.0,
+            "AAAEMJGEEJO": 1.0,
+            "JMEOBDFCELF": true,
+            "MCNHEAILGPP": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_Elemental_Burst_Explode"
@@ -637,9 +648,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "weight": 50.0,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true
+                "w": 50.0,
+                "canTriggerBullet": true,
+                "denyElementStick": true
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -653,6 +664,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Explode",
@@ -660,24 +672,24 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 2.0
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 2.0
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 25.0,
-            "maxSpeed": 25.0,
-            "minSpeed": 20.0,
-            "acceleration": 1.0,
-            "canBornInWater": true,
-            "traceOnYAxis": true
+            "FMMJLOCHHLM": 25.0,
+            "OGKIPNLKEJP": 25.0,
+            "LAOHLEAPNBF": 20.0,
+            "AAAEMJGEEJO": 1.0,
+            "JMEOBDFCELF": true,
+            "MCNHEAILGPP": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_Constellation_Explode"
@@ -697,7 +709,7 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "weight": 150.0
+                "w": 150.0
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -708,6 +720,7 @@
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Funnel",
@@ -715,17 +728,17 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 1.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 1.5
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 0.009999999776482582,
-            "updateAngle": {
+            "FMMJLOCHHLM": 0.009999999776482582,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity",
-                "traceLerpCoef": 360.0
+                "NDJKEHNMJNG": 360.0
             },
-            "traceOnYAxis": true
+            "MCNHEAILGPP": true
         }
     },
     "Klee_Constellation_Funnel": {
@@ -740,7 +753,7 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "weight": 150.0
+                "w": 150.0
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -751,6 +764,7 @@
                 "dieDisappearEffect": ""
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Constellation_Funnel",
@@ -758,17 +772,17 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 1.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 1.5
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 0.009999999776482582,
-            "updateAngle": {
+            "FMMJLOCHHLM": 0.009999999776482582,
+            "DMMDOKKMANE": {
                 "$type": "ConfigBulletMoveAngleByVelocity",
-                "traceLerpCoef": 360.0
+                "NDJKEHNMJNG": 360.0
             },
-            "traceOnYAxis": true
+            "MCNHEAILGPP": true
         }
     },
     "Klee_Elemental_Burst_Bullet": {
@@ -781,9 +795,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true,
-                "canTriggerBullet": false
+                "canTriggerBullet": true,
+                "denyElementStick": true,
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -797,6 +811,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "CreateFunnel",
@@ -809,24 +824,24 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 3.5
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 3.5
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 30.0,
-            "maxSpeed": 30.0,
-            "minSpeed": 8.0,
-            "acceleration": 1.0,
-            "canBornInWater": true,
-            "traceOnYAxis": true
+            "FMMJLOCHHLM": 30.0,
+            "OGKIPNLKEJP": 30.0,
+            "LAOHLEAPNBF": 8.0,
+            "AAAEMJGEEJO": 1.0,
+            "JMEOBDFCELF": true,
+            "MCNHEAILGPP": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_ElementalBurst_CreateFunnel"
@@ -845,9 +860,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "weight": 150.0,
+                "w": 150.0,
                 "isLockHP": true,
-                "isGhostToEnemy": true
+                "denyElementStick": true
             },
             "combatLock": {
                 "lockShape": "CircleLockEnemy",
@@ -858,6 +873,7 @@
                 "dieDisappearEffect": "Eff_Klee_ExtraAttack_Clover_Die"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Material",
@@ -865,22 +881,22 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 1.3200000524520874
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 1.3200000524520874
         },
         "stateLayers": {
             "defaultLayer": {
                 "$type": "ConfigNormalStateLayer",
-                "layerIndexName": "",
+                "JLAFELOFEGB": "",
                 "stateIDs": {
                     "ExtraAttack": {
                         "$type": "ConfigNormalStateIDInfo",
-                        "animatorStates": {
+                        "PINCPDEEFJI": {
                             "ExtraAttack": [
                                 "Klee_ExtraAttack_Clover"
                             ]
                         },
-                        "cullingModelAlwaysAnimate": true
+                        "PGHGJFNNLMI": true
                     }
                 }
             }
@@ -896,9 +912,9 @@
         "combat": {
             "property": {
                 "useCreatorProperty": true,
-                "isGhostToAllied": true,
-                "isGhostToEnemy": true,
-                "canTriggerBullet": false
+                "canTriggerBullet": true,
+                "denyElementStick": true,
+                "ignorePurgeRate": false
             },
             "beHit": {
                 "hitBloodEffect": "",
@@ -912,6 +928,7 @@
                 "lockType": "Gadget_Lv1"
             }
         },
+        "attackAttenuation": "",
         "abilities": [
             {
                 "abilityID": "Material",
@@ -919,25 +936,25 @@
                 "abilityOverride": ""
             }
         ],
-        "timer": {
-            "lifeTime": 0.800000011920929
+        "AGOIJBKMIOI": {
+            "KHMAEMALBFD": 0.800000011920929
         },
         "move": {
             "$type": "ConfigTrackBulletMove",
-            "speed": 30.0,
-            "maxSpeed": 45.0,
-            "minSpeed": 10.0,
-            "acceleration": 1.0,
-            "canBornInWater": true,
-            "delay": 0.10000000149011612,
-            "traceOnYAxis": true
+            "FMMJLOCHHLM": 30.0,
+            "OGKIPNLKEJP": 45.0,
+            "LAOHLEAPNBF": 10.0,
+            "AAAEMJGEEJO": 1.0,
+            "JMEOBDFCELF": true,
+            "JLFCEIPGCMI": 0.10000000149011612,
+            "MCNHEAILGPP": true
         },
-        "gadget": {
+        "AFEIEIPGDCN": {
             "$type": "ConfigBulletPattern",
-            "collision": {
-                "targetType": "Enemy"
+            "EJFGJMDMBNJ": {
+                "OJIFKEOCJGB": "Enemy"
             },
-            "triggerActions": [
+            "DHBKLEHDFNF": [
                 {
                     "$type": "ConfigGadgetTriggerAbility",
                     "abilityName": "Avatar_Klee_ExtraAttack_Clover_Bullet"

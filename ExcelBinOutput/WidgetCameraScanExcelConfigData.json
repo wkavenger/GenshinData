@@ -1,12 +1,12 @@
 [
     {
-        "Id": 1,
-        "GKLLGHNAIBC": 1,
-        "ConfigID": 70330092,
-        "JLLOINIHGHC": [
+        "id": 1,
+        "cameraID": 1,
+        "configID": 70330092,
+        "BKDONHIIMFE": [
             201
         ],
-        "MMOCBMLFKME": true,
-        "AJGFOIFJEIG": "WIDGET_CAMERA_ACTION_NOTIFY_SERVER"
+        "HJPGDJLBHEN": true,
+        "LMNEFILGAJN": "WIDGET_CAMERA_ACTION_NOTIFY_SERVER"
     }
 ]

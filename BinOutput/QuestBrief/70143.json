@@ -63,6 +63,16 @@
                         0,
                         0
                     ]
+                },
+                {
+                    "type": "QUEST_COND_PLAYER_LEVEL_EQUAL_GREATER",
+                    "param": [
+                        22,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
                 }
             ],
             "finishCond": [

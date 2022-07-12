@@ -1,602 +1,602 @@
 [
     {
-        "MaterialID": 223001,
-        "JJPNIBECMEJ": [
+        "materialID": 223001,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 230,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 230,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     410
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_01",
-        "OJGMMHHBJJK": 860837618
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_01",
+        "CCCOKFKGBCH": 860837618
     },
     {
-        "MaterialID": 223002,
-        "JJPNIBECMEJ": [
+        "materialID": 223002,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 269,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 269,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     89,
                     449
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_02",
-        "OJGMMHHBJJK": 1654748746
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_02",
+        "CCCOKFKGBCH": 1654748746
     },
     {
-        "MaterialID": 223003,
-        "JJPNIBECMEJ": [
+        "materialID": 223003,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 200,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 200,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     20,
                     380
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_03",
-        "OJGMMHHBJJK": 414667370
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_03",
+        "CCCOKFKGBCH": 414667370
     },
     {
-        "MaterialID": 223004,
-        "JJPNIBECMEJ": [
+        "materialID": 223004,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 380,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 380,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     200,
                     560
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_04",
-        "OJGMMHHBJJK": 188220194
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_04",
+        "CCCOKFKGBCH": 188220194
     },
     {
-        "MaterialID": 223005,
-        "JJPNIBECMEJ": [
+        "materialID": 223005,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 380,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 380,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     200,
                     560
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_05",
-        "OJGMMHHBJJK": 1680932714
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_05",
+        "CCCOKFKGBCH": 1680932714
     },
     {
-        "MaterialID": 223006,
-        "JJPNIBECMEJ": [
+        "materialID": 223006,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 380,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 380,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     200,
                     560
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "JIILAEGLEGA": []
             }
         ],
-        "DCAMKGMJCDF": "SphericalFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_06",
-        "OJGMMHHBJJK": 2645318090
+        "LICMNLFMLJC": "SphericalFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_06",
+        "CCCOKFKGBCH": 2645318090
     },
     {
-        "MaterialID": 223007,
-        "JJPNIBECMEJ": [
+        "materialID": 223007,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 522,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 522,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     342,
                     702
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_01",
-        "OJGMMHHBJJK": 1916046458
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_01",
+        "CCCOKFKGBCH": 1916046458
     },
     {
-        "MaterialID": 223008,
-        "JJPNIBECMEJ": [
+        "materialID": 223008,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 318,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 318,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     138,
                     498
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_02",
-        "OJGMMHHBJJK": 3178253162
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_02",
+        "CCCOKFKGBCH": 3178253162
     },
     {
-        "MaterialID": 223009,
-        "JJPNIBECMEJ": [
+        "materialID": 223009,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 400,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 400,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     220,
                     580
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_03",
-        "OJGMMHHBJJK": 2544560218
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_03",
+        "CCCOKFKGBCH": 2544560218
     },
     {
-        "MaterialID": 223010,
-        "JJPNIBECMEJ": [
+        "materialID": 223010,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 380,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 380,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     200,
                     560
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_04",
-        "OJGMMHHBJJK": 3374634530
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_04",
+        "CCCOKFKGBCH": 3374634530
     },
     {
-        "MaterialID": 223011,
-        "JJPNIBECMEJ": [
+        "materialID": 223011,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 318,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 318,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     138,
                     498
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_05",
-        "OJGMMHHBJJK": 1269098234
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_05",
+        "CCCOKFKGBCH": 1269098234
     },
     {
-        "MaterialID": 223012,
-        "JJPNIBECMEJ": [
+        "materialID": 223012,
+        "GLFONGJOHPE": [
             {
-                "Type": "FIREWORKS_REFORM_PARAM_COLOR",
-                "JEPJIFKCBOI": 380,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_COLOR",
+                "MKOGCNCEHEN": 380,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     200,
                     560
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_SIZE",
-                "JEPJIFKCBOI": 100,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_SIZE",
+                "MKOGCNCEHEN": 100,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     50,
                     150
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_HEIGHT",
-                "JEPJIFKCBOI": 14,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_HEIGHT",
+                "MKOGCNCEHEN": 14,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     8,
                     30
                 ]
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_DENSITY",
-                "JEPJIFKCBOI": 100,
-                "DOGOAGAGIFF": []
+                "type": "FIREWORKS_REFORM_PARAM_DENSITY",
+                "MKOGCNCEHEN": 100,
+                "JIILAEGLEGA": []
             },
             {
-                "Type": "FIREWORKS_REFORM_PARAM_ROTATION",
-                "JEPJIFKCBOI": 360,
-                "ABJBKKDGJPN": true,
-                "DOGOAGAGIFF": [
+                "type": "FIREWORKS_REFORM_PARAM_ROTATION",
+                "MKOGCNCEHEN": 360,
+                "IIGPAPNMFFM": true,
+                "JIILAEGLEGA": [
                     180,
                     540
                 ]
             }
         ],
-        "DCAMKGMJCDF": "PatternShapeFireworks",
-        "MOFKGBBMNBG": "Eff_SceneObj_Fireworks_Bullet",
-        "AHHOKOPPNLL": "Eff_SceneObj_Fireworks_Shape_06",
-        "OJGMMHHBJJK": 2726657050
+        "LICMNLFMLJC": "PatternShapeFireworks",
+        "OOBGFMMMDAA": "Eff_SceneObj_Fireworks_Bullet",
+        "OIDKOMPBELG": "Eff_SceneObj_Fireworks_Shape_06",
+        "CCCOKFKGBCH": 2726657050
     }
 ]

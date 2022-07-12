@@ -1,48 +1,33 @@
 [
     {
-        "Id": 1,
-        "RewardId": 301701,
-        "GBOBEAGJGDN": 4
+        "id": 10,
+        "rewardId": 3049001,
+        "LKAPLPJMOFA": 4
     },
     {
-        "Id": 2,
-        "RewardId": 301702,
-        "GBOBEAGJGDN": 8
+        "id": 11,
+        "rewardId": 3049002,
+        "LKAPLPJMOFA": 8
     },
     {
-        "Id": 3,
-        "RewardId": 301703,
-        "GBOBEAGJGDN": 12
+        "id": 12,
+        "rewardId": 3049003,
+        "LKAPLPJMOFA": 12
     },
     {
-        "Id": 4,
-        "RewardId": 301704,
-        "GBOBEAGJGDN": 16
+        "id": 13,
+        "rewardId": 3049004,
+        "LKAPLPJMOFA": 16
     },
     {
-        "Id": 5,
-        "RewardId": 301705,
-        "GBOBEAGJGDN": 20
+        "id": 14,
+        "rewardId": 3049005,
+        "LKAPLPJMOFA": 20
     },
     {
-        "Id": 6,
-        "RewardId": 301706,
-        "GBOBEAGJGDN": 24
-    },
-    {
-        "Id": 7,
-        "RewardId": 301707,
-        "GBOBEAGJGDN": 28
-    },
-    {
-        "Id": 8,
-        "RewardId": 301708,
-        "GBOBEAGJGDN": 32
-    },
-    {
-        "Id": 9,
-        "RewardId": 301709,
-        "GBOBEAGJGDN": 24,
-        "IEEMKAOKLCA": true
+        "id": 15,
+        "rewardId": 3049006,
+        "LKAPLPJMOFA": 16,
+        "CCGEFNIMKEF": true
     }
 ]
